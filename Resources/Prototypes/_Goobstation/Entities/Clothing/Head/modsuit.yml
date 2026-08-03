@@ -587,8 +587,8 @@
 - type: entity
   parent: [ BaseClothingModsuitHelmet, BaseModsuitPieceCaptain ]
   id: ClothingModsuitHelmetCaptain
-  name: magnate modsuit helmet
-  description: The visor is made from 10,000 year old amethyst.
+  name: overlord modsuit helmet
+  description: A highly advanced, state of the art, bulwark modular helmet made for protecting a captain during heavy warfare. It's headlamp may blind others.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -598,9 +598,9 @@
     - Snout
   - type: Armor
     traumaDeductions:
-      Dismemberment: 0.3
-      OrganDamage: 0.3
-      BoneDamage: 0.3
+      Dismemberment: 0
+      OrganDamage: 0.1
+      BoneDamage: 0.1
       VeinsDamage: 0
     modifiers:
       coefficients:
@@ -608,8 +608,8 @@
         Slash: 0.75
         Piercing: 0.6
         Heat: 0.6
-        Radiation: 0.1
-        Caustic: 0.55
+        Radiation: 0
+        Caustic: 0
   - type: ComponentToggler
     components:
     - type: BreathMask
@@ -630,8 +630,8 @@
   #THIS WILL BE REPLACED WITH MODULE ↓↓
   - type: PointLight
     enabled: false
-    radius: 5
-    energy: 3
+    radius: 10
+    energy: 6
     mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
     netsync: true
@@ -657,7 +657,10 @@
         endValue: 2.0
         isLooped: true
   - type: Battery
-    maxCharge: 600 #lights drain 3/s but recharge of 2 makes this 1/s. Therefore 600 is 10 minutes of light.
-    startingCharge: 600
+    maxCharge: 1200 #lights drain 3/s but recharge of 2 makes this 1/s. Therefore 1200 is 20 minutes of light.
+    startingCharge: 1200
   - type: BatterySelfRecharger
     autoRechargeRate: 2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95

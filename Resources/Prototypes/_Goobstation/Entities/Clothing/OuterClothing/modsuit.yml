@@ -262,28 +262,34 @@
 - type: entity
   parent: [ ClothingOuterModsuitBase, BaseModsuitPieceCaptain ]
   id: ClothingModsuitChestplateCaptain
-  name: magnate modsuit chestplate
-  description: This shit is made out of DIAMONDS, man, this armor was forged with GEMS.
+  name: overlord modsuit chestplate
+  description: An advanced bulwark powered chestplate meant to protect the captain.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Modsuits/captain.rsi
   - type: Armor
     traumaDeductions:
-      Dismemberment: 0.3
-      OrganDamage: 0.3
-      BoneDamage: 0.3
+      Dismemberment: 0
+      OrganDamage: 0.1
+      BoneDamage: 0.1
       VeinsDamage: 0
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.55
-        Heat: 0.5
-        Radiation: 0.1
-        Caustic: 0.5
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Ballistic: 0.3
+        Heat: 0.6
+        Radiation: 0
+        Caustic: 0
   - type: ModifyDelayedKnockdown
     delayDelta: 3
     knockdownTimeDelta: -3
   - type: StaminaResistance
-    damageCoefficient: 0.6
+    damageCoefficient: 0.4
+  - type: FireProtection
+    reduction: 0.75 # 0.25 better than other modsuits
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85

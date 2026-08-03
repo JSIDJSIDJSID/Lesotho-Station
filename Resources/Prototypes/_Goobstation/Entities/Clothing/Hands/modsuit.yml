@@ -170,8 +170,8 @@
 - type: entity
   parent: [ ClothingHandModsuitBase, BaseModsuitPieceCaptain ]
   id: ClothingModsuitGauntletsCaptain
-  name: magnate modsuit gauntlets
-  description: Has specialised grooves and cuts for holding dat fukn diiisskk easier.
+  name: overlord modsuit gauntlets
+  description: A pair of advanced bulwark modular combat gloves.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -185,3 +185,7 @@
         Piercing: 0.95
         Ballistic: 0.95
         Shock: 0.75
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: FingerprintMask

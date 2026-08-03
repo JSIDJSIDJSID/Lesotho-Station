@@ -133,17 +133,6 @@
     stock: 1
 
 - type: listing
-  id: UplinkOperativeSkirt
-  name: uplink-operative-skirt-name
-  description: uplink-operative-skirt-desc
-  productEntity: ClothingUniformJumpskirtOperative
-  categories:
-  - UplinkPointless
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
-
-- type: listing
   id: UplinkBalloon
   name: uplink-balloon-name
   description: uplink-balloon-desc

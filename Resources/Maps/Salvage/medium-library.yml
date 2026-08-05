@@ -625,13 +625,6 @@ entities:
     - type: Transform
       pos: -4.5807695,1.489551
       parent: 6
-- proto: ClothingUniformJumpsuitLibrarian
-  entities:
-  - uid: 190
-    components:
-    - type: Transform
-      pos: 2.5754058,-3.5518227
-      parent: 6
 - proto: ComfyChair
   entities:
   - uid: 17

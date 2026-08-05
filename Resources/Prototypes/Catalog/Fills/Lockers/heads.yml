@@ -37,7 +37,7 @@
     - id: CaptainIDCard
     - id: CigarGoldCase
       prob: 0.25
-    - id: ClothingBeltSheathFilled
+    #- id: ClothingBeltSheathFilled #Lesotho
     - id: ClothingHeadsetAltCommand
     - id: ClothingOuterArmorCaptainCarapace
     - id: BoxCaptainCircuitboards
@@ -59,13 +59,13 @@
       prob: 0.02
 
 # No laser table + Laser table
-- type: entityTable
-  id: LockerFillCaptainLaser
-  table: !type:AllSelector
-    children:
-    - !type:NestedSelector
-      tableId: LockerFillCaptainNoLaser
-    - id: WeaponAntiqueLaser
+#- type: entityTable #Lesotho
+#  id: LockerFillCaptainLaser
+#  table: !type:AllSelector
+#    children:
+#    - !type:NestedSelector
+#      tableId: LockerFillCaptainNoLaser
+#    - id: WeaponAntiqueLaser
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -90,15 +90,15 @@
         tableId: LockerFillCaptainNoLaser
 
 # No Laser + Laser locker
-- type: entity
-  id: LockerCaptainFilled
-  suffix: Filled, AntiqueLaser
-  parent: LockerCaptain
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      entity_storage: !type:NestedSelector
-        tableId: LockerFillCaptainLaser
+#- type: entity
+#  id: LockerCaptainFilled #Lesotho
+#  suffix: Filled, AntiqueLaser
+#  parent: LockerCaptain
+#  components:
+#  - type: EntityTableContainerFill
+#    containers:
+#      entity_storage: !type:NestedSelector
+#        tableId: LockerFillCaptainLaser
 
 # No Laser + Laser + Hardsuit locker
 - type: entity
@@ -111,7 +111,7 @@
       entity_storage: !type:AllSelector
         children:
         - !type:NestedSelector
-          tableId: LockerFillCaptainLaser
+          tableId: LockerFillCaptainNoLaser #Lesotho
         - !type:NestedSelector
           tableId: FillCaptainHardsuit
 

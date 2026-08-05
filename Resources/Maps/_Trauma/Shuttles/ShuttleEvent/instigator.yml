@@ -1662,24 +1662,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtLawyerRed
-  entities:
-  - uid: 515
-    components:
-    - type: Transform
-      parent: 511
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtSyndieFormalDress
-  entities:
-  - uid: 488
-    components:
-    - type: Transform
-      parent: 471
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingUniformJumpsuitLawyerRed
   entities:
   - uid: 512

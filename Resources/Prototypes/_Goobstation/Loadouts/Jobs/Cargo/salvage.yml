@@ -22,7 +22,7 @@
 - type: startingGear
   id: LostFrontierProspectorSuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    jumpsuit: ClothingUniformJumpsuitMilitarySalvageSpecialist #Lesotho
     shoes: ClothingShoesBootsSalvage
     id: SalvagePDA
     back: ClothingBackpackSalvage

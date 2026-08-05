@@ -4,12 +4,7 @@
 - type: loadout
   id: GeneticistJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitGenetics
-
-- type: loadout
-  id: GeneticistJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtGenetics
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist #Lesotho
 
 # Back
 - type: loadout
@@ -26,11 +21,6 @@
   id: GeneticistDuffel
   equipment:
     back: ClothingBackpackDuffelGenetics
-
-- type: loadout
-  id: GeneticistMessenger
-  equipment:
-    back: ClothingBackpackMessengerGenetics
 
 # OuterClothing
 - type: loadout

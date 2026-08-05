@@ -2195,13 +2195,6 @@ entities:
     - type: Transform
       pos: 2.5651894,-19.768991
       parent: 2
-- proto: ClothingHeadHatShrineMaidenWigReal
-  entities:
-  - uid: 277
-    components:
-    - type: Transform
-      pos: 3.6589394,-20.175241
-      parent: 2
 - proto: ClothingHeadHatTapewizardReal
   entities:
   - uid: 278
@@ -2285,13 +2278,6 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: ClothingOuterSuitShrineMaidenReal
-  entities:
-  - uid: 287
-    components:
-    - type: Transform
-      pos: 3.6745644,-20.425241
-      parent: 2
 - proto: ClothingOuterSuitWitchRobesReal
   entities:
   - uid: 288

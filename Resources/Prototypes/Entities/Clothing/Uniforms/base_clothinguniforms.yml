@@ -47,15 +47,6 @@
     - WhitelistChameleon
     - Skirt # Goobstation
 
-- type: entity
-  abstract: true
-  parent: UnsensoredClothingUniformBase
-  id: UnsensoredClothingUniformSkirtBase
-  components:
-  - type: Clothing
-    slots: [innerclothing]
-    femaleMask: UniformTop
-
 
 - type: entity
   abstract: true
@@ -74,20 +65,6 @@
     materialComposition:
       Cloth: 75
   - type: SuitSensorShockable # Goobstation
-
-- type: entity
-  abstract: true
-  parent: ClothingUniformBase
-  id: ClothingUniformSkirtBase
-  components:
-  - type: Clothing
-    slots: [innerclothing]
-    femaleMask: UniformTop
-  - type: Tag # Goob - add Skirt tag
-    tags:
-    - Skirt
-    - ClothMade
-    - WhitelistChameleon
 
 - type: entity
   abstract: true

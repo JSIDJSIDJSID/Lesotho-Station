@@ -21,26 +21,7 @@
 - type: loadout
   id: DetectiveJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitDetective
-
-
-- type: loadout
-  id: DetectiveJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtDetective
-
-
-- type: loadout
-  id: NoirJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitDetectiveGrey
-
-
-- type: loadout
-  id: NoirJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtDetectiveGrey
-
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
 
 # OuterClothing
 - type: loadout

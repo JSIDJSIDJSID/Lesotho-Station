@@ -18718,23 +18718,6 @@ entities:
     - type: Transform
       pos: -2.3069391,-46.406338
       parent: 2
-- proto: BoneWeak
-  entities:
-  - uid: 1272
-    components:
-    - type: Transform
-      pos: -21.874144,16.150238
-      parent: 2
-  - uid: 1273
-    components:
-    - type: Transform
-      pos: -21.733519,16.618988
-      parent: 2
-  - uid: 1274
-    components:
-    - type: Transform
-      pos: -21.467894,15.947113
-      parent: 2
 - proto: Bonfire
   entities:
   - uid: 1275
@@ -68884,15 +68867,6 @@ entities:
     - type: Transform
       pos: -21.046019,16.243988
       parent: 2
-- proto: ClothingHandsTacticalMaidGloves
-  entities:
-  - uid: 10794
-    components:
-    - type: Transform
-      parent: 10793
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingHeadBandSkull
   entities:
   - uid: 10919
@@ -69004,13 +68978,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingHeadHatShrineMaidenWig
-  entities:
-  - uid: 10968
-    components:
-    - type: Transform
-      pos: 30.286343,35.688908
-      parent: 2
 - proto: ClothingHeadHatSkub
   entities:
   - uid: 10969
@@ -69069,15 +69036,6 @@ entities:
     - type: Transform
       pos: 3.548458,10.2546835
       parent: 2
-- proto: ClothingHeadHatTacticalMaidHeadband
-  entities:
-  - uid: 10795
-    components:
-    - type: Transform
-      parent: 10793
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingHeadHatWelding
   entities:
   - uid: 10973
@@ -69543,18 +69501,6 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 10832
-- proto: ClothingNeckScarfStripedLesbianLong
-  entities:
-  - uid: 11065
-    components:
-    - type: MetaData
-      desc: purchased at the long bacon store
-      name: Long bacon
-    - type: Transform
-      parent: 11063
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingNeckScarfStripedSyndieGreen
   entities:
   - uid: 10828
@@ -69850,20 +69796,6 @@ entities:
     components:
     - type: Transform
       pos: 65.51976,24.751356
-      parent: 2
-- proto: ClothingOuterSuitShrineMaiden
-  entities:
-  - uid: 11107
-    components:
-    - type: Transform
-      pos: 30.348843,35.657658
-      parent: 2
-- proto: ClothingOuterSuitWitchRobes
-  entities:
-  - uid: 11108
-    components:
-    - type: Transform
-      pos: 30.692593,35.610783
       parent: 2
 - proto: ClothingOuterVestWeb
   entities:
@@ -70221,88 +70153,6 @@ entities:
     - type: Transform
       pos: -31.441706,-57.459454
       parent: 2
-- proto: ClothingUniformJumpskirtBrigmedic
-  entities:
-  - uid: 11153
-    components:
-    - type: Transform
-      pos: 14.290254,10.652149
-      parent: 2
-- proto: ClothingUniformJumpskirtOperative
-  entities:
-  - uid: 10865
-    components:
-    - type: Transform
-      parent: 10861
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 10888
-    components:
-    - type: Transform
-      parent: 10885
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 10894
-    components:
-    - type: Transform
-      parent: 10891
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtPrisoner
-  entities:
-  - uid: 11155
-    components:
-    - type: Transform
-      parent: 11154
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 11158
-    components:
-    - type: Transform
-      parent: 11157
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtSyndieFormalDress
-  entities:
-  - uid: 10847
-    components:
-    - type: Transform
-      parent: 10832
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 10832
-  - uid: 11161
-    components:
-    - type: Transform
-      parent: 11160
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 11163
-    components:
-    - type: Transform
-      pos: -20.298641,-39.348248
-      parent: 2
-  - uid: 11164
-    components:
-    - type: Transform
-      pos: -20.43127,-39.796608
-      parent: 2
-- proto: ClothingUniformJumpskirtTacticalMaid
-  entities:
-  - uid: 10796
-    components:
-    - type: Transform
-      parent: 10793
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingUniformJumpsuitBrigmedic
   entities:
   - uid: 11165
@@ -70616,7 +70466,7 @@ entities:
     - type: Transform
       pos: 63.40553,-13.4945
       parent: 2
-- proto: ClothingUniformJumpsuitSalvageSpecialist
+- proto: ClothingUniformJumpsuitMilitarySalvageSpecialist
   entities:
   - uid: 11191
     components:
@@ -72519,13 +72369,6 @@ entities:
     components:
     - type: Transform
       pos: 69.5,19.5
-      parent: 2
-- proto: CrateHydroponicsSeedsExotic
-  entities:
-  - uid: 11462
-    components:
-    - type: Transform
-      pos: 52.5,-14.5
       parent: 2
 - proto: CrateHydroponicsSeedsMedicinal
   entities:
@@ -113718,14 +113561,6 @@ entities:
     components:
     - type: Transform
       pos: 22.5,-48.5
-      parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 16908
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -7.5,38.5
       parent: 2
 - proto: GlassBoxLawbringerFilled
   entities:
@@ -160703,13 +160538,6 @@ entities:
     - type: Transform
       pos: 5.5,-19.5
       parent: 2
-- proto: VendingMachinePride
-  entities:
-  - uid: 24560
-    components:
-    - type: Transform
-      pos: -44.5,-2.5
-      parent: 2
 - proto: VendingMachineRestockDonut
   entities:
   - uid: 24561
@@ -179874,7 +179702,7 @@ entities:
     - type: Transform
       pos: 3.3652906,-20.444767
       parent: 2
-- proto: WehMedipen
+- proto: WehMedipenTiny
   entities:
   - uid: 27983
     components:

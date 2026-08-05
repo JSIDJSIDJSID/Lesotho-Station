@@ -44,30 +44,7 @@
 - type: loadout
   id: MedicalDoctorJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
-
-
-- type: loadout
-  id: MedicalDoctorJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtMedicalDoctor
-
-
-- type: loadout
-  id: SeniorPhysicianJumpsuit
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysician
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSeniorPhysician
-
-- type: loadout
-  id: SeniorPhysicianJumpskirt
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorPhysician
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSeniorPhysician
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
 
 - type: loadout
   id: MedicalBlueScrubs

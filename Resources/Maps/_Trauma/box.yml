@@ -66740,32 +66740,6 @@ entities:
     - type: Transform
       pos: -15.657842,47.202713
       parent: 2
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 10708
-    components:
-    - type: Transform
-      pos: 75.39761,12.476688
-      parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 10709
-    components:
-    - type: Transform
-      pos: -38.47627,-56.748375
-      parent: 2
-- proto: ClothingUniformJumpsuitEngineeringHazard
-  entities:
-  - uid: 10710
-    components:
-    - type: Transform
-      pos: 3.5698543,-57.464874
-      parent: 2
-  - uid: 10711
-    components:
-    - type: Transform
-      pos: 3.6011043,-55.402374
-      parent: 2
 - proto: ClothingUniformJumpsuitHawaiRed
   entities:
   - uid: 10712
@@ -120265,7 +120239,7 @@ entities:
     - type: Transform
       pos: -6.5,30.5
       parent: 2
-- proto: LockerCaptainFilled
+- proto: LockerCaptainFilledNoLaser
   entities:
   - uid: 18739
     components:

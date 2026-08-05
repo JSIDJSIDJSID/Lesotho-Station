@@ -14,7 +14,6 @@
         - id: ClothingHandsGlovesCombat
         - id: JetpackBlackFilled
         - id: ClothingUniformJumpsuitOperative
-        - id: ClothingUniformJumpskirtOperative
         - id: ClothingHeadsetAltSyndicate
         - id: ClothingEyesHudSyndicate
 
@@ -34,7 +33,6 @@
         - id: ClothingHandsGlovesCombat
         - id: JetpackBlackFilled
         - id: ClothingUniformJumpsuitOperative
-        - id: ClothingUniformJumpskirtOperative
         - id: ClothingHeadsetAltSyndicate
         - id: ClothingEyesHudSyndicate
 
@@ -178,7 +176,6 @@
     - !type:GroupSelector
       children:
       - id: ClothingUniformJumpsuitOperative
-      - id: ClothingUniformJumpskirtOperative
     - id: ClothingBackpackDuffelSyndicate
     - id: CyberPen
     - id: CigPackSyndicate

@@ -6,18 +6,6 @@
 
 
 # Jumpsuit
-- type: loadout
-  id: ParamedicJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitParamedic
-
-
-- type: loadout
-  id: ParamedicJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtParamedic
-
-
 - type: loadout # goob
   id: ParamedMJ
   equipment:

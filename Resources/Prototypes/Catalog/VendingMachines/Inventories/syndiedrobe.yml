@@ -1,7 +1,6 @@
 - type: vendingMachineInventory
   id: SyndieDrobeInventory
   startingInventory:
-    ClothingBackpackMessengerSyndicate: 2 # Frontier
     ClothingBackpackSyndicate: 2 # Trauma
     ClothingHeadHatOutlawHat: 3
     ClothingHeadHatSyndie: 5
@@ -11,9 +10,7 @@
     ClothingOuterWinterSyndieCap: 3
     ClothingOuterCoatSyndieCap: 3
     ClothingUniformJumpsuitSyndieFormal: 5
-    ClothingUniformJumpskirtSyndieFormalDress: 5
     ClothingUniformJumpsuitOperative: 5
-    ClothingUniformJumpskirtOperative: 5
     ClothingUniformJumpsuitCasualSyndicate: 5 # Goobstation
     ClothingNeckScarfStripedSyndieGreen: 2
     ClothingNeckScarfStripedSyndieRed: 2
@@ -22,9 +19,6 @@
     ToyFigurineFootsoldier: 1
     ToyFigurineNukieElite: 1
     ToyFigurineNukieCommander: 1
-    ClothingUniformJumpskirtTacticalMaid: 5
-    ClothingHeadHatTacticalMaidHeadband: 5
-    ClothingHandsTacticalMaidGloves: 5
     ClothingShoesRealJordans: 1 # Goobstation
   emaggedInventory:
     ClothingOuterCoatSyndieCapArmored: 1

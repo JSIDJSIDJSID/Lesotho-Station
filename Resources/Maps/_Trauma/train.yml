@@ -37937,13 +37937,6 @@ entities:
     - type: Transform
       pos: -6.474791,-195.55786
       parent: 2
-- proto: ClothingHandsTacticalMaidGloves
-  entities:
-  - uid: 5494
-    components:
-    - type: Transform
-      pos: -8.44329,-15.527226
-      parent: 2
 - proto: ClothingHeadBandMerc
   entities:
   - uid: 5495
@@ -38183,13 +38176,6 @@ entities:
     - type: Transform
       pos: -0.98430085,-3.5043776
       parent: 2
-- proto: ClothingNeckCloakGay
-  entities:
-  - uid: 11570
-    components:
-    - type: Transform
-      pos: -7.4353204,-277.37915
-      parent: 2
 - proto: ClothingNeckCloakGoliathCloak
   entities:
   - uid: 5532
@@ -38352,13 +38338,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtJanimaidmini
-  entities:
-  - uid: 5547
-    components:
-    - type: Transform
-      pos: -4.636336,-20.392185
-      parent: 2
 - proto: ClothingUniformJumpsuitChiefEngineerSyndie
   entities:
   - uid: 5548
@@ -78919,7 +78898,7 @@ entities:
     - type: Transform
       pos: -6.5,-360.5
       parent: 2
-- proto: LockerCaptainFilled
+- proto: LockerCaptainFilledNoLaser
   entities:
   - uid: 11604
     components:

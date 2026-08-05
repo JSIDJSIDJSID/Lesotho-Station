@@ -11,8 +11,8 @@
   lastNames: names_vulpkanin_last
   defaultSoundsBySex:
   - MaleVulpkanin
-  - FemaleVulpkanin
+  - MaleVulpkanin #Lesotho
   - MaleVulpkanin
   voices:
   - MaleVulpkanin
-  - FemaleVulpkanin
+  - MaleVulpkanin #Lesotho

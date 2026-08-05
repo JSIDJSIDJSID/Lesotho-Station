@@ -65243,69 +65243,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -28.53385,-62.910625
-- proto: ClothingNeckCloakAce
-  entities:
-  - uid: 9321
-    components:
-    - type: Transform
-      parent: 2
-      pos: 47.501015,-87.459625
-- proto: ClothingNeckCloakAro
-  entities:
-  - uid: 9322
-    components:
-    - type: Transform
-      parent: 2
-      pos: 21.531446,-49.442505
-- proto: ClothingNeckCloakBi
-  entities:
-  - uid: 9323
-    components:
-    - type: Transform
-      parent: 2
-      pos: -12.49191,15.529358
-- proto: ClothingNeckCloakEnby
-  entities:
-  - uid: 9324
-    components:
-    - type: Transform
-      parent: 2
-      pos: 24.373571,-59.52213
-- proto: ClothingNeckCloakGay
-  entities:
-  - uid: 9325
-    components:
-    - type: Transform
-      parent: 2
-      pos: 45.549652,7.560146
-- proto: ClothingNeckCloakIntersex
-  entities:
-  - uid: 9326
-    components:
-    - type: Transform
-      parent: 2
-      pos: -53.479164,-55.353416
-- proto: ClothingNeckCloakMoth
-  entities:
-  - uid: 9327
-    components:
-    - type: Transform
-      parent: 2
-      pos: 44.536793,-50.46367
-- proto: ClothingNeckCloakPan
-  entities:
-  - uid: 9328
-    components:
-    - type: Transform
-      parent: 2
-      pos: 50.483807,-55.407658
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 9329
-    components:
-    - type: Transform
-      parent: 2
-      pos: 46.66294,-27.649273
 - proto: ClothingNeckMantle
   entities:
   - uid: 9330
@@ -65505,20 +65442,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 21.606699,15.433804
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 9361
-    components:
-    - type: Transform
-      parent: 2
-      pos: 27.539923,-8.522268
-- proto: ClothingUniformColorRainbow
-  entities:
-  - uid: 9362
-    components:
-    - type: Transform
-      parent: 2
-      pos: 38.429108,-59.892277
 - proto: Cobweb1
   entities:
   - uid: 9363
@@ -74332,13 +74255,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 21.004618,-6.2318573
-- proto: DrinkMugRainbow
-  entities:
-  - uid: 10829
-    components:
-    - type: Transform
-      parent: 2
-      pos: 38.63713,-59.378235
 - proto: DrinkMugRed
   entities:
   - uid: 10830
@@ -101233,13 +101149,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 5.5,-91.5
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 14201
-    components:
-    - type: Transform
-      parent: 2
-      pos: -26.5,-55.5
 - proto: GlassBoxLawbringerFilled
   entities:
   - uid: 14202
@@ -137582,13 +137491,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -15.5,-29.5
-- proto: VendingMachinePride
-  entities:
-  - uid: 20446
-    components:
-    - type: Transform
-      parent: 2
-      pos: 16.5,-26.5
 - proto: VendingMachineRobotics
   entities:
   - uid: 20447

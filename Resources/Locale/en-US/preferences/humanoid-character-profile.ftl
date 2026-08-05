@@ -14,8 +14,5 @@
 # Displayed in the Character prefs window
 humanoid-character-profile-summary =
     This is {$name}. {$gender ->
-    [male] He is
-    [female] She is
-    [epicene] They are
-    *[other] It is
+    *[male] He is
 } {$age} years old.

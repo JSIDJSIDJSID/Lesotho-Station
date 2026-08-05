@@ -13,8 +13,7 @@
     ClothingHeadsetAltSecurityRegular: 6 # Goobstation
     SecurityWhistle: 6
     SurveillanceWirelessCameraBodySecurity: 6 # Goobstation
-    ClothingUniformJumpsuitSec: 6
-    ClothingUniformJumpskirtSec: 6
+    ClothingUniformJumpsuitMilitarySecurity: 6 #Lesotho
     ClothingBackpackSecurity: 6
     ClothingBackpackSatchelSecurity: 3
     ClothingBackpackDuffelSecurity: 2

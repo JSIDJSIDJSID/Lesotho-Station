@@ -931,7 +931,6 @@
   name: loadout-group-ntr-jumpsuit
   loadouts:
   - NanotrasenRepresentativeJumpsuit
-  - NanotrasenRepresentativeJumpskirt
   - NanotrasenRepresentativeFancyJumpsuit
 
 - type: loadoutGroup
@@ -1082,8 +1081,6 @@
   id: RoboticistJumpsuit
   name: loadout-group-roboticist-jumpsuit
   loadouts:
-  - RoboticistJumpsuit
-  - RoboticistJumpskirt
   - ResearchMJ
 
 - type: loadoutGroup
@@ -1235,7 +1232,6 @@
   name: loadout-group-brigmedic-jumpsuit
   loadouts:
   - BrigmedicJumpsuit
-  - BrigmedicJumpskirt
 
 - type: loadoutGroup
   id: BrigmedicHead
@@ -1313,8 +1309,6 @@
   id: VirologistJumpsuit
   name: loadout-group-virologist-jumpsuit
   loadouts:
-   - VirologistJumpsuit
-   - VirologistJumpskirt
    - VirologistMJ
 
 - type: loadoutGroup

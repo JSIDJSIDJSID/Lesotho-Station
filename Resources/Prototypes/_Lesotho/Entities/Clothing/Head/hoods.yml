@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadHatHoodWinterBase #Lesotho
+  id: ClothingHeadHatHoodArmorCaptain
+  categories: [ HideSpawnMenu ]
+  name: captain's coat hood
+  components:
+  - type: Sprite
+    sprite: _Lesotho/Clothing/Head/Hoods/Coat/hoodarmorcaptain.rsi
+  - type: Clothing
+    sprite: _Lesotho/Clothing/Head/Hoods/Coat/hoodarmorcaptain.rsi

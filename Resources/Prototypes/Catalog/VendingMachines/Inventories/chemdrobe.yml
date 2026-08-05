@@ -8,10 +8,8 @@
     ClothingBackpackChemistry: 1
     ClothingBackpackSatchelChemistry: 1
     ClothingBackpackDuffelChemistry: 1
-    ClothingBackpackMessengerChemistry: 1 # Frontier
     ChemBag: 1
-    ClothingUniformJumpsuitChemistry: 1
-    ClothingUniformJumpskirtChemistry: 1
+    ClothingUniformJumpsuitMilitaryChemistry: 1 #Lesotho
     ClothingOuterCoatLabChem: 1
     ClothingOuterWinterChem: 1
     ClothingHandsGlovesLatex: 1

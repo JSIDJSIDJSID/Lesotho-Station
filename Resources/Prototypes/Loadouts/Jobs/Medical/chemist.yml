@@ -1,21 +1,8 @@
 # Jumpsuit
-- type: loadout
-  id: ChemistJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitChemistry
-
-
-- type: loadout
-  id: ChemistJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtChemistry
-
-
 - type: loadout # goob
   id: ChemistMJ
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMilitaryChemistry
-
+    jumpsuit: ClothingUniformJumpsuitMilitaryChemistry #Lesotho
 
 # Back
 - type: loadout

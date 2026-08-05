@@ -17003,18 +17003,6 @@ entities:
     - type: Transform
       pos: 13.636442,-2.4988108
       parent: 1668
-- proto: CentcomAgentSkirt
-  entities:
-  - uid: 345
-    components:
-    - type: Transform
-      pos: -24.293415,-7.3739667
-      parent: 1668
-  - uid: 1112
-    components:
-    - type: Transform
-      pos: -24.293415,-3.3583417
-      parent: 1668
 - proto: CentcomIDCard
   entities:
   - uid: 3721
@@ -18023,13 +18011,6 @@ entities:
     components:
     - type: Transform
       pos: 5.4484487,22.554453
-      parent: 1668
-- proto: ClothingBeltSheathFilled
-  entities:
-  - uid: 3725
-    components:
-    - type: Transform
-      pos: -16.674446,12.552197
       parent: 1668
 - proto: ClothingBeltUtilityFilled
   entities:

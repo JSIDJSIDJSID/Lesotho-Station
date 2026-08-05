@@ -1,9 +1,9 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: loadout
-  id: CaptainJacket
+  id: CaptainArmoredWinterCoat #Lesotho
   equipment:
-    outerClothing: ClothingOuterCapJacket
+    outerClothing: ClothingOuterWinterArmorCaptain
   effects:
   - !type:GroupLoadoutEffect
     proto: MasterCap
@@ -39,8 +39,3 @@
   id: CaptainGloves
   equipment:
     gloves: ClothingHandsGlovesCaptain
-
-- type: loadout
-  id: CaptainSummerShirt
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitCaptainSummer

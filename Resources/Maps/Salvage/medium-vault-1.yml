@@ -686,13 +686,6 @@ entities:
     - type: Transform
       pos: -1.5,-3.5
       parent: 222
-- proto: ClothingUniformJumpskirtSyndieFormalDress
-  entities:
-  - uid: 205
-    components:
-    - type: Transform
-      pos: -1.5,-3.5
-      parent: 222
 - proto: ClothingUniformJumpsuitSyndieFormal
   entities:
   - uid: 17

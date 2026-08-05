@@ -20,7 +20,7 @@
   special:
   - !type:OrganChipsSpecial
     chips:
-    - SkillChipRoboticist
+    - SkillChipEducation
 
 - type: startingGear
   id: RoboticistGear
@@ -39,6 +39,6 @@
     outerClothing: ClothingOuterCoatRobo
     gloves: ClothingHandsGlovesRobohands
     ear: ClothingHeadsetRobotics
-    jumpsuit: ClothingUniformJumpsuitRoboticist
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist #Lesotho
     shoes: ClothingShoesColorBlack
     id: RoboticistPDA

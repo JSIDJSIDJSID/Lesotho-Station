@@ -19524,7 +19524,7 @@ entities:
     - type: Transform
       pos: -59.5,63.5
       parent: 2
-- proto: AlwaysPoweredLightSodium
+- proto: PoweredlightSodium
   entities:
   - uid: 7755
     components:
@@ -76860,26 +76860,12 @@ entities:
     - type: Transform
       pos: -5.495203,180.11717
       parent: 2
-- proto: ClothingHeadHatShrineMaidenWig
-  entities:
-  - uid: 2053
-    components:
-    - type: Transform
-      pos: -62.641167,69.69359
-      parent: 2
 - proto: ClothingHeadHatSombrero
   entities:
   - uid: 12797
     components:
     - type: Transform
       pos: -42.264904,-5.813843
-      parent: 2
-- proto: ClothingHeadHatTacticalMaidHeadband
-  entities:
-  - uid: 35581
-    components:
-    - type: Transform
-      pos: -96.591385,63.472298
       parent: 2
 - proto: ClothingHeadHatUshanka
   entities:
@@ -77527,13 +77513,6 @@ entities:
     - type: Transform
       pos: -118.554695,60.495346
       parent: 2
-- proto: ClothingOuterSuitShrineMaiden
-  entities:
-  - uid: 16757
-    components:
-    - type: Transform
-      pos: -62.3471,69.99235
-      parent: 2
 - proto: ClothingOuterWinterClown
   entities:
   - uid: 23529
@@ -77670,22 +77649,6 @@ entities:
     - type: Transform
       pos: -85.61351,98.31984
       parent: 2
-- proto: ClothingUniformJumpskirtJanimaidmini
-  entities:
-  - uid: 410
-    components:
-    - type: Transform
-      parent: 22647
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtTacticalMaid
-  entities:
-  - uid: 35579
-    components:
-    - type: Transform
-      pos: -90.526924,66.48068
-      parent: 2
 - proto: ClothingUniformJumpsuitHawaiBlack
   entities:
   - uid: 38032
@@ -77716,7 +77679,7 @@ entities:
     - type: Transform
       pos: -68.32025,107.642845
       parent: 2
-- proto: ClothingUniformJumpsuitSecGrey
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 35791
     components:
@@ -80499,13 +80462,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: CrateHydroponicsSeedsExotic
-  entities:
-  - uid: 9216
-    components:
-    - type: Transform
-      pos: -9.5,-1.5
-      parent: 2
 - proto: CrateMedicalSurgery
   entities:
   - uid: 22734
@@ -129605,14 +129561,6 @@ entities:
     components:
     - type: Transform
       pos: -149.5,104.5
-      parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 8951
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -35.5,101.5
       parent: 2
 - proto: GlowstickGreen
   entities:

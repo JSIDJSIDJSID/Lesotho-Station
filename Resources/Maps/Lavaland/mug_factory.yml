@@ -903,16 +903,6 @@ entities:
     - type: Transform
       pos: 12.470032,-3.2789168
       parent: 1
-- proto: DrinkMugRainbow
-  entities:
-  - uid: 129
-    components:
-    - type: Transform
-      pos: 1.5,-3.5
-      parent: 1
-    - type: CollisionWake
-      enabled: False
-    - type: Conveyed
 - proto: DrinkMugRed
   entities:
   - uid: 136

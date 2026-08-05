@@ -9,8 +9,8 @@
   knowledge: Slimeperson # Trauma
   defaultSoundsBySex:
   - MaleSlime
-  - FemaleSlime
+  - MaleSlime #Lesotho
   - MaleSlime
   voices:
   - MaleSlime
-  - FemaleSlime
+  - MaleSlime #Lesotho

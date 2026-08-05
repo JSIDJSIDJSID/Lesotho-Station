@@ -11195,13 +11195,6 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 82.5,-14.5
-- proto: BarSignMaidCafe
-  entities:
-  - uid: 620
-    components:
-    - type: Transform
-      parent: 2
-      pos: 30.5,-1.5
 - proto: BarSignTheSingulo
   entities:
   - uid: 621
@@ -11524,23 +11517,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.5,39.5
-- proto: BedsheetRainbow
-  entities:
-  - uid: 681
-    components:
-    - type: Transform
-      parent: 2
-      pos: 107.5,-24.5
-  - uid: 682
-    components:
-    - type: Transform
-      parent: 2
-      pos: 107.5,-23.5
-  - uid: 683
-    components:
-    - type: Transform
-      parent: 2
-      pos: 107.5,-22.5
 - proto: BedsheetRD
   entities:
   - uid: 685
@@ -38730,13 +38706,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 91.43456,-0.49069238
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 5999
-    components:
-    - type: Transform
-      parent: 2
-      pos: 7.491953,-13.240216
 - proto: ClothingNeckScarfStripedRed
   entities:
   - uid: 6000
@@ -38997,47 +38966,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 86.46301,10.540855
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 6039
-    components:
-    - type: Transform
-      parent: 2
-      pos: 8.506772,13.431249
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 6040
-    components:
-    - type: Transform
-      parent: 2
-      pos: 83.49162,-13.680252
-  - uid: 6041
-    components:
-    - type: Transform
-      parent: 2
-      pos: 7.4756117,-21.507492
-- proto: ClothingUniformColorRainbow
-  entities:
-  - uid: 6042
-    components:
-    - type: Transform
-      parent: 2
-      pos: 83.49712,-13.314663
-  - uid: 6043
-    components:
-    - type: Transform
-      parent: 2
-      pos: 104.58011,-15.495739
-  - uid: 6044
-    components:
-    - type: Transform
-      parent: 2
-      pos: 104.11136,-15.495739
-  - uid: 6045
-    components:
-    - type: Transform
-      parent: 2
-      pos: 103.67386,-15.495739
 - proto: ClothingUniformJumpsuitCossack
   entities:
   - uid: 6046
@@ -39045,20 +38973,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 84.46417,-5.6717153
-- proto: ClothingUniformJumpsuitDetectiveGrey
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 6047
     components:
     - type: Transform
       parent: 2
       pos: 74.49265,-5.4811497
-- proto: ClothingUniformJumpsuitEngineeringHazard
-  entities:
-  - uid: 6048
-    components:
-    - type: Transform
-      parent: 2
-      pos: 27.529085,-29.483822
 - proto: ClothingUniformJumpsuitMonasticRobeLight
   entities:
   - uid: 6049
@@ -44142,13 +44063,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 89.5,28.5
-- proto: DrinkMugRainbow
-  entities:
-  - uid: 6876
-    components:
-    - type: Transform
-      parent: 2
-      pos: 107.25198,-16.370739
 - proto: DrinkShaker
   entities:
   - uid: 6877
@@ -63265,14 +63179,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 89.5,-3.5
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 9264
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 31.5,39.5
 - proto: GlassBoxLawbringerFilled
   entities:
   - uid: 9265

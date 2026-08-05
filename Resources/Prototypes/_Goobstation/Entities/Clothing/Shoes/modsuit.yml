@@ -134,7 +134,7 @@
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Modsuits/atmostech.rsi
   - type: FireProtection # lmao
-    reduction: 0.25
+    reduction: 1
 
 - type: entity
   parent: [ ClothingShoesModsuitBase, BaseModsuitPieceRD ]
@@ -149,9 +149,28 @@
 - type: entity
   parent: [ ClothingShoesModsuitBase, BaseModsuitPieceCaptain ]
   id: ClothingModsuitBootsCaptain
-  name: magnate modsuit boots
-  description: These boots were designed by THE Michael Jordan and crafted with ancient alloys, man.
+  name: overlord modsuit boots
+  description: Advanced bulwark modsuit books with built in magboots and anti-slip.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Modsuits/captain.rsi
+  - type: ItemToggle
+  - type: ToggleClothing
+    action: ActionToggleMagboots
+  - type: ComponentToggler
+    components:
+    - type: NoSlip
+  - type: Magboots
+    enabledPrefix: null
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Ballistic: 0.95
+        Shock: 0.75

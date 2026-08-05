@@ -187,7 +187,7 @@
     head: ClothingHeadHatHoodVoidCloak
     eyes: ClothingEyesGlassesHiddenSecurity
     ears: ClothingHeadsetService
-    jumpsuit: ClothingUniformJumpsuitChaplain
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesColorBlack
     neck: ClothingNeckStoleChaplain
     id: ChaplainPDA

@@ -16,14 +16,10 @@
     ClothingBackpackMedical: 2
     ClothingBackpackDuffelMedical: 2
     ClothingBackpackSatchelMedical: 2
-    ClothingBackpackMessengerMedical: 2 # Frontier
-    ClothingUniformJumpsuitMedicalDoctor: 2
-    ClothingUniformJumpskirtMedicalDoctor: 2
+    ClothingUniformJumpsuitMilitaryMedicalDoctor: 2 #Lesotho
     UniformScrubsColorGreen: 2
     UniformScrubsColorBlue: 2
     UniformScrubsColorPurple: 2
-    ClothingUniformJumpsuitParamedic: 1
-    ClothingUniformJumpskirtParamedic: 1
     ClothingOuterCoatLab: 2
     ClothingOuterWinterMed: 2
     ClothingOuterCoatParamedicWB: 1
@@ -34,7 +30,6 @@
     ClothingShoesColorWhite: 2
     ClothingShoesBootsWinterMed: 2
   contrabandInventory:
-    ClothingUniformJumpskirtOfLife: 1
     ToyFigurineMedicalDoctor: 1
     ToyFigurineParamedic: 1
     ToyFigurineChiefMedicalOfficer: 1

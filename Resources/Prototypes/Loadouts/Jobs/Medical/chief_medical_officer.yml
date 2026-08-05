@@ -2,22 +2,7 @@
 - type: loadout
   id: ChiefMedicalOfficerJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCMO
-
-- type: loadout
-  id: ChiefMedicalOfficerJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtCMO
-
-- type: loadout
-  id: ChiefMedicalOfficerTurtleneckJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitCMOTurtle
-
-- type: loadout
-  id: ChiefMedicalOfficerTurtleneckJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtCMOTurtle
+    jumpsuit: ClothingUniformJumpsuitMilitaryCMO #Lesotho
 
 # Head
 - type: loadout

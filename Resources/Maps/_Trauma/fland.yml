@@ -96660,13 +96660,6 @@ entities:
     - type: Transform
       pos: -23.522526,76.500786
       parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 15177
-    components:
-    - type: Transform
-      pos: -35.53245,36.540043
-      parent: 2
 - proto: ClothingNeckScarfStripedBlue
   entities:
   - uid: 15178
@@ -97255,95 +97248,6 @@ entities:
     - type: Transform
       pos: 73.32944,13.108924
       parent: 2
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 15290
-    components:
-    - type: Transform
-      pos: 11.5237665,-2.4679627
-      parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 15291
-    components:
-    - type: Transform
-      pos: 122.42043,-26.759068
-      parent: 2
-- proto: ClothingUniformColorRainbow
-  entities:
-  - uid: 15292
-    components:
-    - type: Transform
-      pos: 0.48642015,73.50092
-      parent: 2
-- proto: ClothingUniformJumpskirtColorDarkGreen
-  entities:
-  - uid: 15293
-    components:
-    - type: Transform
-      pos: 97.552574,18.524193
-      parent: 2
-- proto: ClothingUniformJumpskirtDetective
-  entities:
-  - uid: 15294
-    components:
-    - type: Transform
-      pos: -28.711462,68.76856
-      parent: 2
-- proto: ClothingUniformJumpskirtDetectiveGrey
-  entities:
-  - uid: 15296
-    components:
-    - type: Transform
-      parent: 15295
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 15295
-- proto: ClothingUniformJumpskirtPrisoner
-  entities:
-  - uid: 15252
-    components:
-    - type: Transform
-      parent: 15248
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 15253
-    components:
-    - type: Transform
-      parent: 15248
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 15254
-    components:
-    - type: Transform
-      parent: 15248
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 15262
-    components:
-    - type: Transform
-      parent: 15258
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 15263
-    components:
-    - type: Transform
-      parent: 15258
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 15264
-    components:
-    - type: Transform
-      parent: 15258
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingUniformJumpsuitAncient
   entities:
   - uid: 15299
@@ -97402,14 +97306,7 @@ entities:
     - type: Transform
       pos: -58.5,78.5
       parent: 2
-- proto: ClothingUniformJumpsuitDetective
-  entities:
-  - uid: 15309
-    components:
-    - type: Transform
-      pos: -28.680212,68.75294
-      parent: 2
-- proto: ClothingUniformJumpsuitDetectiveGrey
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 15297
     components:
@@ -97419,18 +97316,6 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 15295
-- proto: ClothingUniformJumpsuitEngineeringHazard
-  entities:
-  - uid: 15310
-    components:
-    - type: Transform
-      pos: 78.537704,-18.341986
-      parent: 2
-  - uid: 15311
-    components:
-    - type: Transform
-      pos: 78.61583,-18.435736
-      parent: 2
 - proto: ClothingUniformJumpsuitFamilyGuy
   entities:
   - uid: 15312
@@ -112034,13 +111919,6 @@ entities:
     components:
     - type: Transform
       pos: 46.641365,14.712269
-      parent: 2
-- proto: DrinkMugRainbow
-  entities:
-  - uid: 17761
-    components:
-    - type: Transform
-      pos: 12.661743,68.529625
       parent: 2
 - proto: DrinkRamen
   entities:
@@ -167169,7 +167047,7 @@ entities:
     - type: Transform
       pos: 32.5,2.5
       parent: 2
-- proto: LockerCaptainFilled
+- proto: LockerCaptainFilledNoLaser
   entities:
   - uid: 25684
     components:

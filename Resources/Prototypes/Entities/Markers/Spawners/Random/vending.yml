@@ -51,7 +51,6 @@
       weight: 4
     - id: VendingMachineWinter
       weight: 4
-    - id: VendingMachinePride
     - id: VendingMachineTheater
 
 - type: entity

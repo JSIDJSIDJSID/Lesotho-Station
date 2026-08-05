@@ -27447,7 +27447,7 @@ entities:
     - type: Transform
       pos: 33.5,108.5
       parent: 2
-- proto: AlwaysPoweredlightCyan
+- proto: PoweredlightCyan
   entities:
   - uid: 1403
     components:
@@ -27461,7 +27461,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 39.5,150.5
       parent: 2
-- proto: AlwaysPoweredLightExterior
+- proto: PoweredlightExterior
   entities:
   - uid: 1405
     components:
@@ -110174,30 +110174,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: 51.513145,127.53845
       parent: 2
-- proto: ClothingNeckCloakAroace
-  entities:
-  - uid: 17860
-    components:
-    - type: Transform
-      parent: 17859
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingNeckClownmedal
   entities:
   - uid: 17861
     components:
     - type: Transform
       pos: 127.50876,93.68136
-      parent: 2
-- proto: ClothingNeckIntersexPin
-  entities:
-  - uid: 17869
-    components:
-    - type: Transform
-      pos: 72.06162,108.54225
       parent: 2
 - proto: ClothingNeckLawyerbadge
   entities:
@@ -110735,76 +110717,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtCasualRed
-  entities:
-  - uid: 17607
-    components:
-    - type: Transform
-      parent: 17599
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtColorDarkBlue
-  entities:
-  - uid: 17942
-    components:
-    - type: Transform
-      parent: 17941
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtColorDarkGreen
-  entities:
-  - uid: 17945
-    components:
-    - type: Transform
-      parent: 17944
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtColorMaroon
-  entities:
-  - uid: 17614
-    components:
-    - type: Transform
-      parent: 17611
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtColorPurple
-  entities:
-  - uid: 17615
-    components:
-    - type: Transform
-      parent: 17611
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtColorRed
-  entities:
-  - uid: 17608
-    components:
-    - type: Transform
-      parent: 17599
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtColorTeal
-  entities:
-  - uid: 17595
-    components:
-    - type: Transform
-      parent: 17592
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtDetectiveGrey
-  entities:
-  - uid: 17947
-    components:
-    - type: Transform
-      pos: 11.492531,68.56212
-      parent: 2
+
 - proto: ClothingUniformJumpsuitAncient
   entities:
   - uid: 17661
@@ -110892,7 +110805,7 @@ entities:
     - type: Transform
       pos: 70.446884,117.63669
       parent: 2
-- proto: ClothingUniformJumpsuitDetectiveGrey
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 17950
     components:
@@ -111021,31 +110934,7 @@ entities:
     - type: Transform
       pos: 70.42411,119.61527
       parent: 2
-- proto: ClothingUniformJumpsuitSec
-  entities:
-  - uid: 17961
-    components:
-    - type: Transform
-      parent: 17960
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 17963
-    components:
-    - type: Transform
-      parent: 17962
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitSecBlue
-  entities:
-  - uid: 17649
-    components:
-    - type: Transform
-      parent: 17645
-    - type: Physics
-      canCollide: False
-- proto: ClothingUniformJumpsuitSecGrey
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 17964
     components:
@@ -223276,14 +223165,6 @@ entities:
       sound: !type:SoundCollectionSpecifier
         collection: canOpenSounds
       opened: True
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 34323
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 103.5,167.5
-      parent: 2
 - proto: GlassBoxLawbringerFilled
   entities:
   - uid: 154

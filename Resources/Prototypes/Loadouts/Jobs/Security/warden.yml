@@ -15,14 +15,7 @@
 - type: loadout
   id: WardenJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitWarden
-
-
-- type: loadout
-  id: WardenJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtWarden
-
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityWarden #Lesotho
 
 # OuterClothing
 - type: loadout

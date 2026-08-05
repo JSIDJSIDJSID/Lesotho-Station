@@ -53720,13 +53720,6 @@ entities:
     - type: Transform
       pos: 7.503625,43.354942
       parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 8565
-    components:
-    - type: Transform
-      pos: -56.501534,-67.426544
-      parent: 2
 - proto: ClothingNeckScarfStripedBlue
   entities:
   - uid: 8566
@@ -54108,53 +54101,6 @@ entities:
     - type: Transform
       pos: -52.643486,-53.879913
       parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 8626
-    components:
-    - type: Transform
-      pos: 11.522639,42.499584
-      parent: 2
-  - uid: 8627
-    components:
-    - type: Transform
-      pos: 24.447042,42.46136
-      parent: 2
-- proto: ClothingUniformJumpskirtColorBlack
-  entities:
-  - uid: 8628
-    components:
-    - type: Transform
-      pos: 21.564045,44.633358
-      parent: 2
-- proto: ClothingUniformJumpskirtDetective
-  entities:
-  - uid: 8629
-    components:
-    - type: Transform
-      pos: 36.473495,2.5651448
-      parent: 2
-- proto: ClothingUniformJumpskirtDetectiveGrey
-  entities:
-  - uid: 8630
-    components:
-    - type: Transform
-      pos: -56.564133,39.58168
-      parent: 2
-- proto: ClothingUniformJumpskirtOldDress
-  entities:
-  - uid: 8631
-    components:
-    - type: Transform
-      pos: -72.460976,-48.531662
-      parent: 2
-- proto: ClothingUniformJumpskirtPerformer
-  entities:
-  - uid: 8632
-    components:
-    - type: Transform
-      pos: 38.459328,30.474371
-      parent: 2
 - proto: ClothingUniformJumpsuitColorBlack
   entities:
   - uid: 8633
@@ -54174,19 +54120,12 @@ entities:
     - type: Transform
       pos: -28.363894,-45.36508
       parent: 2
-- proto: ClothingUniformJumpsuitDetective
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 8636
     components:
     - type: Transform
       pos: 36.442245,2.5338948
-      parent: 2
-- proto: ClothingUniformJumpsuitDetectiveGrey
-  entities:
-  - uid: 8637
-    components:
-    - type: Transform
-      pos: -56.611008,39.67543
       parent: 2
 - proto: ClothingUniformJumpsuitMonasticRobeDark
   entities:
@@ -54227,14 +54166,6 @@ entities:
     - type: Transform
       pos: -53.391655,-53.3106
       parent: 2
-- proto: ClothingUniformJumpsuitSecBlue
-  entities:
-  - uid: 8529
-    components:
-    - type: Transform
-      parent: 8525
-    - type: Physics
-      canCollide: False
 - proto: Cobweb1
   entities:
   - uid: 8645
@@ -62502,13 +62433,6 @@ entities:
     components:
     - type: Transform
       pos: -9.1060295,35.62783
-      parent: 2
-- proto: DrinkMugRainbow
-  entities:
-  - uid: 10035
-    components:
-    - type: Transform
-      pos: -11.5122795,35.330956
       parent: 2
 - proto: DrinkOatMilkCarton
   entities:
@@ -92285,13 +92209,6 @@ entities:
     components:
     - type: Transform
       pos: 43.5,29.5
-      parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 13961
-    components:
-    - type: Transform
-      pos: -21.5,34.5
       parent: 2
 - proto: GlassBoxLawbringerFilled
   entities:

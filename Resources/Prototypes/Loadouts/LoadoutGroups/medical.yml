@@ -14,7 +14,6 @@
   - MedicalDoctorBackpack
   - MedicalDoctorSatchel
   - MedicalDoctorDuffel
-  - MedicalDoctorMessenger # Frontier
 
 - type: loadoutGroup
   id: MedicalShoes
@@ -52,11 +51,7 @@
   id: ChiefMedicalOfficerJumpsuit
   name: loadout-group-chief-medical-officer-jumpsuit
   loadouts:
-  - ChiefMedicalOfficerJumpsuit
-  - ChiefMedicalOfficerJumpskirt
-  - ChiefMedicalOfficerTurtleneckJumpsuit
-  - ChiefMedicalOfficerTurtleneckJumpskirt
-  - CMOMJ # Goob
+  - CMOMJ # Goob #Lesotho
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
@@ -105,11 +100,7 @@
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
   name: loadout-group-medical-doctor-jumpsuit
-  loadouts:
-  - MedicalDoctorJumpsuit
-  - MedicalDoctorJumpskirt
-  - SeniorPhysicianJumpsuit
-  - SeniorPhysicianJumpskirt
+  loadouts: #Lesotho
   - MedicalBlueScrubs
   - MedicalGreenScrubs
   - MedicalPurpleScrubs
@@ -143,9 +134,7 @@
   id: MedicalInternJumpsuit
   name: loadout-group-medical-intern-jumpsuit
   loadouts:
-  - WhiteJumpsuit
-  - WhiteJumpskirt
-  - MedicMJ # Goob
+  - MedicMJ # Goob #Lesotho
 
 #- type: loadoutGroup
 #  id: MedicalInternJobTrinkets
@@ -159,12 +148,8 @@
   id: ChemistJumpsuit
   name: loadout-group-chemist-jumpsuit
   loadouts:
-  - ChemistJumpsuit
-  - ChemistJumpskirt
   # <Goob>
-  - SeniorPhysicianJumpsuit
-  - SeniorPhysicianJumpskirt
-  - ChemistMJ
+  - ChemistMJ #Lesotho
   # </Goob>
 
 - type: loadoutGroup
@@ -184,7 +169,6 @@
   - ChemistBackpack
   - ChemistSatchel
   - ChemistDuffel
-  - ChemistMessenger # Frontier
 
 #- type: loadoutGroup
 #  id: ChemistJobTrinkets
@@ -206,12 +190,8 @@
   id: ParamedicJumpsuit
   name: loadout-group-paramedic-jumpsuit
   loadouts:
-  - ParamedicJumpsuit
-  - ParamedicJumpskirt
   # <Goob>
-  - SeniorPhysicianJumpsuit
-  - SeniorPhysicianJumpskirt
-  - ParamedMJ
+  - ParamedMJ #Lesotho
   # </Goob>
 
 - type: loadoutGroup

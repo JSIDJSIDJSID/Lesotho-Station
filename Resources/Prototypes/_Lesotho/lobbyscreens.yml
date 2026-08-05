@@ -1,0 +1,29 @@
+- type: lobbyBackground
+  id: soystationLobbyArt
+  background: /Textures/_Lesotho/LobbyScreens/soystation14.webp
+  title: lobby-state-background-soystation
+  artist: sharpie
+
+- type: lobbyBackground
+  id: noarrowLobbyArt
+  background: /Textures/_Lesotho/LobbyScreens/noarrow.webp
+  title: lobby-state-background-noarrow
+  artist: sharpie
+
+- type: lobbyBackground
+  id: shitnophonoLobbyArt
+  background: /Textures/_Lesotho/LobbyScreens/shitnophonocaresfanabout.webp
+  title: lobby-state-background-shitnophono
+  artist: sharpie
+
+- type: lobbyBackground
+  id: nevergotoLobbyArt
+  background: /Textures/_Lesotho/LobbyScreens/nevergoto.webp
+  title: lobby-state-background-nevergoto
+  artist: serbian
+
+- type: lobbyBackground
+  id: lesothostationLobbyArt
+  background: /Textures/_Lesotho/LobbyScreens/lesotho-ss14-1.webp
+  title: lobby-state-background-lesothostation
+  artist: lesotho

@@ -5,11 +5,11 @@
 - type: startingGear
   id: VisitorCaptain
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCaptain
+    jumpsuit: ClothingUniformJumpsuitMilitaryCaptain #Lesotho
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesCommand
     gloves: ClothingHandsGlovesCaptain
-    head: ClothingHeadHatCaptain
+    head: ClothingHeadHatCapcap #Lesotho
     neck: ClothingNeckCloakCap
     id: VisitorPDA
     belt: WeaponDisabler
@@ -21,7 +21,7 @@
 - type: startingGear
   id: VisitorCaptainAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCapFormal
+    jumpsuit: ClothingUniformJumpsuitMilitaryCaptain #Lesotho
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesCommand
     gloves: ClothingHandsGlovesCaptain
@@ -65,7 +65,7 @@
 - type: startingGear
   id: VisitorCMO
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCMO
+    jumpsuit: ClothingUniformJumpsuitMilitaryCMO #Lesotho
     shoes: ClothingShoesColorBrown
     gloves: ClothingHandsGlovesLatex
     head: ClothingHeadMirror
@@ -80,7 +80,7 @@
 - type: startingGear
   id: VisitorCMOAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCMOTurtle
+    jumpsuit: ClothingUniformJumpsuitMilitaryCMO #Lesotho
     shoes: ClothingShoesColorBrown
     gloves: ClothingHandsGlovesNitrile
     head: ClothingHeadHatBeretCmo
@@ -123,7 +123,7 @@
 - type: startingGear
   id: VisitorHOS
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoSParadeMale
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityHOS #Lesotho
     shoes: ClothingShoesBootsCowboyBlackFilled
     gloves: ClothingHandsGlovesCombat
     head: ClothingHeadHatHoshat
@@ -143,7 +143,7 @@
 - type: startingGear
   id: VisitorHOSAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHosFormal
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityHOS #Lesotho
     shoes: ClothingShoesBootsCowboyFancyFilled
     gloves: ClothingHandsGlovesColorWhite
     head: ClothingHeadHatCowboyWhite
@@ -220,7 +220,7 @@
 - type: startingGear
   id: VisitorSecurityCadet
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHelmetBasic
     id: VisitorPDA
@@ -238,7 +238,7 @@
 - type: startingGear
   id: VisitorSecurityCadetAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSecGrey
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHelmetBasic
     neck: SecurityWhistle
@@ -257,7 +257,7 @@
 - type: startingGear
   id: VisitorSecurityOfficer
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHelmetBasic
     id: VisitorPDA
@@ -275,7 +275,7 @@
 - type: startingGear
   id: VisitorSecurityOfficerAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSecGrey
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatCorpsoft
     neck: SecurityWhistle
@@ -294,7 +294,7 @@
 - type: startingGear
   id: VisitorDetective
   equipment:
-    jumpsuit: ClothingUniformJumpsuitDetective
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatFedoraBrown
     neck: ClothingNeckTieDet
@@ -313,7 +313,7 @@
 - type: startingGear
   id: VisitorDetectiveAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitDetectiveGrey
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatFedoraGrey
     neck: ClothingNeckTieDet
@@ -332,7 +332,7 @@
 - type: startingGear
   id: VisitorWarden
   equipment:
-    jumpsuit: ClothingUniformJumpsuitWarden
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityWarden #Lesotho
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesCombat
     head: ClothingHeadHatBeretWarden
@@ -353,7 +353,7 @@
 - type: startingGear
   id: VisitorWardenAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitWarden
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityWarden #Lesotho
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesCombat
     head: ClothingHeadHatWarden
@@ -375,7 +375,7 @@
 - type: startingGear
   id: VisitorCargoTech
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCargo
+    jumpsuit: ClothingUniformJumpsuitMilitaryCargo #Lesotho
     shoes: ClothingShoesColorBlack
     head: ClothingHeadHatCargosoft
     id: VisitorPDA
@@ -389,7 +389,7 @@
 - type: startingGear
   id: VisitorCargoTechAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCargo
+    jumpsuit: ClothingUniformJumpsuitMilitaryCargo #Lesotho
     shoes: ClothingShoesBootsWinterCargo
     head: ClothingHeadHatCargosoft
     id: VisitorPDA
@@ -405,7 +405,7 @@
 - type: startingGear
   id: VisitorSalvageSpecialist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    jumpsuit: ClothingUniformJumpsuitMilitarySalvageSpecialist #Lesotho
     shoes: ClothingShoesBootsSalvage
     head: ClothingHeadHatCargosoftFlipped
     id: VisitorPDA
@@ -420,7 +420,7 @@
 - type: startingGear
   id: VisitorSalvageSpecialistAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    jumpsuit: ClothingUniformJumpsuitMilitarySalvageSpecialist #Lesotho
     shoes: ClothingShoesBootsSalvage
     head: ClothingHeadHatBrownFlatcap
     id: VisitorPDA
@@ -438,7 +438,7 @@
 - type: startingGear
   id: VisitorAtmosTech
   equipment:
-    jumpsuit: ClothingUniformJumpsuitAtmos
+    jumpsuit: ClothingUniformJumpsuitMilitaryAtmospherics #Lesotho
     shoes: ClothingShoesColorWhite
     gloves: ClothingHandsGlovesFingerlessInsulated
     head: ClothingHeadHelmetFire
@@ -455,7 +455,7 @@
 - type: startingGear
   id: VisitorAtmosTechAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitAtmosCasual
+    jumpsuit: ClothingUniformJumpsuitMilitaryAtmospherics #Lesotho
     shoes: ClothingShoesColorWhite
     gloves: ClothingHandsGlovesColorYellow
     head: ClothingHeadHatHardhatYellow
@@ -474,7 +474,7 @@
 - type: startingGear
   id: VisitorTechnicalAssistant
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorYellow
+    jumpsuit: ClothingUniformJumpsuitMilitaryEngineering #Lesotho
     shoes: ClothingShoesBootsWork
     gloves: ClothingHandsGlovesColorYellowBudget
     head: ClothingHeadHatWelding
@@ -490,7 +490,7 @@
 - type: startingGear
   id: VisitorTechnicalAssistantAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitEngineeringHazard
+    jumpsuit: ClothingUniformJumpsuitMilitaryEngineering #Lesotho
     shoes: ClothingShoesColorBlack
     gloves: ClothingHandsGlovesColorYellowBudget
     head: ClothingHeadHatCone
@@ -547,7 +547,7 @@
 - type: startingGear
   id: VisitorChemist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChemistry
+    jumpsuit: ClothingUniformJumpsuitMilitaryChemistry #Lesotho
     shoes: ClothingShoesColorOrange
     gloves: ClothingHandsGlovesLatex
     id: VisitorPDA
@@ -565,7 +565,7 @@
 - type: startingGear
   id: VisitorChemistAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChemistry
+    jumpsuit: ClothingUniformJumpsuitMilitaryChemistry #Lesotho
     shoes: ClothingShoesColorOrange
     head: ClothingHeadHatPaper
     id: VisitorPDA
@@ -583,7 +583,7 @@
 - type: startingGear
   id: VisitorGeneticist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitGenetics
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist #Lesotho
     shoes: ClothingShoesColorBlue
     gloves: ClothingHandsGlovesNitrile
     head: ClothingHeadBandGrey
@@ -601,7 +601,7 @@
 - type: startingGear
   id: VisitorGeneticistAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitGenetics
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist #Lesotho
     shoes: ClothingShoesColorBlue
     gloves: ClothingHandsGlovesLatex
     head: ClothingHeadHatBeretBrigmedic
@@ -619,7 +619,7 @@
 - type: startingGear
   id: VisitorVirologist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitVirology
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     shoes: ClothingShoesColorGreen
     gloves: ClothingHandsGlovesLatex
     head: ClothingHeadMirror
@@ -637,7 +637,7 @@
 - type: startingGear
   id: VisitorVirologistAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitVirology
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     shoes: ClothingShoesColorGreen
     gloves: ClothingHandsGlovesNitrile
     head: ClothingHeadHatBeretSeniorPhysician
@@ -656,7 +656,7 @@
 - type: startingGear
   id: VisitorMedicalDoctor
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     shoes: ClothingShoesColorWhite
     gloves: ClothingHandsGlovesNitrile
     head: ClothingHeadHatCorpsoft
@@ -675,7 +675,7 @@
 - type: startingGear
   id: VisitorMedicalDoctorAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     shoes: ClothingShoesBootsWinterMed
     gloves: ClothingHandsGlovesLatex
     head: ClothingHeadHatBeretMedic
@@ -713,7 +713,7 @@
 - type: startingGear
   id: VisitorPsychologist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitPsychologist
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     shoes: ClothingShoesLeather
     head: ClothingHeadHatMagician
     neck: ClothingNeckTieRed
@@ -731,7 +731,7 @@
 - type: startingGear
   id: VisitorPsychologistAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitPsychologist
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     shoes: ClothingShoesLeather
     head: ClothingHeadHatAnimalCat
     id: VisitorPDA
@@ -748,7 +748,7 @@
 - type: startingGear
   id: VisitorParamedic
   equipment:
-    jumpsuit: ClothingUniformJumpsuitParamedic
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     shoes: ClothingShoesSwat
     gloves: ClothingHandsGlovesLatex
     head: ClothingHeadHatParamedicsoft
@@ -768,7 +768,7 @@
 - type: startingGear
   id: VisitorParamedicAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitParamedic
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     shoes: ClothingShoesColorBlue # Trauma - was ClothingShoesBootsWork
     gloves: ClothingHandsGlovesNitrile
     head: ClothingHeadHatParamedicsoftFlipped
@@ -906,7 +906,7 @@
 - type: startingGear
   id: VisitorScientist
   equipment:
-    jumpsuit: ClothingUniformJumpsuitScientistFormal
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist #Lesotho
     shoes: ClothingShoesColorPurple
     head: ClothingHeadHatBeretRND
     id: VisitorPDA
@@ -920,7 +920,7 @@
 - type: startingGear
   id: VisitorScientistAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitScientist
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist #Lesotho
     shoes: ClothingShoesBootsWinterSci
     head: ClothingHeadHatPurplesoft
     neck: ClothingNeckTieSci
@@ -937,7 +937,7 @@
 - type: startingGear
   id: VisitorBartender
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBartender
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesColorBlack
     head: ClothingHeadHatTophat
     id: VisitorPDA
@@ -952,7 +952,7 @@
 - type: startingGear
   id: VisitorBartenderAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBartenderPurple
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesColorBlack
     head: ClothingHeadHatBowlerHat
     neck: ClothingNeckTieSci
@@ -1017,7 +1017,7 @@
 - type: startingGear #!! make sure these are bible users.
   id: VisitorChaplain
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChaplain
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesColorBlack
     head: ClothingHeadHatPlaguedoctor
     mask: ClothingMaskPlague
@@ -1034,7 +1034,7 @@
 - type: startingGear
   id: VisitorChaplainAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChaplain
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesColorBlack
     head: ClothingHeadHatHoodNunHood
     id: VisitorPDA
@@ -1050,7 +1050,7 @@
 - type: startingGear
   id: VisitorChef
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChef
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesChef
     head: ClothingHeadHatChef
 #    mask: ClothingMaskItalianMoustache # right now this is broken for vox, so its inhand.
@@ -1069,7 +1069,7 @@
 - type: startingGear
   id: VisitorChefAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChef
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesColorBlack
     head: ClothingHeadHatChef
 #    mask: ClothingMaskItalianMoustache # right now this is broken for vox, so its inhand.
@@ -1229,7 +1229,7 @@
 - type: startingGear
   id: VisitorLibrarian
   equipment:
-    jumpsuit: ClothingUniformJumpsuitLibrarian
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesBootsLaceup
     neck: ClothingNeckScarfStripedGreen
     id: VisitorLibrarianPDA
@@ -1245,7 +1245,7 @@
 - type: startingGear
   id: VisitorLibrarianAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCurator
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesBootsLaceup
     head: ClothingHeadHatGreyFlatcap
     id: VisitorPDA
@@ -1542,7 +1542,7 @@
 - type: startingGear
   id: VisitorServiceWorker
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBartender
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
     shoes: ClothingShoesColorBlack
     head: ClothingHeadBandBlue
     id: VisitorPDA
@@ -1602,7 +1602,7 @@
 - type: startingGear
   id: ChallengeCargoTechGearSuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCargo
+    jumpsuit: ClothingUniformJumpsuitMilitaryCargo #Lesotho
     shoes: ClothingShoesColorBlack
     head: ClothingHeadHatCargosoft
     id: VisitorPDA
@@ -1613,7 +1613,7 @@
 - type: startingGear
   id: ChallengeCargoTechGearCoat
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCargo
+    jumpsuit: ClothingUniformJumpsuitMilitaryCargo #Lesotho
     shoes: ClothingShoesBootsWinterCargo
     head: ClothingHeadHatCargosoft
     id: VisitorPDA
@@ -1632,7 +1632,7 @@
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesCaptain
-    head: ClothingHeadHatCaptain
+    head: ClothingHeadHatCapcap #Lesotho
     neck: ClothingNeckCloakCap
     id: VisitorPDA
     back: ClothingBackpackCaptain
@@ -1641,7 +1641,7 @@
 - type: startingGear
   id: ChallengeVictimCaptainAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCapFormal
+    jumpsuit: ClothingUniformJumpsuitMilitaryCaptain #Lesotho
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesCaptain
@@ -1650,7 +1650,7 @@
     id: VisitorPDA
     back: ClothingBackpackSatchelCaptain
     #ears: # No headsets.
-    outerClothing: ClothingOuterWinterCap
+    #outerClothing: ClothingOuterWinterCap #Lesotho
 
 # CHALLENGE
 # carefully consider everything you add to these. These are meant for roles that are placed in survival situations where every item will be a resource.
@@ -1658,7 +1658,7 @@
 - type: startingGear
   id: ChallengeVictimCMO
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCMO
+    jumpsuit: ClothingUniformJumpsuitMilitaryCMO #Lesotho
     shoes: ClothingShoesColorBrown
     head: ClothingHeadMirror
     neck: ClothingCloakCmo
@@ -1671,7 +1671,7 @@
 - type: startingGear
   id: ChallengeVictimCMOAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCMOTurtle
+    jumpsuit: ClothingUniformJumpsuitMilitaryCMO #Lesotho
     shoes: ClothingShoesColorBrown
     head: ClothingHeadHatBeretCmo
     neck: ClothingNeckMantleCMO
@@ -1747,7 +1747,7 @@
 - type: startingGear
   id: ChallengeVictimHOS
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoSParadeMale
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityHOS #Lesotho
     shoes: ClothingShoesBootsCowboyBlackFilled
     gloves: ClothingHandsGlovesCombat
     head: ClothingHeadHatHoshat
@@ -1762,7 +1762,7 @@
 - type: startingGear
   id: ChallengeVictimHOSAlt
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHosFormal
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityHOS #Lesotho
     shoes: ClothingShoesBootsCowboyFancyFilled
     gloves: ClothingHandsGlovesColorWhite
     head: ClothingHeadHatCowboyWhite

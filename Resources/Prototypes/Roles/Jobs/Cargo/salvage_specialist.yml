@@ -22,7 +22,9 @@
   special:
   - !type:OrganChipsSpecial
     chips:
-    - SkillChipSalvageSpecialist
+    - SkillChipCombatEducation
+    - SkillChipMining
+    - SkillChipShortBlade
   - !type:AddObjectiveSpecial
     objectives:
     - SalvageMineObjective
@@ -31,7 +33,7 @@
 - type: startingGear
   id: SalvageSpecialistGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    jumpsuit: ClothingUniformJumpsuitMilitarySalvageSpecialist #Lesotho
     id: SalvagePDA
     ears: ClothingHeadsetCargo
   storage: # DeltaV: Add mining voucher

@@ -38,43 +38,17 @@
 - type: loadout
   id: SecurityJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
 
-- type: loadout
-  id: SecurityJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSec
-
-- type: loadout
-  id: SecurityJumpsuitGrey
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSecGrey
-
-- type: loadout
-  id: SecurityJumpskirtGrey
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSecGrey
+#- type: loadout #Lesotho
+#  id: SecurityJumpsuitGrey
+#  equipment:
+#    jumpsuit: ClothingUniformJumpsuitSecGrey
 
 - type: loadout
   id: TrooperUniform
   equipment:
     jumpsuit: ClothingUniformSecurityTrooper
-
-- type: loadout
-  id: SeniorOfficerJumpsuit
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorOfficer
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSeniorOfficer
-
-- type: loadout
-  id: SeniorOfficerJumpskirt
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: SeniorOfficer
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSeniorOfficer
 
 # Back
 - type: loadout

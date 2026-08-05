@@ -47,26 +47,15 @@
     mode: SensorCords
 
 - type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitBartenderPurple
-  name: purple bartender's uniform
-  description: A special purple outfit to serve drinks.
-  components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
-
-- type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitCaptain
   name: captain's jumpsuit
   description: It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
   components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/captain.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/captain.rsi
+  - type: Sprite #Lesotho
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/navy_gold.rsi #Lesotho
+  - type: Clothing #Lesotho
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/navy_gold.rsi #Lesotho
 
 - type: entity
   parent: ClothingUniformBase
@@ -798,16 +787,16 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
 
-- type: entity
-  parent: [ClothingUniformBase, BaseCommandContraband]
-  id: ClothingUniformJumpsuitCapFormal
-  name: captain's formal suit
-  description: A suit for special occasions.
-  components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
+#- type: entity #Lesotho
+#  parent: [ClothingUniformBase, BaseCommandContraband]
+#  id: ClothingUniformJumpsuitCapFormal
+#  name: captain's formal suit
+#  description: A suit for special occasions.
+#  components:
+#  - type: Sprite
+#    sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
+#  - type: Clothing
+#    sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -909,6 +898,17 @@
     sprite: Clothing/Uniforms/Jumpsuit/psychologist.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/psychologist.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitTramDriver
+  name: tram driver jumpsuit
+  description: Perfectly ironed, for well-prepared professionals.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/tramdriver.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/tramdriver.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1076,8 +1076,8 @@
     sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
-  - type: AddAccentClothing
-    accent: PirateAccent
+  - type: PirateAccent
+    relayAccent: true
 
 - type: entity
   parent: ClothingUniformBase

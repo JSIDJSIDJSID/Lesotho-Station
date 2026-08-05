@@ -118,8 +118,6 @@
     #- id: MaterialBones1 #Lesotho
     #  amount: 5
     # </Trauma>
-    - id: ClothingUniformJumpskirtOfLife
-      prob: 0.1
     - id: MedkitOxygenFilled
     - id: MedkitAdvancedFilled
 

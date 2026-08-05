@@ -112946,58 +112946,6 @@ entities:
     - type: Transform
       pos: 25.318594,12.495754
       parent: 2
-- proto: ClothingNeckCloakAce
-  entities:
-  - uid: 15310
-    components:
-    - type: Transform
-      rot: 1.0182609457842773E-06 rad
-      pos: 81.52312,-4.4664974
-      parent: 2
-- proto: ClothingNeckCloakAro
-  entities:
-  - uid: 15311
-    components:
-    - type: Transform
-      pos: 52.51675,-43.60295
-      parent: 2
-- proto: ClothingNeckCloakBi
-  entities:
-  - uid: 15312
-    components:
-    - type: Transform
-      pos: -55.703693,-37.289703
-      parent: 2
-  - uid: 15313
-    components:
-    - type: Transform
-      rot: 1.0182609457842773E-06 rad
-      pos: 89.51352,-4.435248
-      parent: 2
-  - uid: 15314
-    components:
-    - type: Transform
-      pos: 51.496376,-25.427755
-      parent: 2
-  - uid: 15315
-    components:
-    - type: Transform
-      pos: -28.45767,-78.59287
-      parent: 2
-- proto: ClothingNeckCloakEnby
-  entities:
-  - uid: 15316
-    components:
-    - type: Transform
-      pos: 51.558907,-13.44254
-      parent: 2
-- proto: ClothingNeckCloakGay
-  entities:
-  - uid: 15317
-    components:
-    - type: Transform
-      pos: -55.33888,-37.444935
-      parent: 2
 - proto: ClothingNeckCloakGoliathCloak
   entities:
   - uid: 15318
@@ -113022,26 +112970,6 @@ entities:
     - type: Transform
       pos: -58.15929,-44.15824
       parent: 2
-- proto: ClothingNeckCloakIntersex
-  entities:
-  - uid: 15322
-    components:
-    - type: Transform
-      pos: -55.58888,-37.632435
-      parent: 2
-  - uid: 15323
-    components:
-    - type: Transform
-      pos: -56.62419,-22.459085
-      parent: 2
-- proto: ClothingNeckCloakLesbian
-  entities:
-  - uid: 15324
-    components:
-    - type: Transform
-      rot: 1.0182609457842773E-06 rad
-      pos: 85.52049,-4.450873
-      parent: 2
 - proto: ClothingNeckCloakMoth
   entities:
   - uid: 15325
@@ -113061,19 +112989,6 @@ entities:
     components:
     - type: Transform
       pos: -39.268112,-13.551653
-      parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 15328
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -41.501427,-71.51004
-      parent: 2
-  - uid: 15329
-    components:
-    - type: Transform
-      pos: 49.497066,-22.42234
       parent: 2
 - proto: ClothingNeckCloakVoid
   entities:
@@ -113636,116 +113551,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 15402
-    components:
-    - type: Transform
-      rot: 1.0182609457842773E-06 rad
-      pos: -57.679985,7.456685
-      parent: 2
-  - uid: 15403
-    components:
-    - type: Transform
-      pos: -58.5,-49.5
-      parent: 2
-  - uid: 15404
-    components:
-    - type: Transform
-      pos: -29.321905,-69.36804
-      parent: 2
-- proto: ClothingUniformJumpskirtDetective
-  entities:
-  - uid: 15199
-    components:
-    - type: Transform
-      parent: 15196
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtDetectiveGrey
-  entities:
-  - uid: 15405
-    components:
-    - type: Transform
-      pos: -36.5,59.5
-      parent: 2
-- proto: ClothingUniformJumpskirtJanimaidmini
-  entities:
-  - uid: 15406
-    components:
-    - type: Transform
-      pos: 53.54969,-25.345713
-      parent: 2
-  - uid: 15407
-    components:
-    - type: Transform
-      pos: -0.29345667,50.450794
-      parent: 2
-- proto: ClothingUniformJumpskirtJanitor
-  entities:
-  - uid: 1870
-    components:
-    - type: Transform
-      parent: 1861
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 1871
-    components:
-    - type: Transform
-      parent: 1861
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtPerformer
-  entities:
-  - uid: 15408
-    components:
-    - type: Transform
-      rot: 6.283185307179586 rad
-      pos: -6.6330657,54.752438
-      parent: 2
-- proto: ClothingUniformJumpskirtPrisoner
-  entities:
-  - uid: 15410
-    components:
-    - type: Transform
-      parent: 15409
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 15411
-    components:
-    - type: Transform
-      parent: 15409
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 15415
-    components:
-    - type: Transform
-      parent: 15414
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 15416
-    components:
-    - type: Transform
-      parent: 15414
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtPsychologist
-  entities:
-  - uid: 15171
-    components:
-    - type: Transform
-      parent: 15165
-    - type: Physics
-      canCollide: False
 - proto: ClothingUniformJumpsuitClownBanana
   entities:
   - uid: 15268
@@ -113769,7 +113574,7 @@ entities:
     - type: Transform
       pos: -49.827705,-48.589184
       parent: 2
-- proto: ClothingUniformJumpsuitDetective
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 15200
     components:
@@ -113780,13 +113585,6 @@ entities:
       linearDamping: 0
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitDetectiveGrey
-  entities:
-  - uid: 15421
-    components:
-    - type: Transform
-      pos: -36.5,59.5
-      parent: 2
 - proto: ClothingUniformJumpsuitERTJanitor
   entities:
   - uid: 1872
@@ -127949,13 +127747,6 @@ entities:
     components:
     - type: Transform
       pos: -77.735794,-0.17437816
-      parent: 2
-- proto: DrinkMugRainbow
-  entities:
-  - uid: 17732
-    components:
-    - type: Transform
-      pos: -77.22017,-0.19000322
       parent: 2
 - proto: DrinkMugRed
   entities:
@@ -184540,7 +184331,7 @@ entities:
     - type: Transform
       pos: 66.5,-3.5
       parent: 2
-- proto: LockerCaptainFilled
+- proto: LockerCaptainFilledNoLaser
   entities:
   - uid: 25680
     components:

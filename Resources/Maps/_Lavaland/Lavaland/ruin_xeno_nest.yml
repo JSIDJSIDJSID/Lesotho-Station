@@ -134,7 +134,7 @@ entities:
     - type: Transform
       pos: -9.464262,-10.508297
       parent: 1
-- proto: ClothingUniformJumpsuitSec
+- proto: ClothingUniformJumpsuitMilitarySecurity #Lesotho
   entities:
   - uid: 695
     components:

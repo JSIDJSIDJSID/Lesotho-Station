@@ -9,32 +9,8 @@
       time: 20h
 
 # Jumpsuit
-- type: loadout
-  id: ChiefEngineerJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitChiefEngineer
-
-
-- type: loadout
-  id: ChiefEngineerJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtChiefEngineer
-
-
-- type: loadout
-  id: ChiefEngineerTurtleneck
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
-
-
-- type: loadout
-  id: ChiefEngineerTurtleneckSkirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
-
-
 - type: loadout # goob
-  id: ChiefEngineerMJ
+  id: ChiefEngineerMJ #Lesotho
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryEngineeringChief
 

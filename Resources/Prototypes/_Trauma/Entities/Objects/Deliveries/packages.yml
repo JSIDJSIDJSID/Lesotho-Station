@@ -59,18 +59,6 @@
     - id: ClothingEyesBlindfold
 
 # Costumes
-
-- type: entityTable
-  id: PackageCostumeMaid
-  table: !type:AllSelector
-    children:
-    - !type:GroupSelector
-      children:
-      - id: ClothingUniformJumpskirtJanimaid
-      - id: ClothingUniformJumpskirtJanimaidmini
-    - id: MegaSprayBottle
-    - id: ClothingHandsGlovesColorWhite
-
 - type: entityTable
   id: PackageCostumeWizard
   table: !type:AllSelector
@@ -84,32 +72,10 @@
       prob: 0.1
 
 - type: entityTable
-  id: PackageCostumeNurse
-  table: !type:AllSelector
-    children:
-    - id: ClothingUniformJumpskirtOfLife
-    - id: ClothingHeadNurseHat
-    - !type:GroupSelector
-      children:
-      - id: Syringe
-      - id: SyringePoisonFentUsed
-        weight: 0.1 # :)
-
-- type: entityTable
-  id: PackageCostumeTacticalMaid
-  table: !type:AllSelector
-    children:
-    - id: ClothingUniformJumpskirtTacticalMaid
-    - id: ClothingHeadHatTacticalMaidHeadband
-    - id: MegaSprayBottle
-    - id: ClothingHandsTacticalMaidGloves
-
-- type: entityTable
   id: PackageCostumeNoir
   table: !type:AllSelector
     children:
-    - id: ClothingUniformJumpsuitDetectiveGrey
-    - id: ClothingUniformJumpskirtDetectiveGrey
+    - id: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     - id: ClothingHeadHatBowlerHat
     - id: ClothingOuterCoatGentle
 ## Rare
@@ -125,16 +91,6 @@
       weight: 0.3
     - id: Cutlass
       weight: 0.1
-    - id: ClothingBeltSheathFilled # Little dangerous between the reflect and the damage
-      weight: 0.03
-
-- type: entityTable
-  id: PackageWitchery
-  table: !type:AllSelector
-    children:
-    - id: Bible
-    - id: ClothingHeadHatWitch1
-    - id: ClothingOuterSuitWitchRobes
 
 - type: entityTable
   id: PackageMutatedProduce

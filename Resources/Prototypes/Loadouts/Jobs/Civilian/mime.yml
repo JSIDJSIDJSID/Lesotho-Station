@@ -36,11 +36,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMime
 
-- type: loadout
-  id: MimeJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtMime
-
 # Back
 - type: loadout
   id: MimeBackpack

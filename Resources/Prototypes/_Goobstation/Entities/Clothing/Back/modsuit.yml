@@ -247,8 +247,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, BaseCommandContraband]
   id: ClothingModsuitCaptain
-  name: captain's magnate modsuit control unit
-  description: A gem-encrusted, mirror-shined and absolutely MAGNATE armored modsuit. The cooling fluid is dragons' blood watered down with Dr. Gibb. This shit is nothing to you, man. # goob edit - grammar
+  name: overlord modsuit control unit
+  description: A state of the art modular hardsuit control unit, this one is meant to protect a captain in active warfare. The suit uses bluespace storage to make it weightless to carry around until parts are deployed.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Modsuits/captain.rsi
@@ -260,6 +260,15 @@
       shoes: ClothingModsuitBootsCaptain
   - type: Construction
     node: captain
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: ClothingSpeedModifier
+    sprintModifier: 1
+    walkModifier: 1
+  - type: Storage
+    grid:
+    - 0,0,7,7
+    maxItemSize: Huge
 
 - type: entity
   parent: [ ClothingModsuitCaptain, BaseModsuitBattery ]

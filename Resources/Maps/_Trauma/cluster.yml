@@ -28310,15 +28310,15 @@ entities:
     - type: Transform
       parent: 2
       pos: -39.356712,-24.532705
-- proto: ClothingOuterWinterCap
-  entities:
-  - uid: 4306
-    components:
-    - type: Transform
-      parent: 4305
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
+#- proto: ClothingOuterWinterCap
+#  entities:
+#  - uid: 4306
+#    components:
+#    - type: Transform
+#      parent: 4305
+#    - type: Physics
+#      canCollide: False
+#    - type: InsideEntityStorage
 - proto: ClothingOuterWinterCMO
   entities:
   - uid: 4308
@@ -28364,13 +28364,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 31.59061,-16.652718
-- proto: ClothingUniformColorRainbow
-  entities:
-  - uid: 4313
-    components:
-    - type: Transform
-      parent: 2
-      pos: -24.486622,-20.530039
 - proto: ClothingUniformJumpsuitPirate
   entities:
   - uid: 4314
@@ -29093,13 +29086,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 16.5,-27.5
-- proto: CrateHydroponicsSeedsExotic
-  entities:
-  - uid: 4423
-    components:
-    - type: Transform
-      parent: 2
-      pos: -2.5,-4.5
 - proto: CrateMedicalSurgery
   entities:
   - uid: 4424
@@ -56822,7 +56808,7 @@ entities:
     - type: Transform
       parent: 2
       pos: 21.5,5.5
-- proto: LockerCaptainFilled
+- proto: LockerCaptainFilledNoLaser
   entities:
   - uid: 4305
     components:

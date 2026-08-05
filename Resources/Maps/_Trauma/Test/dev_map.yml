@@ -9823,14 +9823,6 @@ entities:
     - type: Transform
       pos: 31.5,43.5
       parent: 1
-- proto: ClothingBeltSheathFilled
-  entities:
-  - uid: 2682
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 70.5,41.5
-      parent: 1
 - proto: ClothingBeltUtilityEngineering
   entities:
   - uid: 567
@@ -24244,15 +24236,6 @@ entities:
     - type: Transform
       pos: 96.5,12.5
       parent: 1
-- proto: WeaponAntiqueLaser
-  entities:
-  - uid: 2168
-    components:
-    - type: Transform
-      pos: 67.57604,39.05475
-      parent: 1
-    - type: Gun
-      burstCooldownModified: 0.25
 - proto: WeaponDisablerSMG
   entities:
   - uid: 2167

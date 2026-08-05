@@ -101,11 +101,6 @@
 
 - type: latheRecipe
   parent: BaseSpecifiedBedsheetRecipe
-  id: BedsheetRainbow
-  result: BedsheetRainbow
-
-- type: latheRecipe
-  parent: BaseSpecifiedBedsheetRecipe
   id: BedsheetBrigmedic
   result: BedsheetBrigmedic
 

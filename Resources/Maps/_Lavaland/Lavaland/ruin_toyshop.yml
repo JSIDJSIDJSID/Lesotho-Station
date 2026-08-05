@@ -1412,27 +1412,6 @@ entities:
     - type: Transform
       pos: 13.121382,13.39967
       parent: 1
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 219
-    components:
-    - type: Transform
-      pos: 12.496382,15.415295
-      parent: 1
-- proto: ClothingUniformColorRainbow
-  entities:
-  - uid: 220
-    components:
-    - type: Transform
-      pos: 14.085059,17.80423
-      parent: 1
-- proto: ClothingUniformJumpskirtPerformer
-  entities:
-  - uid: 221
-    components:
-    - type: Transform
-      pos: 14.366309,17.413605
-      parent: 1
 - proto: ClothingUniformJumpsuitCentcomOfficer
   entities:
   - uid: 222
@@ -1842,20 +1821,6 @@ entities:
     components:
     - type: Transform
       pos: 3.7088394,4.920103
-      parent: 1
-- proto: PlushieRainbowCarp
-  entities:
-  - uid: 281
-    components:
-    - type: Transform
-      pos: 6.0369644,3.685728
-      parent: 1
-- proto: PlushieRainbowLizard
-  entities:
-  - uid: 282
-    components:
-    - type: Transform
-      pos: 4.3182144,5.045103
       parent: 1
 - proto: PlushieRatvar
   entities:

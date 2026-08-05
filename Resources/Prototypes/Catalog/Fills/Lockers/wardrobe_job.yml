@@ -27,7 +27,6 @@
       rolls: 2
       children:
       - id: ClothingUniformJumpsuitPrisoner
-      - id: ClothingUniformJumpskirtPrisoner
       - id: ClothingShoesColorBlack
     - id: ClothingMaskMuzzle
     - !type:GroupSelector
@@ -100,8 +99,7 @@
   id: FillWardrobeRobotics
   table: !type:AllSelector
     children:
-    - id: ClothingUniformJumpsuitRoboticist
-    - id: ClothingUniformJumpskirtRoboticist
+    - id: ClothingUniformJumpsuitMilitaryScientist #Lesotho
     - !type:AllSelector
       rolls: 2
       children:
@@ -124,11 +122,10 @@
   id: FillWardrobeChemistry
   table: !type:AllSelector
     children:
-    - id: ClothingUniformJumpsuitChemistry
+    - id: ClothingUniformJumpsuitMilitaryChemistry #Lesotho
     - id: ClothingBackpackChemistry
     - id: ClothingShoesColorWhite
     - id: ClothingOuterCoatLabChem
-    - id: ClothingUniformJumpskirtChemistry
 
 - type: entity
   id: WardrobeGeneticsFilled
@@ -145,11 +142,10 @@
   id: FillWardrobeGenetics
   table: !type:AllSelector
     children:
-    - id: ClothingUniformJumpsuitGenetics
+    - id: ClothingUniformJumpsuitMilitaryScientist #Lesotho
     - id: ClothingBackpackGenetics
     - id: ClothingShoesColorWhite
     - id: ClothingOuterCoatLabGene
-    - id: ClothingUniformJumpskirtGenetics
 
 - type: entity
   id: WardrobeVirologyFilled
@@ -166,11 +162,10 @@
   id: FillWardrobeVirology
   table: !type:AllSelector
     children:
-    - id: ClothingUniformJumpsuitVirology
+    - id: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     - id: ClothingBackpackVirology
     - id: ClothingShoesColorWhite
     - id: ClothingOuterCoatLabViro
-    - id: ClothingUniformJumpskirtVirology
 
 - type: entity
   id: WardrobeScienceFilled
@@ -187,11 +182,10 @@
   id: FillWardrobeScience
   table: !type:AllSelector
     children:
-    - id: ClothingUniformJumpsuitScientist
+    - id: ClothingUniformJumpsuitMilitaryScientist #Lesotho
     - id: ClothingBackpackScience
     - id: ClothingShoesColorWhite
     - id: ClothingOuterCoatRnd
-    - id: ClothingUniformJumpskirtScientist
     - id: ClothingEyesGlasses
       prob: 0.5
     - id: CrowbarRed #The jojoke - hit video game Half-Life
@@ -216,7 +210,6 @@
     - id: ClothingBackpackHydroponics
     - id: ClothingShoesColorBrown
     - id: ClothingOuterApronBotanist
-    - id: ClothingUniformJumpskirtHydroponics
     - id: ClothingUniformOveralls
     - id: ClothingHeadHatTrucker #the hat itself is a subtle joke
       prob: 0.15
@@ -238,11 +231,10 @@
   id: FillWardrobeMedicalDoctor
   table: !type:AllSelector
     children:
-    - id: ClothingUniformJumpsuitMedicalDoctor
+    - id: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     - id: ClothingBackpackMedical
     - id: ClothingShoesColorWhite
     - id: ClothingOuterCoatLab
-    - id: ClothingUniformJumpskirtMedicalDoctor
     - id: ClothingHandsGlovesLatex
       prob: 0.4
     - id: ClothingEyesGlasses
@@ -264,9 +256,8 @@
   table: !type:AllSelector
     children:
     # todo chaplain backpack
-    - id: ClothingUniformJumpsuitChaplain
+    - id: ClothingUniformJumpsuitMilitaryService #Lesotho
     - id: ClothingShoesColorBlack
-    - id: ClothingUniformJumpskirtChaplain
     - id: PlushieLizardJobChaplain
       prob: 0.02
 
@@ -285,13 +276,12 @@
   id: FillWardrobeSecurity
   table: !type:AllSelector
     children:
-    - id: ClothingUniformJumpsuitSec
+    - id: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     - id: ClothingBackpackSecurity
     - id: ClothingShoesBootsJack
     - id: ClothingEyesGlassesSunglasses
     - id: ClothingHeadHelmetBasic
     - id: ClothingOuterArmorBasic
-    - id: ClothingUniformJumpskirtSec
 
 - type: entity
   id: WardrobeCargoFilled
@@ -309,10 +299,9 @@
   table: !type:AllSelector
     children:
     - id: ClothingHeadHatCargosoft
-    - id: ClothingUniformJumpsuitCargo
+    - id: ClothingUniformJumpsuitMilitaryCargo #Lesotho
     - id: ClothingBackpack
     - id: ClothingShoesColorBlack
-    - id: ClothingUniformJumpskirtCargo
     - id: ClothingHandsGlovesFingerless
     - id: AppraisalTool
     - id: PlushieLizardJobCargotechnician
@@ -335,7 +324,7 @@
     - id: ClothingBackpack
     - id: ClothingShoesBootsSalvage
       amount: 2
-    - id: ClothingUniformJumpsuitSalvageSpecialist
+    - id: ClothingUniformJumpsuitMilitarySalvageSpecialist #Lesotho
       amount: 2
 
 - type: entity
@@ -367,7 +356,6 @@
     - id: ClothingUniformJumpsuitAtmos
     - id: ClothingBackpackEngineering
     - id: ClothingShoesColorWhite
-    - id: ClothingUniformJumpskirtAtmos
 
 - type: entity
   id: WardrobeEngineeringFilled
@@ -389,4 +377,3 @@
     - id: ClothingBackpackEngineering
     - id: ClothingShoesBootsWork
     - id: ClothingOuterVestHazard
-    - id: ClothingUniformJumpskirtEngineering

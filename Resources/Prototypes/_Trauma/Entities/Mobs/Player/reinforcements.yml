@@ -7,7 +7,7 @@
   equipment:
     head: ClothingHeadHatFedoraGrey
     eyes: ClothingEyesGlassesSecurity
-    jumpsuit: ClothingUniformJumpsuitDetectiveGrey
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     outerClothing: ClothingOuterVestDetective
     back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsJackFilled
@@ -21,7 +21,7 @@
   id: ReinforcementBeaconOfficerTemplate
   equipment:
     eyes: ClothingEyesGlassesSecurity
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsJackFilled
     id: SecurityPDA
@@ -33,7 +33,7 @@
   equipment:
     head: ClothingHeadHelmetBasicAlt
     eyes: ClothingEyesGlassesSecurity
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     outerClothing: ClothingOuterArmorBasicSlim
     back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsJackFilled
@@ -133,7 +133,7 @@
   id: ReinforcementBeaconCadet
   equipment:
     eyes: ClothingEyesHudSecurity
-    jumpsuit: ClothingUniformJumpsuitColorRed
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity
     back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsJack
     id: SecurityCadetPDA
@@ -145,7 +145,7 @@
   id: ReinforcementBeaconDoctor
   equipment:
     eyes: ClothingEyesHudMedical
-    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor
     back: ClothingBackpackMedical
     shoes: ClothingShoesColorWhite
     belt: ClothingBeltMedicalFilled
@@ -157,7 +157,7 @@
   id: ReinforcementBeaconChemist
   equipment:
     eyes: ClothingEyesGlassesChemical
-    jumpsuit: ClothingUniformJumpsuitChemistry
+    jumpsuit: ClothingUniformJumpsuitMilitaryChemistry
     back: ClothingBackpackChemistry
     shoes: ClothingShoesColorOrange
     belt: ChemBag
@@ -168,7 +168,7 @@
   id: ReinforcementBeaconParamedic
   equipment:
     eyes: ClothingEyesHudMedical
-    jumpsuit: ClothingUniformJumpsuitParamedic
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor
     back: ClothingBackpackMedical
     shoes: ClothingShoesColorWhite
     belt: ClothingBeltMedicalFilled
@@ -186,7 +186,7 @@
     head: ClothingHeadHatHoodBioVirology
     eyes: ClothingEyesHudViro
     mask: ClothingMaskSterile
-    jumpsuit: ClothingUniformJumpsuitVirology
+    jumpsuit: ClothingUniformJumpsuitMilitaryVirology
     outerClothing: ClothingOuterBioVirology
     back: ClothingBackpackVirology
     shoes: ClothingShoesColorGreen
@@ -198,7 +198,7 @@
   id: ReinforcementBeaconPsychologist
   equipment:
     neck: ClothingNeckTieDet
-    jumpsuit: ClothingUniformJumpsuitPsychologist
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor
     back: ClothingBackpackMedical
     shoes: ClothingShoesLeather
     id: PsychologistPDA
@@ -209,7 +209,7 @@
   id: ReinforcementBeaconMedicalIntern
   equipment:
     eyes: ClothingEyesHudMedical
-    jumpsuit: ClothingUniformJumpsuitMedicalDoctor
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor
     back: ClothingBackpackMedical
     shoes: ClothingShoesColorWhite
     id: MedicalInternPDA
@@ -222,7 +222,7 @@
   id: ReinforcementBeaconSci
   equipment:
     eyes: ClothingEyesGlasses
-    jumpsuit: ClothingUniformJumpsuitScientist
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist
     back: ClothingBackpackScience
     shoes: ClothingShoesColorWhite
     id: SciencePDA
@@ -234,7 +234,7 @@
   id: ReinforcementBeaconRoboticist
   equipment:
     eyes: ClothingEyesHudDiagnostic
-    jumpsuit: ClothingUniformJumpsuitRoboticist
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist
     outerClothing: ClothingOuterCoatRoboOpened
     back: ClothingBackpackScience
     shoes: ClothingShoesColorBlack
@@ -247,7 +247,7 @@
   id: ReinforcementBeaconGeneticist
   equipment:
     eyes: ClothingEyesGlasses
-    jumpsuit: ClothingUniformJumpsuitGenetics
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist
     outerClothing: ClothingOuterCoatLabGeneOpened
     back: ClothingBackpackGenetics
     shoes: ClothingShoesColorWhite
@@ -259,7 +259,7 @@
   id: ReinforcementBeaconResearchAssistant
   equipment:
     eyes: ClothingEyesGlasses
-    jumpsuit: ClothingUniformJumpsuitScientist
+    jumpsuit: ClothingUniformJumpsuitMilitaryScientist
     back: ClothingBackpackScience
     shoes: ClothingShoesColorWhite
     id: ResearchAssistantPDA
@@ -278,7 +278,7 @@
   id: ReinforcementBeaconCargo
   equipment:
     head: ClothingHeadHatCargosoft
-    jumpsuit: ClothingUniformJumpsuitCargo
+    jumpsuit: ClothingUniformJumpsuitMilitaryCargo
     back: ClothingBackpackCargo
     shoes: ClothingShoesColorBlack
     id: CargoPDA
@@ -345,7 +345,7 @@
   equipment:
     head: ClothingHeadHatTophat
     eyes: ClothingEyesGlassesSunglasses
-    jumpsuit: ClothingUniformJumpsuitBartender
+    jumpsuit: ClothingUniformJumpsuitMilitaryService
     outerClothing: ClothingOuterArmorBasicSlim
     back: ClothingBackpack
     shoes: ClothingShoesColorBlack
@@ -360,7 +360,7 @@
   id: ReinforcementBeaconChef
   equipment:
     head: ClothingHeadHatChef
-    jumpsuit: ClothingUniformJumpsuitChef
+    jumpsuit: ClothingUniformJumpsuitMilitaryService
     outerClothing: ClothingOuterJacketChef
     back: ClothingBackpack
     shoes: ClothingShoesChef
@@ -446,7 +446,7 @@
   id: ReinforcementBeaconChaplain
   equipment:
     neck: ClothingNeckStoleChaplain
-    jumpsuit: ClothingUniformJumpsuitChaplain
+    jumpsuit: ClothingUniformJumpsuitMilitaryService
     outerClothing: ClothingOuterHoodieChaplain
     back: ClothingBackpackSatchel
     shoes: ClothingShoesColorBlack
@@ -461,7 +461,7 @@
   equipment:
     eyes: ClothingEyesGlassesJamjar
     neck: ClothingNeckScarfStripedGreen
-    jumpsuit: ClothingUniformJumpsuitLibrarian
+    jumpsuit: ClothingUniformJumpsuitMilitaryService
     back: ClothingBackpackSatchel
     shoes: ClothingShoesBootsLaceup
     id: LibrarianPDA
@@ -497,7 +497,7 @@
 - type: startingGear
   id: ReinforcementBeaconServiceWorker
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBartender
+    jumpsuit: ClothingUniformJumpsuitMilitaryService
     back: ClothingBackpack
     shoes: ClothingShoesColorBlack
     id: ServiceWorkerPDA

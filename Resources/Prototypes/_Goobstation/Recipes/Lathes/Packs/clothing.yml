@@ -5,7 +5,6 @@
   id: ClothingCasualJumpsuits # if you're adding more, split them into departments
   recipes:
   - ClothingUniformJumpsuitCasualCommand
-  - ClothingUniformJumpsuitCasualEngineer
 
 - type: latheRecipePack
   id: ClothingDurathreadArmoured
@@ -13,19 +12,3 @@
   - ClothingOuterVestWebDurathread
   - ClothingOuterArmourDurathread
   - ClothingUniformJumpsuitDurathread
-
-- type: latheRecipePack
-  id: ClothingCasualContrabandJumpsuits # same here
-  recipes:
-  - ClothingUniformJumpsuitCasualCentcom
-  - ClothingUniformJumpsuitCasualSyndicate
-
-- type: latheRecipePack
-  id: ClothingCommandSummer
-  recipes:
-  - ClothingUniformJumpsuitHoSSummer
-  - ClothingUniformJumpsuitQMSummer
-  - ClothingUniformJumpsuitRDSummer
-  - ClothingUniformJumpsuitCESummer
-  - ClothingUniformJumpsuitCaptainSummer
-  - ClothingUniformJumpsuitHoPSummer

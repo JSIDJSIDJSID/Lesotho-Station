@@ -8,8 +8,8 @@
   knowledge: Dwarf # Trauma
   defaultSoundsBySex:
   - UnisexDwarf
-  - FemaleDwarf
+  - UnisexDwarf #Lesotho
   - UnisexDwarf
   voices:
   - UnisexDwarf
-  - FemaleDwarf
+  - UnisexDwarf #Lesotho

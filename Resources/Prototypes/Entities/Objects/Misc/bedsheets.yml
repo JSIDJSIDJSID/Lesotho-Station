@@ -261,16 +261,6 @@
     stealGroup: HeadBedsheet
 
 - type: entity
-  id: BedsheetRainbow
-  parent: BedsheetBase
-  name: rainbow bedsheet
-  components:
-  - type: Sprite
-    state: sheetrainbow
-  - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/rainbow.rsi
-
-- type: entity
   id: BedsheetRD
   parent: BedsheetBase
   name: RD's bedsheet

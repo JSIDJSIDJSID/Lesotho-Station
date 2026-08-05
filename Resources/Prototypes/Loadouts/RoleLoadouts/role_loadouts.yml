@@ -6,19 +6,19 @@
   - CaptainNeck
   - CaptainJumpsuit
   - CaptainMask # Goobstation - Lollypops!
+  - CaptainSword
+  - CaptainFirearm
   - CaptainBackpack
   - CaptainOuterClothing
   - CaptainPDA # Trauma
   - Survival
   - Trinkets
-  #- CaptainJobTrinkets
   - GroupSpeciesBreathTool
   # Goobstation - EE Plasmeme Change.
   - CaptainEnvirohelm
   - CaptainEnvirosuit
   - CaptainEnvirogloves
   - CaptainGloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -40,7 +40,6 @@
   - HoPEnvirosuit
   - HoPEnvirogloves
   - HoPGloves
-  - ExclusiveItems # Trauma
 
 # Silicons
 - type: roleLoadout
@@ -74,7 +73,6 @@
   - AssistantEnvirohelm
   - AssistantEnvirosuit
   - AssistantEnvirogloves
-  - ExclusiveItems # Trauma
 
 
 - type: roleLoadout
@@ -95,7 +93,6 @@
   - BartenderEnvirosuit
   - BartenderEnvirogloves
   - BartenderWeapon # Trauma
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobServiceWorker
@@ -112,7 +109,6 @@
   - ServiceWorkerEnvirohelm
   - ServiceWorkerEnvirosuit
   - ServiceWorkerEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobChef
@@ -132,7 +128,6 @@
   - ChefEnvirohelm
   - ChefEnvirosuit
   - ChefEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobLibrarian
@@ -149,7 +144,6 @@
   - LibrarianEnvirohelm
   - LibrarianEnvirosuit
   - LibrarianEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobLawyer
@@ -167,7 +161,6 @@
   - LawyerEnvirohelm
   - LawyerEnvirosuit
   - LawyerEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobChaplain
@@ -189,7 +182,6 @@
   - ChaplainEnvirohelm
   - ChaplainEnvirosuit
   - ChaplainEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobJanitor
@@ -209,7 +201,6 @@
   - JanitorEnvirohelm
   - JanitorEnvirosuit
   - JanitorEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobBotanist
@@ -228,7 +219,6 @@
   - BotanistEnvirohelm
   - BotanistEnvirosuit
   - BotanistEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobClown
@@ -248,7 +238,6 @@
   - ClownEnvirohelm
   - ClownEnvirosuit
   - ClownEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobMime
@@ -262,7 +251,7 @@
   - MimeOuterClothing
   - MimeBelt
   - Glasses
-  - SurvivalMime
+  - Survival
   - Trinkets
   #- MimeJobTrinkets
   # Goobstation - EE Plasmeme Change.
@@ -270,7 +259,6 @@
   - MimeEnvirosuit
   - MimeEnvirogloves
   - MimeGloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobMusician
@@ -280,17 +268,16 @@
   - MusicianJumpsuit
   - CommonBackpack
   - MusicianOuterClothing
+  - Instruments
   - Glasses
   - Survival
   - Trinkets
   #- MusicianJobTrinkets
-  - Instruments
   - GroupSpeciesBreathTool
   # Goobstation - EE Plasmeme Change.
   - MusicianEnvirohelm
   - MusicianEnvirosuit
   - MusicianEnvirogloves
-  - ExclusiveItems # Trauma
 
 # Cargo
 - type: roleLoadout
@@ -312,7 +299,6 @@
   - QuartermasterEnvirohelm
   - QuartermasterEnvirosuit
   - QuartermasterEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -333,7 +319,6 @@
   - CargoTechnicianEnvirohelm
   - CargoTechnicianEnvirosuit
   - CargoTechnicianEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobSalvageSpecialist
@@ -352,7 +337,6 @@
   - SalvageEnvirohelm
   - SalvageEnvirosuit
   - SalvageEnvirogloves
-  - ExclusiveItems # Trauma
 
 # Engineering
 - type: roleLoadout
@@ -373,7 +357,6 @@
   - ChiefEngineerEnvirohelm
   - ChiefEngineerEnvirosuit
   - ChiefEngineerEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -389,7 +372,6 @@
   - TechnicalAssistantEnvirohelm
   - TechnicalAssistantEnvirosuit
   - TechnicalAssistantEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobStationEngineer
@@ -409,7 +391,6 @@
   - StationEngineerEnvirohelm
   - StationEngineerEnvirosuit
   - StationEngineerEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobAtmosphericTechnician
@@ -428,7 +409,6 @@
   - AtmosEnvirohelm
   - AtmosEnvirosuit
   - AtmosEnvirogloves
-  - ExclusiveItems # Trauma
 
 # Science
 - type: roleLoadout
@@ -451,7 +431,6 @@
   - ResearchDirectorEnvirosuit
   - ResearchDirectorEnvirohelm
   - ResearchDirectorEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobScientist
@@ -474,7 +453,6 @@
   - ScientistEnvirohelm
   - ScientistEnvirosuit
   - ScientistEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobResearchAssistant
@@ -491,7 +469,6 @@
   - ResearchAssistantEnvirohelm
   - ResearchAssistantEnvirosuit
   - ResearchAssistantEnvirogloves
-  - ExclusiveItems # Trauma
 
 # Security
 - type: roleLoadout
@@ -513,7 +490,6 @@
   - HeadofSecurityEnvirohelm
   - HeadofSecurityEnvirosuit
   - HeadofSecurityEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobWarden
@@ -534,7 +510,6 @@
   - WardenEnvirohelm
   - WardenEnvirosuit
   - WardenEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -556,7 +531,6 @@
   - SecurityOfficerEnvirohelm
   - SecurityOfficerEnvirosuit
   - SecurityOfficerEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobDetective
@@ -576,7 +550,6 @@
   - DetectiveEnvirosuit
   - DetectiveEnvirogloves
   - DetectiveGloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobSecurityCadet
@@ -594,7 +567,6 @@
   - SecurityCadetEnvirohelm
   - SecurityCadetEnvirosuit
   - SecurityCadetEnvirogloves
-  - ExclusiveItems # Trauma
 
 # Wildcards
 - type: roleLoadout
@@ -614,7 +586,6 @@
   - ReporterEnvirohelm
   - ReporterEnvirosuit
   - ReporterEnvirogloves
-  - ExclusiveItems # Trauma
 
 - type: roleLoadout
   id: JobPsychologist
@@ -631,7 +602,21 @@
   - PsychologistEnvirohelm
   - PsychologistEnvirosuit
   - PsychologistEnvirogloves
-  - ExclusiveItems # Trauma
+
+- type: roleLoadout
+  id: JobTramDriver
+  groups:
+  - GroupTankHarness
+  - CommonBackpack
+  - TramDriverJumpsuit
+  - TramDriverOuterClothing #Vest and such
+  - TramDriverHat
+  - TramDriverGloves
+  - Glasses
+  - Survival
+  - Trinkets
+  #- TramDriverJobTrinkets
+  - GroupSpeciesBreathTool
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit
@@ -668,6 +653,13 @@
   id: RoleSurvivalExtended
   groups:
   - SurvivalExtended
+  - GroupSpeciesBreathTool
+  - GroupTankHarness
+
+- type: roleLoadout
+  id: RoleSurvivalExtendedAntag # Used by antagonists that spawn off-station (e.g wizards)
+  groups:
+  - SurvivalExtendedAntag
   - GroupSpeciesBreathTool
   - GroupTankHarness
 
@@ -709,6 +701,12 @@
   groups:
   - GroupEVATank
   - SurvivalExtended
+
+- type: roleLoadout
+  id: RoleSurvivalEVAAntag # Used by antagonists that spawn off-station AND in space (e.g ninjas)
+  groups:
+  - GroupEVATank
+  - SurvivalExtendedAntag
 
 - type: roleLoadout
   id: RoleSurvivalSpaceNinja

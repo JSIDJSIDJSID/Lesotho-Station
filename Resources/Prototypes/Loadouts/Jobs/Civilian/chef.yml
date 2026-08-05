@@ -15,13 +15,7 @@
 - type: loadout
   id: ChefJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChef
-
-
-- type: loadout
-  id: ChefJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtChef
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
 
 
 # Outer clothing

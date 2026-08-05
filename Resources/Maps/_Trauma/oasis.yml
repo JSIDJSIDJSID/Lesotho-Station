@@ -77125,15 +77125,6 @@ entities:
     - type: Transform
       pos: -46.98417,-7.2719007
       parent: 2
-- proto: ClothingNeckCloakGay
-  entities:
-  - uid: 8349
-    components:
-    - type: Transform
-      parent: 8347
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingNeckStethoscope
   entities:
   - uid: 8293
@@ -77373,27 +77364,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtDetective
-  entities:
-  - uid: 8381
-    components:
-    - type: Transform
-      pos: -33.828056,-49.2813
-      parent: 2
-- proto: ClothingUniformJumpskirtJanimaidmini
-  entities:
-  - uid: 8382
-    components:
-    - type: Transform
-      pos: -59.67773,-33.900864
-      parent: 2
-- proto: ClothingUniformJumpskirtPerformer
-  entities:
-  - uid: 8383
-    components:
-    - type: Transform
-      pos: -31.440496,-42.325096
-      parent: 2
 - proto: ClothingUniformJumpsuitClown
   entities:
   - uid: 8384
@@ -77401,7 +77371,7 @@ entities:
     - type: Transform
       pos: -58.419468,-50.52565
       parent: 2
-- proto: ClothingUniformJumpsuitDetective
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 8385
     components:
@@ -77467,7 +77437,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitPsychologist
+- proto: ClothingUniformJumpsuitMilitaryMedicalDoctor
   entities:
   - uid: 8295
     components:
@@ -126171,13 +126141,6 @@ entities:
     components:
     - type: Transform
       pos: -42.5,47.5
-      parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 14659
-    components:
-    - type: Transform
-      pos: 39.5,11.5
       parent: 2
 - proto: GlassBoxLawbringerFilled
   entities:

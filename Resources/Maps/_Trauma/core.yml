@@ -18175,7 +18175,7 @@ entities:
     - type: Transform
       pos: -26.5,-37.5
       parent: 2
-- proto: AlwaysPoweredLightLED
+- proto: PoweredlightLED
   entities:
   - uid: 1436
     components:
@@ -21102,13 +21102,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 37.5,12.5
-      parent: 2
-- proto: BedsheetRainbow
-  entities:
-  - uid: 5878
-    components:
-    - type: Transform
-      pos: 5.5,39.5
       parent: 2
 - proto: BedsheetRD
   entities:
@@ -60938,13 +60931,6 @@ entities:
     - type: Transform
       pos: 84.48015,-7.3477173
       parent: 2
-- proto: ClothingHeadHatTacticalMaidHeadband
-  entities:
-  - uid: 10544
-    components:
-    - type: Transform
-      pos: 51.59853,-25.773165
-      parent: 2
 - proto: ClothingHeadHatTophat
   entities:
   - uid: 896
@@ -61091,20 +61077,6 @@ entities:
     - type: Transform
       pos: 27.4845,-46.404865
       parent: 2
-- proto: ClothingNeckAromanticPin
-  entities:
-  - uid: 21450
-    components:
-    - type: Transform
-      pos: -19.327265,17.651068
-      parent: 2
-- proto: ClothingNeckAsexualPin
-  entities:
-  - uid: 5233
-    components:
-    - type: Transform
-      pos: -19.65906,17.512405
-      parent: 2
 - proto: ClothingNeckBling
   entities:
   - uid: 14398
@@ -61118,27 +61090,6 @@ entities:
     components:
     - type: Transform
       pos: -31.430737,31.650105
-      parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 2356
-    components:
-    - type: Transform
-      pos: 28.5,-33.5
-      parent: 2
-- proto: ClothingNeckLGBTPin
-  entities:
-  - uid: 5872
-    components:
-    - type: Transform
-      pos: -53.645718,-60.37925
-      parent: 2
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 5103
-    components:
-    - type: Transform
-      pos: -53.317593,-60.37925
       parent: 2
 - proto: ClothingNeckScarfStripedSyndieRed
   entities:
@@ -61411,46 +61362,6 @@ entities:
     - type: Transform
       pos: 65.71732,-54.803154
       parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 909
-    components:
-    - type: Transform
-      pos: -29.479565,-9.341941
-      parent: 2
-  - uid: 7739
-    components:
-    - type: Transform
-      pos: 26.983047,-46.429325
-      parent: 2
-- proto: ClothingUniformJumpskirtDetectiveGrey
-  entities:
-  - uid: 15939
-    components:
-    - type: Transform
-      pos: -12.610516,41.543507
-      parent: 2
-- proto: ClothingUniformJumpskirtOfLife
-  entities:
-  - uid: 1
-    components:
-    - type: Transform
-      pos: -41.576744,-67.49844
-      parent: 2
-- proto: ClothingUniformJumpskirtPerformer
-  entities:
-  - uid: 17336
-    components:
-    - type: Transform
-      pos: -61.41592,-34.25932
-      parent: 2
-- proto: ClothingUniformJumpskirtTacticalMaid
-  entities:
-  - uid: 5925
-    components:
-    - type: Transform
-      pos: 51.707905,-26.10129
-      parent: 2
 - proto: ClothingUniformJumpsuitClown
   entities:
   - uid: 910
@@ -61458,7 +61369,7 @@ entities:
     - type: Transform
       pos: -30.494896,6.9984527
       parent: 2
-- proto: ClothingUniformJumpsuitDetectiveGrey
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 15938
     components:
@@ -96699,14 +96610,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 10.5,-1.5
       parent: 21128
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 4174
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 39.5,-30.5
-      parent: 2
 - proto: GlassBoxLawbringerFilled
   entities:
   - uid: 1333

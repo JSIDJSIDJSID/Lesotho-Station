@@ -1,0 +1,28 @@
+- type: entity
+  parent: [ BaseCommandContraband, ClothingOuterWinterWarden ]
+  id: ClothingOuterWinterArmorCaptain
+  name: captains's armored winter coat
+  description: "The captain's armored winter coat is made of durable durathread, with gilded patterns, and coarse wool."
+  components:
+  - type: Sprite
+    sprite: _Lesotho/Clothing/OuterClothing/WinterCoats/command/coatcaparmored.rsi
+  - type: Clothing
+    sprite: _Lesotho/Clothing/OuterClothing/WinterCoats/command/coatcaparmored.rsi
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ClothingHeadHatHoodArmorCaptain #DON'T FORGET TO MAKE THIS YOU BIGOT
+  - type: Armor
+    coverage: # Shitmed
+    - Torso
+    traumaDeductions:
+      Dismemberment: 0.25
+      OrganDamage: 0.25
+      BoneDamage: 0.25
+      VeinsDamage: 0
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Ballistic: 0.35
+        Heat: 0.55

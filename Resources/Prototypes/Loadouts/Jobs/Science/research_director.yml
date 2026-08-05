@@ -39,12 +39,6 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitResearchDirector
 
-- type: loadout
-  id: ResearchDirectorJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtResearchDirector
-
-
 - type: loadout # goob
   id: ResearchDirectorMJ
   equipment:

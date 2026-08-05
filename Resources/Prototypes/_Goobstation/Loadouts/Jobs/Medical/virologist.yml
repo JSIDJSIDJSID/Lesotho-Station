@@ -2,16 +2,6 @@
 
 # Jumpsuit
 - type: loadout
-  id: VirologistJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitVirology
-
-- type: loadout
-  id: VirologistJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtVirology
-
-- type: loadout
   id: VirologistMJ
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryVirology

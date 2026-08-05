@@ -2,8 +2,7 @@
   id: RoboDrobeInventory
   startingInventory:
     ClothingOuterCoatRobo: 2
-    ClothingUniformJumpsuitRoboticist: 2
-    ClothingUniformJumpskirtRoboticist: 2
+    ClothingUniformJumpsuitMilitaryScientist: 2 #Lesotho
     ClothingShoesColorBlack: 2
     ClothingHandsGlovesRobohands: 2
     ClothingHeadHatCorpsoft: 2

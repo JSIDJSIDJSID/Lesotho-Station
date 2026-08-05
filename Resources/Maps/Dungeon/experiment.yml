@@ -6370,13 +6370,6 @@ entities:
     - type: Transform
       pos: 21.483316,14.329501
       parent: 1653
-- proto: ClothingUniformJumpskirtJanimaid
-  entities:
-  - uid: 730
-    components:
-    - type: Transform
-      pos: 4.5678988,24.535187
-      parent: 1653
 - proto: ComfyChair
   entities:
   - uid: 774

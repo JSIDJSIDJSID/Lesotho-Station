@@ -75,6 +75,18 @@
     sprite: Objects/Consumable/Drinks/glass_coupe_shape.rsi
   - type: SolutionContainerVisuals
     inHandsMaxFillLevels: 1
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 5
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlass:
+            min: 1
+            max: 1
+        transferForensics: true
 
 - type: entity
   parent: [DrinkBaseMaterialCardboard, DrinkBaseCup, DrinkBaseEmptyTrash, DrinkVisualsFill]
@@ -189,15 +201,6 @@
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mug_one.rsi
-
-- type: entity
-  parent: DrinkBaseMug
-  id: DrinkMugRainbow
-  name: rainbow mug
-  description: A rainbow mug. The colors are almost as blinding as a welder.
-  components:
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_rainbow.rsi
 
 - type: entity
   parent: DrinkBaseMug

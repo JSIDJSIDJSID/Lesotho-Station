@@ -831,29 +831,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtPrisoner
-  entities:
-  - uid: 197
-    components:
-    - type: Transform
-      parent: 87
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 198
-    components:
-    - type: Transform
-      parent: 87
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 238
-    components:
-    - type: Transform
-      parent: 87
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingUniformJumpsuitPrisoner
   entities:
   - uid: 228

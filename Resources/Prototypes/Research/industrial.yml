@@ -97,10 +97,6 @@
   #- CircuitImprinterHyperConvectionMachineCircuitboard
   - LatheUpgradeKitHyper
   - LatheUpgradeKitCryo
-  - RoboticArmCircuitboard
-  - ConstructorCircuitboard
-  - StorageBinCircuitboard
-  - InteractorCircuitboard
   - UpgradeKitTubeSpeed
   # </Trauma>
   - SheetifierMachineCircuitboard
@@ -266,7 +262,6 @@
   - ClothingBackpackHolding
   - ClothingBackpackSatchelHolding
   - ClothingBackpackDuffelHolding
-  - ClothingBackpackMessengerHolding # Frontier
   # Goobstation R&D Console rework start
   position: 2,-4
   technologyPrerequisites:

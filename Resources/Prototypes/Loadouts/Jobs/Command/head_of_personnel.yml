@@ -19,18 +19,6 @@
       time: 15h # special reward for HoP mains
 
 # Jumpsuit
-- type: loadout
-  id: HoPJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitHoP
-
-
-- type: loadout
-  id: HoPJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtHoP
-
-
 - type: loadout # goob
   id: HoPJumpsuitMilitary
   equipment:

@@ -24,12 +24,6 @@
         amount: 8
         doAfter: 6
 
-    - to: jumpskirt
-      steps:
-      - material: WebSilk
-        amount: 8
-        doAfter: 6
-
     - to: cloth
       steps:
       - material: WebSilk
@@ -57,9 +51,6 @@
 
   - node: jumpsuit
     entity: ClothingUniformJumpsuitWeb
-
-  - node: jumpskirt
-    entity: ClothingUniformJumpskirtWeb
 
   - node: cloth
     entity: MaterialCloth1

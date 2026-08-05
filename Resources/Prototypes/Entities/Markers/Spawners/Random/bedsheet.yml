@@ -27,8 +27,7 @@
         - id: BedsheetPurple
         - id: BedsheetGrey
         - id: BedsheetWhite
-        - id: BedsheetRainbow
-      - !type:GroupSelector
+      - !type:GroupSelector #Lesotho - removed rainbow
         weight: 3
         children:
         - id: BedsheetIan

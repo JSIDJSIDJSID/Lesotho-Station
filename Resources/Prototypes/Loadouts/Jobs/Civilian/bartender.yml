@@ -24,20 +24,7 @@
 - type: loadout
   id: BartenderJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBartender
-
-
-- type: loadout
-  id: BartenderJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtBartender
-
-
-- type: loadout
-  id: BartenderJumpsuitPurple
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitBartenderPurple
-
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
 
 # Outer clothing
 - type: loadout

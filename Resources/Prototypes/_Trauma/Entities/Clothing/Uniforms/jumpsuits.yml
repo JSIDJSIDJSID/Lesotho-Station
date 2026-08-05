@@ -117,12 +117,12 @@
     sprite: _Trauma/Clothing/Uniforms/Jumpsuit/sergeant.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, BaseSecurityContraband]
-  id: ClothingUniformSergeantSkirt
-  name: sergeant's jumpskirt
-  description: The skirted uniform of a highly skilled member of security. They're the guiding light for this station's safety.
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRancher
+  name: ranchers overalls
+  description: The standard uniform that any rancher worth their chickens wears.
   components:
   - type: Sprite
-    sprite: _Trauma/Clothing/Uniforms/Jumpskirt/sergeantskirt.rsi
+    sprite: _Trauma/Clothing/Uniforms/Jumpsuit/rancher_jumpsuit.rsi
   - type: Clothing
-    sprite: _Trauma/Clothing/Uniforms/Jumpskirt/sergeantskirt.rsi
+    sprite: _Trauma/Clothing/Uniforms/Jumpsuit/rancher_jumpsuit.rsi

@@ -12,8 +12,8 @@
   knowledge: Reptilian # Trauma
   defaultSoundsBySex:
   - MaleReptilian
-  - FemaleReptilian
+  - MaleReptilian #Lesotho
   - MaleReptilian
   voices:
   - MaleReptilian
-  - FemaleReptilian
+  - MaleReptilian #Lesotho

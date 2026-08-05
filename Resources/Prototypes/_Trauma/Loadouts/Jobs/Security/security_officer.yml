@@ -18,14 +18,6 @@
     jumpsuit: ClothingUniformSergeantUniform
 
 - type: loadout
-  id: SergeantSkirt
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: VeteranOfficer
-  equipment:
-    jumpsuit: ClothingUniformSergeantSkirt
-
-- type: loadout
   id: SergeantBeret
   effects:
   - !type:GroupLoadoutEffect

@@ -1,8 +1,7 @@
 - type: vendingMachineInventory
   id: JaniDrobeInventory
   startingInventory:
-    ClothingUniformJumpsuitJanitor: 2
-    ClothingUniformJumpskirtJanitor: 2
+    ClothingUniformJumpsuitMilitaryService: 2 #Lesotho
     ClothingHandsGlovesJanitor: 2
     ClothingShoesColorBlack: 2
     ClothingHeadHatPurplesoft: 2
@@ -13,8 +12,6 @@
   contrabandInventory:
     ToyFigurineJanitor: 1
   emaggedInventory:
-    ClothingUniformJumpskirtJanimaid: 2
-    ClothingUniformJumpskirtJanimaidmini: 1
     SlipocalypseClusterSoap: 1 # Goobstation
   # <Trauma>
     GlueGrenade: 2

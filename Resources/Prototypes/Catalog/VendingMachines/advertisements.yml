@@ -273,9 +273,4 @@
   values:
     prefix: advertisement-virodrobe-
     count: 3
-
-- type: localizedDataset
-  id: PrideDrobeAds
-  values:
-    prefix: advertisement-pride-
-    count: 4
+# Pride ads removed -Lesotho

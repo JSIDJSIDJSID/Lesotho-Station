@@ -7388,13 +7388,6 @@ entities:
     - type: Transform
       pos: 18.586912,0.70824456
       parent: 588
-- proto: ClothingUniformJumpskirtColorMaroon
-  entities:
-  - uid: 1714
-    components:
-    - type: Transform
-      pos: 10.673761,44.53288
-      parent: 588
 - proto: ClothingUniformJumpsuitColorMaroon
   entities:
   - uid: 1713

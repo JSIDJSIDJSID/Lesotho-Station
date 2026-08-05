@@ -3,13 +3,6 @@
 ## PARITY
 
 - type: scrollPrayer
-  id: BlackDress
-  verb: GIVE
-  subjects: [ "BLACK DRESS" ]
-  items:
-    id: ClothingUniformJumpskirtReporter
-
-- type: scrollPrayer
   id: SilkRoles
   verb: GIVE
   subjects: [ "EASTERN ROBES", "SILK ROBES" ]
@@ -51,7 +44,7 @@
     - id: ClothingMaskGasSecurity
     - id: ClothingHandsGlovesColorBlack
     - id: ClothingShoesBootsJack
-    - id: ClothingUniformJumpsuitSec
+    - id: ClothingUniformJumpsuitMilitarySecurity #Lesotho
 
 - type: scrollPrayer
   id: HighPriest
@@ -65,4 +58,4 @@
   verb: GIVE
   subjects: [ "PRIEST'S ROBE" ]
   items:
-    id: ClothingUniformJumpsuitChaplain
+    id: ClothingUniformJumpsuitMonasticRobeLight

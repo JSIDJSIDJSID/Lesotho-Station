@@ -56985,16 +56985,6 @@ entities:
     - type: Transform
       pos: 25.505903,9.569812
       parent: 2
-- proto: ClothingHandsTacticalMaidGloves
-  entities:
-  - uid: 9143
-    components:
-    - type: Transform
-      parent: 9142
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 9142
 - proto: ClothingHeadHatBizarreSoft
   entities:
   - uid: 9149
@@ -57027,16 +57017,6 @@ entities:
     - type: Transform
       pos: -38.523445,-14.297691
       parent: 2
-- proto: ClothingHeadHatTacticalMaidHeadband
-  entities:
-  - uid: 9144
-    components:
-    - type: Transform
-      parent: 9142
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 9142
 - proto: ClothingHeadHatUshanka
   entities:
   - uid: 9152
@@ -57102,60 +57082,6 @@ entities:
     - type: Transform
       pos: 79.53001,-25.5688
       parent: 2
-- proto: ClothingNeckAllyPin
-  entities:
-  - uid: 9118
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckAroacePin
-  entities:
-  - uid: 9119
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckAromanticPin
-  entities:
-  - uid: 9120
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckAsexualPin
-  entities:
-  - uid: 9121
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckAutismPin
-  entities:
-  - uid: 9122
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckBisexualPin
-  entities:
-  - uid: 9123
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-  - uid: 9124
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
 - proto: ClothingNeckClassicPonchoWeb
   entities:
   - uid: 9159
@@ -57163,94 +57089,6 @@ entities:
     - type: Transform
       pos: 115.67639,12.638066
       parent: 2
-- proto: ClothingNeckGayPin
-  entities:
-  - uid: 9125
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckGenderfluidPin
-  entities:
-  - uid: 9126
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckGenderqueerPin
-  entities:
-  - uid: 9127
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckGoldAutismPin
-  entities:
-  - uid: 9128
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckIntersexPin
-  entities:
-  - uid: 9129
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckLesbianPin
-  entities:
-  - uid: 9130
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckLGBTPin
-  entities:
-  - uid: 9131
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 9132
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckOmnisexualPin
-  entities:
-  - uid: 9133
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckPansexualPin
-  entities:
-  - uid: 9134
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
-- proto: ClothingNeckPluralPin
-  entities:
-  - uid: 9135
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
 - proto: ClothingNeckTieRed
   entities:
   - uid: 9113
@@ -57264,14 +57102,6 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 9112
-- proto: ClothingNeckTransPin
-  entities:
-  - uid: 9136
-    components:
-    - type: Transform
-      parent: 9116
-    - type: Physics
-      canCollide: False
 - proto: ClothingShoesClown
   entities:
   - uid: 9164
@@ -57279,23 +57109,6 @@ entities:
     - type: Transform
       pos: -220.5,14.26
       parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 9165
-    components:
-    - type: Transform
-      pos: 92.51374,-13.373582
-      parent: 2
-- proto: ClothingUniformJumpskirtTacticalMaid
-  entities:
-  - uid: 9146
-    components:
-    - type: Transform
-      parent: 9142
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-      storage: 9142
 - proto: ClothingUniformJumpsuitClown
   entities:
   - uid: 9166
@@ -97825,14 +97638,6 @@ entities:
     components:
     - type: Transform
       pos: -12.5,12.5
-      parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 14708
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 26.5,-10.5
       parent: 2
 - proto: GravityGenerator
   entities:

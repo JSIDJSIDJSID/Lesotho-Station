@@ -28,7 +28,7 @@
 - type: startingGear
   id: CommandMaidGear
   equipment:
-    jumpsuit: ClothingUniformJumpskirtCommandMaid
+    jumpsuit: ClothingUniformSergeantUniform #Lesotho
     id: CommandMaidPDA
     gloves: ClothingHandsGlovesLatex
     ears: ClothingHeadsetCommandService
@@ -42,7 +42,7 @@
   id: CommandMaidChameleonOutfit
   job: CommandMaid
   equipment:
-    jumpsuit: ClothingUniformJumpskirtCommandMaid
+    jumpsuit: ClothingUniformSergeantUniform #Lesotho
     id: CommandMaidPDA
     gloves: ClothingHandsGlovesLatex
     ears: ClothingHeadsetCommandService

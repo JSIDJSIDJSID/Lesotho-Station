@@ -56883,13 +56883,6 @@ entities:
     - type: Transform
       pos: -5.684575,-56.679634
       parent: 2
-- proto: ClothingUniformJumpsuitCasualEngineer
-  entities:
-  - uid: 8735
-    components:
-    - type: Transform
-      pos: 64.36693,-35.23224
-      parent: 2
 - proto: ClothingUniformJumpsuitCasualSyndicate
   entities:
   - uid: 8736
@@ -95988,16 +95981,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 62.5,46.5
       parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 13909
-    components:
-    - type: Transform
-      pos: 51.5,-53.5
-      parent: 2
-    - type: AccessReader
-      accessListsOriginal:
-      - - Captain
 - proto: GlassBoxLawbringerFilled
   entities:
   - uid: 13910
@@ -149262,7 +149245,7 @@ entities:
     - type: Transform
       pos: 29.74261,2.6673565
       parent: 2
-- proto: WehMedipen
+- proto: WehMedipenTiny
   entities:
   - uid: 23156
     components:

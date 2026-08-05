@@ -1408,15 +1408,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpskirtSyndieFormalDress
-  entities:
-  - uid: 488
-    components:
-    - type: Transform
-      parent: 471
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingUniformJumpsuitPyjamaSyndicateBlack
   entities:
   - uid: 481

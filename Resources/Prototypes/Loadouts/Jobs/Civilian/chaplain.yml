@@ -39,13 +39,7 @@
 - type: loadout
   id: ChaplainJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChaplain
-
-
-- type: loadout
-  id: ChaplainJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtChaplain
+    jumpsuit: ClothingUniformJumpsuitMilitaryService #Lesotho
 
 
 - type: loadout

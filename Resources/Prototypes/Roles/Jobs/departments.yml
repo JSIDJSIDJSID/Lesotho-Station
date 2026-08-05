@@ -36,6 +36,7 @@
   - Reporter
   - Visitor
   #- ServiceWorker # Trauma - moved to Service
+  - TramDriver
 
 - type: department
   id: CentralCommand
@@ -131,6 +132,7 @@
   weight: 20
   roles:
   # <Trauma>
+  - Brigmedic
   - SecurityClown
   # </Trauma>
   - HeadOfSecurity
@@ -173,4 +175,5 @@
   roles:
   - Reporter
   - Psychologist
+  - TramDriver
   primary: false

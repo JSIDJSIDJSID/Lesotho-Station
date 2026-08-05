@@ -62192,13 +62192,6 @@ entities:
     - type: Transform
       pos: 6.498452,-14.246428
       parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 10030
-    components:
-    - type: Transform
-      pos: -12.481159,-67.51491
-      parent: 2
 - proto: ClothingNeckScarfStripedBlue
   entities:
   - uid: 10031
@@ -62542,41 +62535,6 @@ entities:
     - type: Transform
       pos: -26.57573,33.39192
       parent: 2
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 10086
-    components:
-    - type: Transform
-      pos: 34.582787,51.583603
-      parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 10087
-    components:
-    - type: Transform
-      pos: 58.519066,38.228786
-      parent: 2
-- proto: ClothingUniformJumpskirtColorPurple
-  entities:
-  - uid: 10088
-    components:
-    - type: Transform
-      pos: -19.345453,38.897514
-      parent: 2
-- proto: ClothingUniformJumpskirtDetective
-  entities:
-  - uid: 10089
-    components:
-    - type: Transform
-      pos: 25.57369,7.483194
-      parent: 2
-- proto: ClothingUniformJumpsuitBartender
-  entities:
-  - uid: 10090
-    components:
-    - type: Transform
-      pos: 29.498106,42.552605
-      parent: 2
 - proto: ClothingUniformJumpsuitColorBlack
   entities:
   - uid: 10091
@@ -62584,7 +62542,7 @@ entities:
     - type: Transform
       pos: -29.53436,40.46492
       parent: 2
-- proto: ClothingUniformJumpsuitDetective
+- proto: ClothingUniformJumpsuitMilitarySecurity
   entities:
   - uid: 10092
     components:
@@ -112443,13 +112401,6 @@ entities:
     components:
     - type: Transform
       pos: 25.5,9.5
-      parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 17144
-    components:
-    - type: Transform
-      pos: 10.5,3.5
       parent: 2
 - proto: GlassBoxLawbringerFilled
   entities:

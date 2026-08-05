@@ -24,6 +24,7 @@
   - DeviceQuantumSpinInverter
   - DeviceDesynchronizer
   - ClothingBackpackHarmpack
+  - TeleporterChipBlank
 
 - type: latheRecipePack
   id: ScienceClothing
@@ -35,7 +36,6 @@
   - ClothingBackpackHolding
   - ClothingBackpackSatchelHolding
   - ClothingBackpackDuffelHolding
-  - ClothingBackpackMessengerHolding # Frontier
 
 - type: latheRecipePack
   id: PowerCells
@@ -84,6 +84,8 @@
   - APECircuitboard
   - ArtifactAnalyzerMachineCircuitboard
   - ArtifactCrusherMachineCircuitboard
+  - StationTeleportersControlCircuitboard
+  - StationTeleporterMachineCircuitboard
 
 - type: latheRecipePack
   id: CameraBoards

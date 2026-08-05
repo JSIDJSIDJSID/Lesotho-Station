@@ -2072,13 +2072,6 @@ entities:
     - type: Transform
       pos: -2.4604146,-2.2863867
       parent: 768
-- proto: ClothingUniformJumpskirtColorBlack
-  entities:
-  - uid: 591
-    components:
-    - type: Transform
-      pos: -5.617341,-9.575869
-      parent: 768
 - proto: ClothingUniformJumpsuitColorBlack
   entities:
   - uid: 592

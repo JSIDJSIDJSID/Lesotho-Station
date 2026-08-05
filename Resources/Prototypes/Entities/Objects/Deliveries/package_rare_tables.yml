@@ -74,8 +74,7 @@
     children:
     - !type:GroupSelector
       children:
-      - id: ClothingUniformJumpskirtMedicalDoctor
-      - id: ClothingUniformJumpsuitMedicalDoctor
+      - id: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho
     - !type:GroupSelector
       children:
       - id: ClothingBackpackMedical
@@ -155,10 +154,8 @@
     children:
     - !type:GroupSelector
       children:
-      - id: ClothingUniformJumpskirtEngineering
       - id: ClothingUniformJumpsuitEngineering
       - id: ClothingUniformJumpsuitAtmos
-      - id: ClothingUniformJumpskirtAtmos
     - !type:GroupSelector
       children:
       - id: ClothingBackpackAtmospherics

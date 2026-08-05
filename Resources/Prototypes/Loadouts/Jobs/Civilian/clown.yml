@@ -21,11 +21,6 @@
     jumpsuit: ClothingUniformJumpsuitClown
 
 - type: loadout
-  id: ClownSkirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtClown
-
-- type: loadout
   id: JesterSuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitJester

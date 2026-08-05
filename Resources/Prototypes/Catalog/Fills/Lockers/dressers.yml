@@ -7,12 +7,11 @@
     containers:
       storagebase: !type:AllSelector
         children:
-        - id: ClothingHeadHatCaptain
+        #- id: ClothingHeadHatCaptain #Lesotho
         - id: ClothingHeadHatCapcap
-        - id: ClothingUniformJumpsuitCapFormal
-        - id: ClothingUniformJumpskirtCapFormalDress
+        - id: ClothingUniformJumpsuitCaptain #Lesotho
         - id: ClothingHandsGlovesCaptain
-        - id: ClothingOuterWinterCap
+        #- id: ClothingOuterWinterCap #Lesotho
         - id: ClothingNeckCloakCap
 
 - type: entity
@@ -25,7 +24,6 @@
       storagebase: !type:AllSelector
         children:
         - id: ClothingUniformJumpsuitChiefEngineerTurtle
-        - id: ClothingUniformJumpskirtChiefEngineerTurtle
         - id: ClothingHeadHatBeretEngineering
         - id: ClothingOuterWinterCE
         - id: ClothingNeckCloakCe
@@ -40,8 +38,7 @@
       storagebase: !type:AllSelector
         children:
         - id: ClothingOuterCoatLabCmo
-        - id: ClothingUniformJumpsuitCMOTurtle
-        - id: ClothingUniformJumpskirtCMOTurtle
+        - id: ClothingUniformJumpsuitMilitaryCMO #Lesotho
         - id: ClothingHeadHatBeretCmo
         - id: ClothingHeadMirror
         - id: ClothingEyesGlasses
@@ -74,9 +71,7 @@
         - id: ClothingHeadHatBeretHoS
         - id: ClothingHeadHatHoshat
         - id: ClothingMaskNeckGaiter
-        - id: ClothingUniformJumpskirtHoSAlt
-        - id: ClothingUniformJumpsuitHoSAlt
-        - id: ClothingUniformJumpskirtHosFormal
+        - id: ClothingUniformJumpsuitMilitarySecurityHOS #Lesotho
         - id: ClothingUniformJumpsuitHosFormal
         - id: ClothingOuterWinterHoS
         - id: ClothingNeckCloakHos
@@ -93,7 +88,6 @@
         - id: ClothingHeadHatBeretQM
         - id: ClothingUniformJumpsuitQMFormal
         - id: ClothingUniformJumpsuitQMTurtleneck
-        - id: ClothingUniformJumpskirtQMTurtleneck
         - id: ClothingHandsGlovesColorBrown
         - id: ClothingOuterWinterQM
         - id: ClothingNeckCloakQm
@@ -125,5 +119,4 @@
         children:
         - id: ClothingHeadHatWarden
         - id: ClothingHeadHatBeretWarden
-        - id: ClothingUniformJumpskirtWarden
-        - id: ClothingUniformJumpsuitWarden
+        - id: ClothingUniformJumpsuitMilitarySecurityWarden #Lesotho

@@ -30,4 +30,4 @@
 - type: loadout
   id: MedicMJ
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor
+    jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor #Lesotho

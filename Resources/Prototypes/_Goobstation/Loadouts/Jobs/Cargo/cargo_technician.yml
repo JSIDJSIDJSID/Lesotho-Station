@@ -14,12 +14,6 @@
     jumpsuit: ClothingUniformMailCarrier
 
 
-- type: loadout
-  id: CargoTechnicianJumpskirtMail
-  equipment:
-    jumpsuit: ClothingUniformSkirtMailCarrier
-
-
 # OuterClothing
 - type: loadout
   id: CargoTechnicianWintercoatMail

@@ -32,7 +32,9 @@
   # <Trauma>
   - !type:OrganChipsSpecial
     chips:
-    - SkillChipWarden
+    - SkillChipCombatEducation
+    - SkillChipLaser
+    - SkillChipEnhancer
   - !type:AddComponentSpecial
     components:
     - type: SecurityStaff
@@ -60,7 +62,7 @@
     head: ClothingHeadHatWarden
     mask: ClothingMaskGasSecurity
     outerClothing: ClothingOuterCoatWarden
-    jumpsuit: ClothingUniformJumpsuitWarden
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityWarden #Lesotho
     neck: Dinkystar
     belt: ClothingBeltSecurity
     gloves: ClothingHandsGlovesCombat

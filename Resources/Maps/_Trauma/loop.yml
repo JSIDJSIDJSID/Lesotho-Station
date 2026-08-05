@@ -42742,25 +42742,7 @@ entities:
     - type: Transform
       pos: -55.542023,6.567319
       parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 6664
-    components:
-    - type: Transform
-      pos: -64.48061,-0.4007933
-      parent: 2
-- proto: ClothingUniformJumpskirtSyndieFormalDress
-  entities:
-  - uid: 6608
-    components:
-    - type: Transform
-      parent: 6605
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-      canCollide: False
-    - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitChef
+- proto: ClothingUniformJumpsuitMilitaryService
   entities:
   - uid: 6465
     components:
@@ -71948,13 +71930,6 @@ entities:
     components:
     - type: Transform
       pos: -80.5,72.5
-      parent: 2
-- proto: GlassBoxLaserFilled
-  entities:
-  - uid: 10464
-    components:
-    - type: Transform
-      pos: -16.5,70.5
       parent: 2
 - proto: GlassBoxLawbringerFilled
   entities:
@@ -113933,7 +113908,7 @@ entities:
     - type: Transform
       pos: 26.613811,-2.5883276
       parent: 2
-- proto: WehMedipen
+- proto: WehMedipenTiny
   entities:
   - uid: 17998
     components:

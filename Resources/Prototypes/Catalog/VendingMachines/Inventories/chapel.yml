@@ -1,15 +1,12 @@
 - type: vendingMachineInventory
   id: PietyVendInventory
   startingInventory:
-    ClothingUniformJumpsuitChaplain: 2
-    ClothingUniformJumpskirtChaplain: 2
+    ClothingUniformJumpsuitMilitaryService: 2 #Lesotho
     ClothingUniformJumpsuitMonasticRobeDark: 1
     ClothingUniformJumpsuitMonasticRobeLight: 1
     ClothingNeckStoleChaplain: 1
     ClothingOuterHoodieChaplain: 1
     ClothingOuterHoodieBlack: 1
-    ClothingHeadHatHoodNunHood: 1
-    ClothingOuterNunRobe: 1
     ClothingHeadHatFez: 1
     ClothingHeadHatPlaguedoctor: 1
     ClothingHeadHatWitch: 1

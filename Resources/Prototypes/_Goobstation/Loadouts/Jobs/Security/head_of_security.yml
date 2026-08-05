@@ -47,11 +47,6 @@
     species:
     - Plasmaman
 
-- type: loadout
-  id: HoSSummerShirt
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitHoSSummer
-
 # Gloves
 - type: loadout
   id: CombatEnvirogloves

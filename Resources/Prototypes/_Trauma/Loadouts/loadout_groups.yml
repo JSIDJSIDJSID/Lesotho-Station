@@ -34,10 +34,6 @@
   id: GeneticistJumpsuit
   name: loadout-group-geneticist-jumpsuit
   loadouts:
-  - GeneticistJumpsuit
-  - GeneticistJumpskirt
-  - ScientistJumpsuit
-  - ScientistJumpskirt
   - ResearchMJ
 
 - type: loadoutGroup
@@ -47,7 +43,6 @@
   - GeneticistBackpack
   - GeneticistSatchel
   - GeneticistDuffel
-  - GeneticistMessenger
 
 - type: loadoutGroup
   id: GeneticistOuterClothing

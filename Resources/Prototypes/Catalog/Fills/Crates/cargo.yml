@@ -106,14 +106,22 @@
   id: LotteryWeaponsEntityTable
   table: !type:GroupSelector
     children:
+    # <Trauma>
+    - id: BoneAxe
+      weight: 0.2
+    - id: WeaponBillyClub
+      weight: 0.2
+    # </Trauma>
     - id: VehicleClowncarAntag # Goob
       weight: 0.01
-    - id: WeaponPulseCarbine
-      weight: 0.01
+    # - id: WeaponPulseCarbine # Trauma
+    #   weight: 0.01
     - id: WeaponRifleAk
       weight: 0.01
     - id: WeaponLauncherPirateCannon
       weight: 0.1
+    - id: Throngler
+      weight: 0.0001
     - id: WeaponPistolCHIMP
       weight: 0.1
     - id: WeaponSniperMosin
@@ -121,7 +129,7 @@
       weight: 0.1
     - id: Sledgehammer
       weight: 0.1
-    - id: WeaponMeleeToolboxRobust
+    # - id: WeaponMeleeToolboxRobust # Trauma
     - id: ThrowingStar
     - id: WeaponLaserGun
       weight: 0.1
@@ -152,7 +160,6 @@
     - id: ClothingHeadHatCatEars
     - id: ClothingHeadHatDogEars
     - id: ClothingOuterArmorReflective
-    - id: ClothingUniformJumpskirtSyndieFormalDress
     - id: ClothingNeckCloakNanotrasen
     - id: ClothingUniformJumpsuitNanotrasen
     - id: ClothingShoesSnakeskinBoots
@@ -161,8 +168,6 @@
     - id: ClothingHeadSafari
     - id: ClothingMaskGasMerc
     - id: ClothingHeadHatCardborg
-    - id: ClothingUnderSocksCoder
-    - id: ClothingUniformJumpskirtOfLife
     - id: ClothingShoesWizardSkates # Goob
       weight: 0.1
 

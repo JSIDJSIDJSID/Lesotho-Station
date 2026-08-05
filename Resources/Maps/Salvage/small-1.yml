@@ -699,13 +699,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformColorRainbow
-  entities:
-  - uid: 131
-    components:
-    - type: Transform
-      pos: 4.3032546,-1.6522712
-      parent: 55
 - proto: ClothingUniformJumpsuitClown
   entities:
   - uid: 122

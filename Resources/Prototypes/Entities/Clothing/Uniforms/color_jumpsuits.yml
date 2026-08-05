@@ -489,15 +489,3 @@
       - state: equipped-INNERCLOTHING
         color: "#cc295f"
       - state: trinkets-equipped-INNERCLOTHING
-
-# Rainbow Jumpsuit
-- type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformColorRainbow
-  name: rainbow jumpsuit
-  description: A multi-colored jumpsuit!
-  components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/rainbow.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/rainbow.rsi

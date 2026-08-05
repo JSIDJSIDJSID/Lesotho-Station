@@ -17,7 +17,7 @@
   equipment:
     head: ClothingHeadHatWarden
     outerClothing: ClothingOuterCoatWarden
-    jumpsuit: ClothingUniformJumpsuitWarden
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityWarden #Lesotho
     gloves: ClothingHandsGlovesKravMaga
     shoes: ClothingShoesBootsJack
 
@@ -27,7 +27,7 @@
   equipment:
     head: ClothingHeadHatHoshat
     outerClothing: ClothingOuterCoatHoSTrench
-    jumpsuit: ClothingUniformJumpsuitHoS
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurityHOS #Lesotho
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesBootsJack
 
@@ -35,7 +35,7 @@
   id: SecurityOfficerGearDebug
   parent: SecurityOfficerGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     gloves: ClothingHandsGlovesColorBlack
     shoes: ClothingShoesBootsJack
     outerClothing: ClothingOuterArmorBasic

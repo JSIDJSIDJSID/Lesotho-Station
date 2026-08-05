@@ -75,7 +75,7 @@
 - type: startingGear
   id: NanotrasenParamilitaryGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitMilitarySecurity #Lesotho
     back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSecurity

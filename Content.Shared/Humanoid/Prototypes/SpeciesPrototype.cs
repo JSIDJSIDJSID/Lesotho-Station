@@ -85,13 +85,13 @@ public sealed partial class SpeciesPrototype : IPrototype
     ///     Emote sounds prototype conversion id for every sex. This is ALWAYS in the order: Male; Female; Unsexed.
     /// </summary>
     [DataField]
-    public ProtoId<EmoteSoundsPrototype>[] DefaultSoundsBySex = ["MaleHuman", "FemaleHuman", "MaleHuman"];
+    public ProtoId<EmoteSoundsPrototype>[] DefaultSoundsBySex = ["MaleHuman", "MaleHuman", "MaleHuman"];
 
     /// <summary>
     ///     List of user selectable voices in the menu. This should at least have the same sound banks as the defaults.
     /// </summary>
     [DataField]
-    public HashSet<ProtoId<EmoteSoundsPrototype>> Voices = ["MaleHuman", "FemaleHuman"];
+    public HashSet<ProtoId<EmoteSoundsPrototype>> Voices = ["MaleHuman", "MaleHuman"];
 
     /// <summary>
     ///     Characters younger than this are too young to be hired by Nanotrasen.

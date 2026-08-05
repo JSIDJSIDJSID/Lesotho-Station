@@ -21,8 +21,7 @@
       highPressureMultiplier: 0.3
       lowPressureMultiplier: 1000
     - type: TemperatureProtection
-      coolingCoefficient: 0.01
-      heatingCoefficient: 0.01
+      coefficient: 0.01
   - type: Clothing
     equipSound: /Audio/Mecha/mechmove03.ogg
     unequipSound: /Audio/Mecha/mechmove03.ogg
@@ -34,7 +33,7 @@
     sealUpPopup: sealable-clothing-seal-up-chestplate
     sealDownPopup: sealable-clothing-seal-down-chestplate
   - type: FireProtection
-    reduction: 0.5
+    reduction: 0.63
   - type: StaminaResistance
     damageCoefficient: 0.9
   - type: SealableClothingVisuals
@@ -195,7 +194,7 @@
     delayDelta: 1
     knockdownTimeDelta: -1
   - type: FireProtection
-    reduction: 0.7 # 0.2 stronger than other modsuits
+    reduction: 0.88
 
 - type: entity
   parent: [ ClothingOuterModsuitBase, BaseModsuitPieceAtmos ]
@@ -223,13 +222,12 @@
       highPressureMultiplier: 0.3
       lowPressureMultiplier: 1000
     - type: TemperatureProtection
-      coolingCoefficient: 0.001 # 10x better
-      heatingCoefficient: 0.001 # 10x better
+      coefficient: 0.001 # 10x better
   - type: ModifyDelayedKnockdown
     delayDelta: 1
     knockdownTimeDelta: -1
   - type: FireProtection
-    reduction: 0.75 # 0.25 better than other modsuits
+    reduction: 0.94
 
 - type: entity
   parent: [ ClothingOuterModsuitBase, BaseModsuitPieceRD ]
@@ -262,28 +260,34 @@
 - type: entity
   parent: [ ClothingOuterModsuitBase, BaseModsuitPieceCaptain ]
   id: ClothingModsuitChestplateCaptain
-  name: magnate modsuit chestplate
-  description: This shit is made out of DIAMONDS, man, this armor was forged with GEMS.
+  name: overlord modsuit chestplate
+  description: An advanced bulwark powered chestplate meant to protect the captain.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Modsuits/captain.rsi
   - type: Armor
     traumaDeductions:
-      Dismemberment: 0.3
-      OrganDamage: 0.3
-      BoneDamage: 0.3
+      Dismemberment: 0
+      OrganDamage: 0.1
+      BoneDamage: 0.1
       VeinsDamage: 0
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.55
-        Heat: 0.5
-        Radiation: 0.1
-        Caustic: 0.5
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Ballistic: 0.3
+        Heat: 0.6
+        Radiation: 0
+        Caustic: 0
   - type: ModifyDelayedKnockdown
     delayDelta: 3
     knockdownTimeDelta: -3
   - type: StaminaResistance
-    damageCoefficient: 0.6
+    damageCoefficient: 0.4
+  - type: FireProtection
+    reduction: 0.75 # 0.25 better than other modsuits
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85

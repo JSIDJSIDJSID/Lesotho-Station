@@ -78809,13 +78809,6 @@ entities:
     - type: Transform
       pos: 70.456535,-65.50148
       parent: 2
-- proto: ClothingHeadHatShrineMaidenWig
-  entities:
-  - uid: 12746
-    components:
-    - type: Transform
-      pos: 73.5263,-65.23457
-      parent: 2
 - proto: ClothingHeadHatSquid
   entities:
   - uid: 12747
@@ -79120,27 +79113,6 @@ entities:
     - type: Transform
       pos: 12.510361,-6.449043
       parent: 2
-- proto: ClothingNeckAromanticPin
-  entities:
-  - uid: 12804
-    components:
-    - type: Transform
-      pos: -16.507944,41.79273
-      parent: 2
-- proto: ClothingNeckAsexualPin
-  entities:
-  - uid: 12805
-    components:
-    - type: Transform
-      pos: -16.289194,41.51148
-      parent: 2
-- proto: ClothingNeckBisexualPin
-  entities:
-  - uid: 12806
-    components:
-    - type: Transform
-      pos: -42.7372,8.687558
-      parent: 2
 - proto: ClothingNeckBling
   entities:
   - uid: 12807
@@ -79155,23 +79127,6 @@ entities:
     - type: Transform
       pos: -8.662971,-82.55483
       parent: 2
-- proto: ClothingNeckCloakTrans
-  entities:
-  - uid: 12809
-    components:
-    - type: Transform
-      pos: -9.4988165,23.574131
-      parent: 2
-    - type: CollisionWake
-      enabled: False
-    - type: Conveyed
-- proto: ClothingNeckIntersexPin
-  entities:
-  - uid: 12810
-    components:
-    - type: Transform
-      pos: -12.691556,31.94308
-      parent: 2
 - proto: ClothingNeckLawyerbadge
   entities:
   - uid: 12811
@@ -79179,45 +79134,12 @@ entities:
     - type: Transform
       pos: 43.39902,-3.8456278
       parent: 2
-- proto: ClothingNeckLesbianPin
-  entities:
-  - uid: 12812
-    components:
-    - type: Transform
-      pos: -51.700592,8.465523
-      parent: 2
-- proto: ClothingNeckLGBTPin
-  entities:
-  - uid: 12813
-    components:
-    - type: Transform
-      pos: -10.776614,43.48699
-      parent: 2
 - proto: ClothingNeckMantleCE
   entities:
   - uid: 12814
     components:
     - type: Transform
       pos: -35.58501,-17.148493
-      parent: 2
-- proto: ClothingNeckNonBinaryPin
-  entities:
-  - uid: 12815
-    components:
-    - type: Transform
-      pos: -21.722902,35.752502
-      parent: 2
-  - uid: 12816
-    components:
-    - type: Transform
-      pos: -47.78141,6.181047
-      parent: 2
-- proto: ClothingNeckPansexualPin
-  entities:
-  - uid: 12817
-    components:
-    - type: Transform
-      pos: -1.5377516,30.493696
       parent: 2
 - proto: ClothingNeckScarfStripedCentcom
   entities:
@@ -79232,13 +79154,6 @@ entities:
     components:
     - type: Transform
       pos: -28.25746,44.644928
-      parent: 2
-- proto: ClothingNeckTransPin
-  entities:
-  - uid: 12820
-    components:
-    - type: Transform
-      pos: 65.36391,-1.4805084
       parent: 2
 - proto: ClothingOuterArmorBulletproof
   entities:
@@ -79424,18 +79339,6 @@ entities:
     - type: Transform
       pos: -23.4853,-87.30585
       parent: 2
-- proto: ClothingOuterSuitShrineMaiden
-  entities:
-  - uid: 12844
-    components:
-    - type: Transform
-      pos: -40.497574,63.50408
-      parent: 2
-  - uid: 12845
-    components:
-    - type: Transform
-      pos: 73.55755,-64.51582
-      parent: 2
 - proto: ClothingOuterVoidsuitSecurity
   entities:
   - uid: 12846
@@ -79608,20 +79511,6 @@ entities:
     components:
     - type: Transform
       pos: -34.53309,-20.500399
-      parent: 2
-- proto: ClothingUnderSocksBee
-  entities:
-  - uid: 12871
-    components:
-    - type: Transform
-      pos: 62.522377,-58.450882
-      parent: 2
-- proto: ClothingUniformJumpskirtOfLife
-  entities:
-  - uid: 12872
-    components:
-    - type: Transform
-      pos: 62.5,53.5
       parent: 2
 - proto: ClothingUniformJumpsuitCossack
   entities:
@@ -81809,21 +81698,6 @@ entities:
     components:
     - type: Transform
       pos: 12.5,-52.5
-      parent: 2
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14957
-        moles:
-          Oxygen: 8.402782
-          Nitrogen: 31.610466
-- proto: CrateHydroponicsSeedsExotic
-  entities:
-  - uid: 13213
-    components:
-    - type: Transform
-      pos: -47.5,-70.5
       parent: 2
     - type: EntityStorage
       air:
@@ -141604,7 +141478,7 @@ entities:
     - type: Transform
       pos: 44.5,8.5
       parent: 2
-- proto: LockerCaptainFilled
+- proto: LockerCaptainFilledNoLaser
   entities:
   - uid: 21950
     components:

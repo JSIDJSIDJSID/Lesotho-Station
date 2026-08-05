@@ -1,14 +1,17 @@
 - type: entity
   name: watcher
   id: MobWatcherBase
-  parent: [ SimpleSpaceMobBase, FlyingMobBase, BaseSlicingRefinable ]
+  parent: [ SimpleSpaceMobBase, FlyingMobBase, BaseSlicingRefinable, BaseMobDestructible ]
   abstract: true
   description: It's like it's staring right through you.
   components:
-  - type: WeatherImmune # Lavaland change
+  # <Trauma>
+  - type: AshStormImmune
+  - type: Fauna
+  # </Trauma>
   - type: NpcFactionMember
     factions:
-    - Lavafauna
+    - Lavafauna # Trauma - was SimpleHostile
   - type: HTN
     rootTask:
       task: SimpleRangedHostileCompound
@@ -75,7 +78,6 @@
     interactFailureString: petting-failure-generic
     interactSuccessSound:
       path: /Audio/Animals/lizard_happy.ogg
-  - type: Fauna # Lavaland Change
 
 - type: entity
   id: MobWatcherLavaland
@@ -150,23 +152,3 @@
     - id: DiamondOre1 # not unprocessed
     - id: MaterialWatcherMagmaWing1
       maxAmount: 2
-
-- type: entity
-  id: MobWatcherPride
-  parent: MobWatcherBase
-  name: pride watcher
-  suffix: Admeme
-  description: This rare subspecies only appears in June.
-  components:
-  - type: Sprite
-    layers:
-    - map: [ "enum.DamageStateVisualLayers.Base" ]
-      state: base
-    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
-      state: unshaded
-      shader: unshaded
-  - type: PointLight
-    radius: 1.5
-    energy: 1
-  - type: RgbLightController
-    layers: [ 1 ]

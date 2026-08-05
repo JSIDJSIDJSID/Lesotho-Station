@@ -11,25 +11,7 @@
     head: ClothingHeadBandBotany
 
 
-# Jumpsuit
-- type: loadout
-  id: BotanistJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitHydroponics
-
-
-- type: loadout
-  id: BotanistJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtHydroponics
-
-
-- type: loadout
-  id: BotanistOveralls
-  equipment:
-    jumpsuit: ClothingUniformOveralls
-
-
+# Jumpsuit #Lesotho
 - type: loadout # goob
   id: HydroMJ
   equipment:

@@ -139,12 +139,12 @@ public sealed partial class PredictedProjectileSystem : EntitySystem
         TargetBodyPart? targetPart = null;
         if (TryComp<BeingExecutedComponent>(target, out var executed)) // TODO: make this better idk why its shooting groin and shit
             targetPart = executed.TargetPart;
-        var deleted = Deleted(target);
 
         var canMiss = executed == null; // if you are executing someone its PB, no missing
-        if (_damageable.TryChangeDamage((target, damageable), ev.Damage, out var damage, comp.IgnoreResistances, origin: shooter, targetPart: targetPart, canMiss: canMiss, increaseOnly: comp.IncreaseOnly) && Exists(shooter))
+        if (_damageable.TryChangeDamage((target, damageable), ev.Damage, out var damage, comp.IgnoreResistances, origin: shooter, targetPart: targetPart, canMiss: canMiss, increaseOnly: comp.IncreaseOnly)
+            && Exists(shooter))
         {
-            if (!deleted && _net.IsServer) // intentionally not predicting so you know if color flashes its 100% a hit
+            if (!Deleted(target) && _net.IsServer) // intentionally not predicting so you know if color flashes its 100% a hit
             {
                 _color.RaiseEffect(Color.Red, new List<EntityUid> { target }, Filter.Pvs(target, entityManager: EntityManager));
             }
@@ -152,23 +152,17 @@ public sealed partial class PredictedProjectileSystem : EntitySystem
             _adminLogger.Add(LogType.BulletHit,
                 LogImpact.Medium,
                 $"Projectile {ToPrettyString(uid):projectile} shot by {ToPrettyString(shooter):user} hit {otherName:target} and dealt {damage:damage} damage");
+        }
 
-            comp.ProjectileSpent = !TryPenetrate((uid, comp), target, damage, damageRequired);
+        if (TryPenetrate((uid, comp), target, damage, damageRequired))
+        {
+            comp.ProjectileSpent = false;
+            comp.IgnoredEntities.Add(target);
         }
         else
-        {
             comp.ProjectileSpent = true;
-        }
 
-        // <Goob>
-        if (comp.Penetrate)
-        {
-            comp.IgnoredEntities.Add(target);
-            comp.ProjectileSpent = false; // Hardlight bow should be able to deal damage while piercing, no?
-        }
-        // </Goob>
-
-        if (!deleted)
+        if (!Deleted(target))
         {
             _gun.PlayImpactSound(target, damage, comp.SoundHit, comp.ForceSound);
 
@@ -176,7 +170,7 @@ public sealed partial class PredictedProjectileSystem : EntitySystem
                 _recoil.KickCamera(target, ourBody.LinearVelocity.Normalized());
         }
 
-        if ((comp.DeleteOnCollide && comp.ProjectileSpent) || (comp.NoPenetrateMask & otherFixture.CollisionLayer) != 0) // Goobstation - Make x-ray arrows not penetrate blob
+        if (comp.DeleteOnCollide && comp.ProjectileSpent)
         {
             var deleteEv = new DeletingProjectileEvent(uid);
             RaiseLocalEvent(ref deleteEv);
@@ -192,6 +186,13 @@ public sealed partial class PredictedProjectileSystem : EntitySystem
     private bool TryPenetrate(Entity<ProjectileComponent> projectile, EntityUid target, DamageSpecifier damage, FixedPoint2 damageRequired)
     {
         var comp = projectile.Comp;
+
+        if (comp.Penetrate)
+            return true;
+
+        if (damage.GetTotal() <= FixedPoint2.Zero)
+            return false;
+
         // <Goob> - Splits penetration change if target have PenetratableComponent
         if (TryComp<PenetratableComponent>(target, out var penetratable))
         {

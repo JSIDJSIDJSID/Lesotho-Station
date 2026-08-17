@@ -82,6 +82,14 @@
   - type: PhysicalComposition
     materialComposition: # Goob - Recycle update
       Paper: 25
+  - type: DamageOtherOnHit # death by one thousand paper cuts...
+    damage:
+      types:
+        Blunt: 0.1
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 0.1
 
 - type: entity
   parent: BasePaper

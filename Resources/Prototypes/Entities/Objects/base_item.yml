@@ -3,6 +3,14 @@
   id: BaseItem
   name: "item"
   components:
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 0.3
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 0.3
   # <Trauma>
   - type: EmitSoundOnPickup
     sound:

@@ -26,7 +26,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,3
+    - 0,0,0,3
     sprite: _Crescent/Objects/Weapons/Melee/noble_rapier.rsi
   - type: Tag
     tags:
@@ -69,6 +69,10 @@
   - type: HeldSpeedModifier
   - type: StaticPrice
     price: 1000
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/Melee/karambit.rsi
+    slots:
+    - Belt
 
 - type: entity
   name: hunter's vibrokhopesh
@@ -93,7 +97,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,3
+    - 0,0,0,3
     sprite: _Crescent/Objects/Weapons/Melee/vibrokhopesh.rsi
   - type: Tag
     tags:
@@ -124,7 +128,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,3
+    - 0,0,0,3
     sprite: _Crescent/Objects/Weapons/Melee/noble_sabre.rsi
   - type: Reflect
     reflectProb: .3
@@ -159,7 +163,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,2
+    - 0,0,0,2
   - type: Tag
     tags:
     - Truncheon
@@ -224,13 +228,12 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,3
+    - 0,0,0,4
     sprite: _Crescent/Objects/Weapons/Melee/shinoharakatana.rsi
   - type: Clothing
     sprite: _Crescent/Objects/Weapons/Melee/shinoharakatana.rsi
     slots:
     - Back
-    - Belt
 
 - type: entity
   name: Lesotho prototype "Executioner" blade
@@ -308,7 +311,7 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,3
+    - 0,0,0,3
     sprite: _Crescent/Objects/Weapons/Melee/ncwlkukri.rsi
   - type: Tag
     tags:
@@ -328,7 +331,7 @@
     sprite: _Crescent/Objects/Weapons/Melee/zweihander.rsi
     state: icon
   - type: StaminaDamageOnHit
-    damage: 15
+    damage: 19.99
   - type: MeleeWeapon
     wideAnimationRotation: 200
     swingLeft: true
@@ -338,10 +341,10 @@
       types:
         Slash: 40
       woundSeverityMultipliers:
-        Slash: 2.5
+        Slash: 2
     maxTargets: 5
     lightRangeModifier: 2
-    heavyStaminaCost: 26
+    heavyStaminaCost: 45
     angle: 100
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
@@ -367,13 +370,16 @@
     - back
     - suitStorage
   - type: UseDelay
-    delay: 1
+    delay: 2
   - type: SurgeryTool
     startSound:
       path: /Audio/Weapons/bladeslice.ogg
-  - type: Reflect
-    spread: 180
-    reflectProb: 0.05
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Slash: 25
+      woundSeverityMultipliers:
+        Slash: 1.5
 
 - type: entity
   name: machete

@@ -34,6 +34,16 @@
   id: LesothoSabre
 
 - type: entity
+  id: ClothingBeltSheathLesothoSabreFilled
+  parent: ClothingBeltSheathLesothoSabre
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - ClothingBeltSheathLesothoSabre
+
+- type: entity
   parent: [ClothingBeltBase, ClothingSlotBase]
   id: ClothingBeltSheathLesothoRapier #Changed to Lesotho instead of DSM because DSM doesnt exist here
   name: rapier scabbard
@@ -67,3 +77,40 @@
 
 - type: Tag
   id: Rapier
+
+- type: entity
+  id: ClothingBeltSheathLesothoRapierFilled
+  parent: ClothingBeltSheathLesothoRapier
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - ClothingBeltSheathLesothoRapier
+
+- type: entity
+  parent: [ BaseCommandContraband, ClothingBeltSheathKatanaNinja ]
+  id: ClothingBeltSheathKatanaLesotho
+  name: captain's royal katana sheath
+  description: A high tech katana sheath meant for the captain.
+
+- type: entity
+  id: ClothingBeltSheathKatanaLesothoFilled
+  parent: ClothingBeltSheathKatanaLesotho
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - LesothoKatana
+
+- type: entity
+  id: ClothingBeltSheathKatanaLesothoShiverBladeFilled
+  parent: ClothingBeltSheathKatanaLesotho
+  name: phoron katana sheath
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - LesothoKatanaShiverBlade

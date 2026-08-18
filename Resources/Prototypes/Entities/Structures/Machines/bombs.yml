@@ -19,9 +19,7 @@
     - type: Rotatable
     - type: Explosive
       explosionType: Default
-      totalIntensity: 20.0
-      intensitySlope: 5
-      maxIntensity: 4
+      Radius: 2
     - type: ExplodeOnTrigger
       keysIn:
       - timer
@@ -86,9 +84,7 @@
       softness: 1
     - type: Explosive
       explosionType: Default
-      totalIntensity: 5.0
-      intensitySlope: 5
-      maxIntensity: 4
+      Radius: 1
       canCreateVacuum: false
     - type: Defusable
       disposable: false
@@ -125,9 +121,7 @@
       softness: 1
     - type: Explosive
       explosionType: HardBomb
-      totalIntensity: 4000.0
-      intensitySlope: 10
-      maxIntensity: 75
+      Radius: 10
     - type: StaticPrice
       price: 10000 # Good luck!
 
@@ -138,9 +132,7 @@
   components:
     - type: Explosive
       explosionType: Default
-      totalIntensity: 5.0
-      intensitySlope: 5
-      maxIntensity: 4
+      Radius: 1
       canCreateVacuum: false
 
 - type: entity

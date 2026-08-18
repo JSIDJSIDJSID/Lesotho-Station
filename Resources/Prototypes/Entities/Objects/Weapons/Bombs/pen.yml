@@ -8,9 +8,7 @@
     examinable: false
   - type: Explosive
     explosionType: Default
-    maxIntensity: 8
-    intensitySlope: 5
-    totalIntensity: 20
+    Radius: 2
     canCreateVacuum: false
   - type: ActivateOnPaperOpened
   - type: ExplodeOnTrigger

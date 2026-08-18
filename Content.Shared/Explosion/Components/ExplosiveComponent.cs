@@ -46,6 +46,14 @@ public sealed partial class ExplosiveComponent : Component
     public float TotalIntensity = 10;
 
     /// <summary>
+    ///     Simplified radius configuration. When set to a positive value, this will automatically calculate
+    ///     totalIntensity using the default intensitySlope and maxIntensity.
+    ///     Set to -1 or 0 to use the standard intensity parameters instead.
+    /// </summary>
+    [DataField]
+    public float Radius = -1;
+
+    /// <summary>
     ///     Factor used to scale the explosion intensity when calculating tile break chances. Allows for stronger
     ///     explosives that don't space tiles, without having to create a new explosion-type prototype.
     /// </summary>

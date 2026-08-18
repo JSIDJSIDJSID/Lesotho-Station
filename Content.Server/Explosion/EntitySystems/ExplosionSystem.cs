@@ -150,6 +150,9 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
         explosive.Exploded = !explosive.Repeatable;
 
         // Override the explosion intensity if optional arguments were provided.
+        // Check for Radius field first (simplified configuration), then radius parameter, then fall back to TotalIntensity
+        if (explosive.Radius > 0)
+            totalIntensity ??= RadiusToIntensity(explosive.Radius, explosive.IntensitySlope, explosive.MaxIntensity);
         if (radius != null)
             totalIntensity ??= RadiusToIntensity((float)radius, explosive.IntensitySlope, explosive.MaxIntensity);
         totalIntensity ??= explosive.TotalIntensity;

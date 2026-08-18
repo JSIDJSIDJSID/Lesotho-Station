@@ -39,9 +39,7 @@
     max: 5 # Trauma 15 > 5
   - type: Explosive # Weak explosion in a very small radius. Ignites surrounding entities.
     explosionType: FireBomb
-    totalIntensity: 25
-    intensitySlope: 5
-    maxIntensity: 3
+    Radius: 5
     canCreateVacuum: false
   - type: ExplodeOnTrigger
     keysIn:

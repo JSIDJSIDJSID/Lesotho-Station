@@ -1,0 +1,116 @@
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase]
+  id: ClothingBeltSheathLesothoSabre #Changed to Lesotho instead of DSM because DSM doesnt exist here
+  name: sabre scabbard
+  description: A scabbard meant to hold the sabre of NT High-Command.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/Belt/sabre_sheath.rsi
+    state: sheath
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/Belt/sabre_sheath.rsi
+  - type: Item
+    size: Ginormous
+  - type: ItemSlots
+    slots:
+      item:
+        name: LesothoSabre
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - LesothoSabre
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - LesothoSabre
+  - type: Appearance
+
+- type: Tag
+  id: LesothoSabre
+
+- type: entity
+  id: ClothingBeltSheathLesothoSabreFilled
+  parent: ClothingBeltSheathLesothoSabre
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - ClothingBeltSheathLesothoSabre
+
+- type: entity
+  parent: [ClothingBeltBase, ClothingSlotBase]
+  id: ClothingBeltSheathLesothoRapier #Changed to Lesotho instead of DSM because DSM doesnt exist here
+  name: rapier scabbard
+  description: A scabbard meant to hold a rapier for Lesotho High-Command.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/Empire/Belt/rapier_sheath.rsi
+    state: sheath
+  - type: Clothing
+    sprite: _Crescent/Clothing/Empire/Belt/rapier_sheath.rsi
+  - type: Item
+    size: Ginormous
+  - type: ItemSlots
+    slots:
+      item:
+        name: LesothoRapier
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - Rapier
+  - type: ItemMapper
+    mapLayers:
+      sheath-rapier:
+        whitelist:
+          tags:
+          - Rapier
+  - type: Appearance
+
+- type: Tag
+  id: Rapier
+
+- type: entity
+  id: ClothingBeltSheathLesothoRapierFilled
+  parent: ClothingBeltSheathLesothoRapier
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - ClothingBeltSheathLesothoRapier
+
+- type: entity
+  parent: [ BaseCommandContraband, ClothingBeltSheathKatanaNinja ]
+  id: ClothingBeltSheathKatanaLesotho
+  name: captain's royal katana sheath
+  description: A high tech katana sheath meant for the captain.
+
+- type: entity
+  id: ClothingBeltSheathKatanaLesothoFilled
+  parent: ClothingBeltSheathKatanaLesotho
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - LesothoKatana
+
+- type: entity
+  id: ClothingBeltSheathKatanaLesothoShiverBladeFilled
+  parent: ClothingBeltSheathKatanaLesotho
+  name: phoron katana sheath
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - LesothoKatanaShiverBlade

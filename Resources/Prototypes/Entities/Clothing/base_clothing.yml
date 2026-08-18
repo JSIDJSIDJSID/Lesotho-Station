@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  parent: BaseItem
+  parent: BaseItemNoDamage
   id: Clothing
   components:
   - type: Item

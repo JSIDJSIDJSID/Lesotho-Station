@@ -166,6 +166,9 @@
   name: loadout-group-captain-captainsword
   loadouts:
   - CaptainSword
+  - CaptainSwordKatana
+  - CaptainSwordZweihander
+  - CaptainSwordKarambit
 
 - type: loadoutGroup
   id: HoPHead

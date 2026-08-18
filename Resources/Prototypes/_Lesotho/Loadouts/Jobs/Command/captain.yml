@@ -1,0 +1,14 @@
+- type: loadout
+  id: CaptainSwordKatana
+  equipment:
+    belt: ClothingBeltSheathKatanaLesothoFilled
+
+- type: loadout
+  id: CaptainSwordZweihander
+  equipment:
+    suitstorage: ZweihanderLesotho
+
+- type: loadout
+  id: CaptainSwordKarambit
+  equipment:
+    belt: KarambitBlueGem

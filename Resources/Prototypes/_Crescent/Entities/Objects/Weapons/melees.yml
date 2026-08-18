@@ -1,0 +1,405 @@
+- type: entity
+  name: noble's rapier
+  parent: [BaseSword, BaseCommandContraband, UnbreakableDurability]
+  id: LesothoRapier #Changed to Lesotho instead of DSM because DSM doesnt exist here
+  description: A ceremonial dueling weapon belonging to Lesotho High-Command.
+  components:
+  - type: Sharp
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/noble_rapier.rsi
+    state: icon
+  - type: MeleeWeapon
+    autoAttack: true
+    wideAnimationRotation: -135
+    range: 1.75
+    attackRate: 2
+    damage:
+      types:
+        Piercing: 25
+    heavyStaminaCost: 0
+    clickPartDamageMultiplier: 1.2
+    lightRangeModifier: 1.35
+    angle: 0.1
+    animation: WeaponArcThrust
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,3
+    sprite: _Crescent/Objects/Weapons/Melee/noble_rapier.rsi
+  - type: Tag
+    tags:
+    - Rapier
+  - type: DisarmMalus
+  - type: Reflect
+    reflectProb: .7
+    spread: 5
+
+- type: entity
+  name: Karambit Case Hardened | Blue Gem
+  parent: BaseSword
+  id: KarambitBlueGem
+  description: Factory new 0.045370630 Fade Pattern 387. Remember you always run faster with your knife out.
+  components:
+  - type: WeaponClass
+    class: Knife
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/karambit.rsi
+    state: icon
+  - type: MeleeWeapon
+    autoAttack: true
+    wideAnimationRotation: 180
+    range: 1
+    attackRate: 2.5
+    damage:
+      types:
+        Slash: 7
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+    heavyDamageBaseModifier: 1.1
+    heavyStaminaCost: 4
+    angle: 90
+  - type: Item
+    size: Small
+    sprite: _Crescent/Objects/Weapons/Melee/karambit.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 1.15
+    sprintModifier: 1.15
+  - type: HeldSpeedModifier
+  - type: StaticPrice
+    price: 1000
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/Melee/karambit.rsi
+    slots:
+    - Belt
+
+- type: entity
+  name: hunter's vibrokhopesh
+  parent: [BaseSword, UnbreakableDurability]
+  id: LesothoKhopesh #Changed to Lesotho
+  description: A ceremonial weapon belonging to Syndicate High-Command.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/vibrokhopesh.rsi
+    state: icon
+  - type: MeleeWeapon
+    autoAttack: true
+    wideAnimationRotation: 45
+    range: 1.4
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 19
+  - type: Reflect
+    reflectProb: .3
+    spread: 75
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,3
+    sprite: _Crescent/Objects/Weapons/Melee/vibrokhopesh.rsi
+  - type: Tag
+    tags:
+    - Khopesh
+  - type: MultiHandedItem
+
+- type: entity
+  name: noble's sabre
+  parent: [BaseSword, UnbreakableDurability]
+  id: LesothoSabre #Changed to Lesotho instead of DSM because DSM doesnt exist here
+  description: A ceremonial weapon belonging to Nanotrasen High-Command.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/noble_sabre.rsi
+    state: icon
+  - type: MeleeWeapon
+    autoAttack: true
+    wideAnimationRotation: -135
+    attackRate: 1
+    range: 1.4
+    damage:
+      types:
+        Slash: 23
+    heavyStaminaCost: 8
+    maxTargets: 2
+    angle: 60
+    animation: WeaponArcThrust
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,3
+    sprite: _Crescent/Objects/Weapons/Melee/noble_sabre.rsi
+  - type: Reflect
+    reflectProb: .3
+    spread: 75
+  - type: Tag
+    tags:
+    - LesothoSabre
+  - type: DisarmMalus
+
+- type: entity
+  name: Royalguard lug mace
+  parent: [BaseItem, BaseCommandContraband]
+  id: LesothoLugBaton #Changed to Lesotho
+  description: A hard steel mace meant to make sure the plebs obey NT High-Command.
+  components:
+  - type: WeaponClass
+    class: Bludgeon
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/ncwllugbaton.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1
+    range: 1.25
+    damage:
+      types:
+        Blunt: 16
+    heavyStaminaCost: 10
+    angle: 30
+    soundHit:
+      collection: MetalThud
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,2
+  - type: Tag
+    tags:
+    - Truncheon
+  - type: StaminaDamageOnHit
+    lightAttackDamageMultiplier: 4
+    damage: 15
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/Melee/ncwllugbaton.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: StaticPrice
+    price: 80
+
+- type: entity
+  parent: LesothoLugBaton
+  id: LesothoBaton #Changed to Lesotho
+  name: Exclusive "Hammerfell" mace
+  description: A royal weapon of Lesotho High-Command, used to make sure the lowerclasses stay in-line.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/noble_baton.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/Melee/noble_baton.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: MeleeWeapon
+    autoAttack: true
+    damage:
+      types:
+        Blunt: 21
+  - type: StaminaDamageOnHit
+    lightAttackDamageMultiplier: 10
+    damage: 45
+
+- type: entity
+  name: Nanotrasen corporate katana
+  parent: CaptainSabre
+  id: LesothoKatana #Changed to Lesotho
+  description: Nanotrasen's take on a phasing blade after recent ninja attacks. These are prototypes. Nanotrasen is not responsible for spontaneous decapitations following teleportation.
+  components:
+  - type: DashAbility
+  - type: LimitedCharges
+    maxCharges: 1
+    charges: 1
+  - type: AutoRecharge
+    rechargeDuration: 80
+  - type: Tag
+    tags:
+    - Katana
+    - Knife
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/shinoharakatana.rsi
+    state: icon
+  - type: ThrowingAngle
+    angle: 300
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,4
+    sprite: _Crescent/Objects/Weapons/Melee/shinoharakatana.rsi
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/Melee/shinoharakatana.rsi
+    slots:
+    - Back
+
+- type: entity
+  name: Lesotho prototype "Executioner" blade
+  parent: [LesothoKatana, UnbreakableDurability]
+  id: LesothoKatanaShiverBlade #Changed to Lesotho
+  description: Combining cutting-edge contained plasma field technology with bluespace, the 'Executioner' is a showcase of the true limits a phase blade can reach.
+  components:
+  - type: WeaponClass
+    class: Energy
+  - type: LimitedCharges
+    maxCharges: 6
+    charges: 6
+  - type: AutoRecharge
+    rechargeDuration: 10
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/shiverblade.rsi
+    state: icon
+  - type: Tag
+    tags:
+    - Katana
+  - type: Sharp
+  - type: Execution
+    doAfterDuration: 0.1
+  - type: MeleeWeapon
+    autoAttack: true
+    wideAnimationRotation: -90
+    attackRate: 2.6
+    range: 1.5
+    maxTargets: 1
+    damage:
+      types:
+        Slash: 21
+      woundSeverityMultipliers:
+        Slash: 3
+  - type: Item
+    size: Normal
+    sprite: _Crescent/Objects/Weapons/Melee/shiverblade.rsi
+  - type: DashAbility
+    allowDashToUnseen: true
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/Melee/shiverblade.rsi
+    slots:
+    - Back
+    - Belt
+  - type: Reflect
+    spread: 40
+    reflectProb: 0.7
+  - type: AmbientSound
+    range: 8
+    volume: 1
+    sound:
+      path: /Audio/Weapons/ebladehum.ogg
+
+- type: entity
+  name: vibrokukri
+  parent: [BaseSword, BaseMajorContraband, KnifeDurabilitySharpenOnly]
+  id: LesothoKukri #Changed to Lesotho
+  description: Taking the shape of a worker's tool, this vibro-alloy kukri is an attempt to make an advanced weapon for salvaging teams.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/ncwlkukri.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -45
+    range: 1
+    attackRate: 1
+    damage:
+      types:
+        Slash: 17
+      woundSeverityMultipliers:
+        Slash: 2
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+  - type: LandAtCursor
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,0,3
+    sprite: _Crescent/Objects/Weapons/Melee/ncwlkukri.rsi
+  - type: Tag
+    tags:
+    - Kukri
+
+- type: entity
+  name: zweihander
+  parent: CaptainSabre
+  id: ZweihanderLesotho #Changed to Lesotho
+  description: One Sword To Rule Them All.
+  components:
+  - type: MeleeThrowOnHit
+    distance: 1.5
+  - type: Execution
+    doAfterDuration: 6
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/zweihander.rsi
+    state: icon
+  - type: StaminaDamageOnHit
+    damage: 19.99
+  - type: MeleeWeapon
+    wideAnimationRotation: 200
+    swingLeft: true
+    attackRate: 0.45
+    range: 2
+    damage:
+      types:
+        Slash: 40
+      woundSeverityMultipliers:
+        Slash: 2
+    maxTargets: 5
+    lightRangeModifier: 2
+    heavyStaminaCost: 45
+    angle: 100
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+      params:
+        variation: 0.2
+        volume: 2
+        pitch: 0.3
+  - type: ThrowingAngle
+    angle: 225
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+  - type: Wieldable
+  - type: Item
+    size: Ginormous
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: Clothing
+    sprite: _Crescent/Objects/Weapons/Melee/zweihander.rsi
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+  - type: UseDelay
+    delay: 2
+  - type: SurgeryTool
+    startSound:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Slash: 25
+      woundSeverityMultipliers:
+        Slash: 1.5
+
+- type: entity
+  name: machete
+  parent: Machete
+  id: LesothoMachete #Changed to Lesotho
+  description: An extremely vicious looking blade, a machete that has been upscaled to be a brutish weapon of war.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Objects/Weapons/Melee/machete.rsi
+    state: icon
+  - type: Item
+    sprite: _Crescent/Objects/Weapons/Melee/machete.rsi
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 19
+      woundSeverityMultipliers:
+        Slash: 2
+    angle: 80
+  - type: EmbeddableProjectile
+  - type: ThrowingAngle
+    angle: 225
+  - type: DisarmMalus

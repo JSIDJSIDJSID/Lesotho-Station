@@ -41,7 +41,7 @@
   - type: ContainerFill
     containers:
       item:
-      - ClothingBeltSheathLesothoSabre
+      - LesothoSabre
 
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase]
@@ -86,7 +86,7 @@
   - type: ContainerFill
     containers:
       item:
-      - ClothingBeltSheathLesothoRapier
+      - LesothoRapier
 
 - type: entity
   parent: [ BaseCommandContraband, ClothingBeltSheathKatanaNinja ]

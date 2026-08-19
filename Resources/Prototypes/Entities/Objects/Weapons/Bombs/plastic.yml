@@ -57,7 +57,7 @@
       - !type:ExplodeBehavior
   - type: Explosive # Powerful explosion in a very small radius. Doesn't break underplating.
     explosionType: DemolitionCharge
-    Radius: 3
+    radius: 3
     canCreateVacuum: false
   - type: StickyVisualizer
   - type: Appearance
@@ -144,5 +144,5 @@
         volume: -6
   - type: Explosive
     explosionType: Cryo
-    Radius: 4
+    radius: 4
     canCreateVacuum: false

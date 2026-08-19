@@ -35,7 +35,7 @@
       - timer
     - type: Explosive
       explosionType: Default
-      Radius: 2
+      radius: 2
       canCreateVacuum: false
     - type: DeleteOnTrigger
       keysIn:
@@ -87,7 +87,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    Radius: 2
+    radius: 2
     canCreateVacuum: false
   - type: DeleteOnTrigger
   - type: AnimationPlayer
@@ -135,7 +135,7 @@
   components:
   - type: Explosive
     explosionType: Default
-    Radius: 1
+    radius: 1
     canCreateVacuum: false
   - type: Construction
     graph: SnapPopExplosiveGraph

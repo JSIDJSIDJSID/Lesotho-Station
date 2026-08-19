@@ -19,7 +19,7 @@
     - type: Rotatable
     - type: Explosive
       explosionType: Default
-      Radius: 2
+      radius: 2
     - type: ExplodeOnTrigger
       keysIn:
       - timer
@@ -84,7 +84,7 @@
       softness: 1
     - type: Explosive
       explosionType: Default
-      Radius: 1
+      radius: 1
       canCreateVacuum: false
     - type: Defusable
       disposable: false
@@ -121,7 +121,7 @@
       softness: 1
     - type: Explosive
       explosionType: HardBomb
-      Radius: 10
+      radius: 10
     - type: StaticPrice
       price: 10000 # Good luck!
 
@@ -132,7 +132,7 @@
   components:
     - type: Explosive
       explosionType: Default
-      Radius: 1
+      radius: 1
       canCreateVacuum: false
 
 - type: entity

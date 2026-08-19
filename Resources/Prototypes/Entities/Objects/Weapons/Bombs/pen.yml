@@ -8,7 +8,7 @@
     examinable: false
   - type: Explosive
     explosionType: Default
-    Radius: 2
+    radius: 2
     canCreateVacuum: false
   - type: ActivateOnPaperOpened
   - type: ExplodeOnTrigger

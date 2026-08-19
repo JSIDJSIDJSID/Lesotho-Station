@@ -51,7 +51,7 @@
     # idea here is to prevent you from just beating it until it explodes.
   - type: Explosive
     explosionType: DemolitionCharge
-    Radius: 3
+    radius: 3
     canCreateVacuum: false
   - type: Tag
     tags:
@@ -78,7 +78,7 @@
     count: 10
   - type: Explosive # TODO: some how make stacking logic handle the explosion scaling. Maybe also something for lingering stacks.
     explosionType: DemolitionCharge
-    Radius: 2
+    radius: 2
     canCreateVacuum: false
   - type: Tag
     tags:
@@ -95,7 +95,7 @@
     count: 1
   - type: Explosive
     explosionType: DemolitionCharge
-    Radius: 1.5
+    radius: 1.5
     canCreateVacuum: false
   - type: Tag
     tags:

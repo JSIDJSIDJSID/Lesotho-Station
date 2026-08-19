@@ -31,7 +31,7 @@
       - Window
   - type: Explosive # Powerful explosion in a large radius. Will break underplating.
     explosionType: DemolitionCharge
-    Radius: 4
+    radius: 4
     canCreateVacuum: true
   - type: ExplodeOnTrigger
     keysIn:

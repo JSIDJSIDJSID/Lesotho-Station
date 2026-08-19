@@ -1,12 +1,12 @@
 - type: entity
-  parent: FireBomb
+  parent: PipeBomb
   id: testbomb
   name: test bomb
   description: example testing bomb showcasing the new configuration.
   components:
   - type: Explosive
     explosionType: FireBomb
-    radius: 4
+    radius: 7
     damagePerIntensity:
       types:
         Shock: 5

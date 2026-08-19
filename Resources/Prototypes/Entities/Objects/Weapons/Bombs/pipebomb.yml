@@ -29,7 +29,7 @@
     - timer
   - type: Explosive # Weak explosion in a very small radius. Doesn't break underplating.
     explosionType: Default
-    Radius: 3
+    radius: 3
     canCreateVacuum: false
   - type: Appearance
   - type: TimerTriggerVisuals

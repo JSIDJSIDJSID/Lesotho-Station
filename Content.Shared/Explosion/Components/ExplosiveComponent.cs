@@ -1,3 +1,4 @@
+using Content.Shared.Damage;
 using Content.Shared.Explosion.EntitySystems;
 using Robust.Shared.Prototypes;
 
@@ -20,6 +21,20 @@ public sealed partial class ExplosiveComponent : Component
     /// </summary>
     [DataField(required: true)]
     public ProtoId<ExplosionPrototype> ExplosionType = default!;
+
+    /// <summary>
+    ///     Override for damage per intensity. When set, this replaces the explosion prototype's damagePerIntensity.
+    ///     Allows specifying damage directly in the bomb's YAML instead of creating a separate explosion prototype.
+    /// </summary>
+    [DataField]
+    public DamageSpecifier? DamagePerIntensity;
+
+    /// <summary>
+    ///     Multiplier for all damage from the explosion prototype. Allows for simple damage scaling
+    ///     without needing to create a new explosion prototype or understand intensity parameters.
+    /// </summary>
+    [DataField]
+    public float DamageMultiplier = 1.0f;
 
     /// <summary>
     ///     The maximum intensity the explosion can have on a single tile. This limits the maximum damage and tile

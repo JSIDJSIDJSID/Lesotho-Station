@@ -1,0 +1,14 @@
+- type: entity
+  parent: FireBomb
+  id: testbomb
+  name: test bomb
+  description: example testing bomb showcasing the new configuration.
+  components:
+  - type: Explosive
+    explosionType: FireBomb
+    radius: 4
+    damagePerIntensity:
+      types:
+        Shock: 5
+    damageMultiplier: 1.9  # 90% more damage
+    canCreateVacuum: true

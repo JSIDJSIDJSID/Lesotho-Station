@@ -1,4 +1,5 @@
 using Content.Shared.Armor;
+using Content.Shared.Damage;
 using Content.Shared.Explosion.Components;
 using Robust.Shared.Prototypes;
 
@@ -66,7 +67,9 @@ public abstract class SharedExplosionSystem : EntitySystem
                                         int maxTileBreak = int.MaxValue,
                                         bool canCreateVacuum = true,
                                         EntityUid? user = null,
-                                        bool addLog = true)
+                                        bool addLog = true,
+                                        DamageSpecifier? damageOverride = null,
+                                        float damageMultiplier = 1.0f)
     {
     }
 

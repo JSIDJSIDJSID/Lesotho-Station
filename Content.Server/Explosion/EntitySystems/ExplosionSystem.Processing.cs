@@ -688,6 +688,8 @@ sealed class Explosion
     private Entity<BroadphaseComponent> _currentLookup = default!;
     private float _currentIntensity;
     private float _currentThrowForce;
+    private readonly DamageSpecifier? _damageOverride;
+    private readonly float _damageMultiplier = 1.0f;
     private List<Vector2i>.Enumerator _currentEnumerator;
     private int _currentDataIndex;
 
@@ -745,7 +747,9 @@ sealed class Explosion
         EntityUid? cause,
         SharedMapSystem mapSystem,
         DamageableSystem damageable,
-        EntityQuery<TileHistoryComponent> historyQuery)
+        EntityQuery<TileHistoryComponent> historyQuery,
+        DamageSpecifier? damageOverride = null,
+        float damageMultiplier = 1.0f)
     {
         VisualEnt = visualEnt;
         Cause = cause;
@@ -755,6 +759,8 @@ sealed class Explosion
         _tileSetIntensity = tileSetIntensity;
         Epicenter = epicenter;
         Area = area;
+        _damageOverride = damageOverride;
+        _damageMultiplier = damageMultiplier;
 
         _tileBreakScale = tileBreakScale;
         _maxTileBreak = maxTileBreak;
@@ -807,13 +813,14 @@ sealed class Explosion
             {
                 // Check that explosion processing hasn't somehow accidentally mutated the damage set.
                 DebugTools.Assert(_expectedDamage.Equals(_currentDamage));
-                _expectedDamage = ExplosionType.DamagePerIntensity * _currentIntensity;
+                var baseDamage = _damageOverride ?? ExplosionType.DamagePerIntensity;
+                _expectedDamage = baseDamage * _currentIntensity * _damageMultiplier;
             }
 #endif
             var modifier = _currentIntensity
                            * _damageable.UniversalExplosionDamageModifier
                            * _damageable.UniversalAllDamageModifier;
-            _currentDamage = ExplosionType.DamagePerIntensity * modifier;
+            _currentDamage = (_damageOverride ?? ExplosionType.DamagePerIntensity) * modifier * _damageMultiplier;
 
             // only throw if either the explosion is small, or if this is the outer ring of a large explosion.
             var doThrow = Area < _system.ThrowLimit || CurrentIteration > _tileSetIntensity.Count - 6;
@@ -995,4 +1002,6 @@ public sealed class QueuedExplosion(ExplosionPrototype proto)
     public int MaxTileBreak;
     public bool CanCreateVacuum;
     public EntityUid? Cause; // The entity that exploded, for logging purposes.
+    public DamageSpecifier? DamageOverride;
+    public float DamageMultiplier = 1.0f;
 }

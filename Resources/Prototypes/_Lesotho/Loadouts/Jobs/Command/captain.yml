@@ -1,14 +1,51 @@
+#time requirements
+- type: loadoutEffectGroup
+  id: KatanaCaptain
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 20h
+
+- type: loadoutEffectGroup
+  id: ZweihanderCaptain
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 60h
+
+- type: loadoutEffectGroup
+  id: GemknifeCaptain
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 100h
+#weapons
 - type: loadout
   id: CaptainSwordKatana
   equipment:
     belt: ClothingBeltSheathKatanaLesothoFilled
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: KatanaCaptain
 
 - type: loadout
   id: CaptainSwordZweihander
   equipment:
     suitstorage: ZweihanderLesotho
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ZweihanderCaptain
 
 - type: loadout
   id: CaptainSwordKarambit
   equipment:
     belt: KarambitBlueGem
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GemknifeCaptain

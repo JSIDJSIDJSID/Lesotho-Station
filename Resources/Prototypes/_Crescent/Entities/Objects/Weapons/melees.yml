@@ -99,9 +99,6 @@
     shape:
     - 0,0,0,3
     sprite: _Crescent/Objects/Weapons/Melee/vibrokhopesh.rsi
-  - type: Tag
-    tags:
-    - Khopesh
   - type: MultiHandedItem
 
 - type: entity
@@ -313,9 +310,6 @@
     shape:
     - 0,0,0,3
     sprite: _Crescent/Objects/Weapons/Melee/ncwlkukri.rsi
-  - type: Tag
-    tags:
-    - Kukri
 
 - type: entity
   name: zweihander

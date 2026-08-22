@@ -8,6 +8,7 @@ using Content.Server.NodeContainer.EntitySystems;
 using Content.Server.NPC.Pathfinding;
 using Content.Shared.Armor;
 using Content.Shared.Atmos.Components;
+using Content.Shared.Damage;
 using Content.Shared.Camera;
 using Content.Shared.CCVar;
 using Content.Shared.Damage.Components;
@@ -150,6 +151,9 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
         explosive.Exploded = !explosive.Repeatable;
 
         // Override the explosion intensity if optional arguments were provided.
+        // Check for Radius field first (simplified configuration), then radius parameter, then fall back to TotalIntensity
+        if (explosive.Radius > 0)
+            totalIntensity ??= RadiusToIntensity(explosive.Radius, explosive.IntensitySlope, explosive.MaxIntensity);
         if (radius != null)
             totalIntensity ??= RadiusToIntensity((float)radius, explosive.IntensitySlope, explosive.MaxIntensity);
         totalIntensity ??= explosive.TotalIntensity;
@@ -162,7 +166,10 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
             explosive.TileBreakScale,
             explosive.MaxTileBreak,
             explosive.CanCreateVacuum,
-            user);
+            user,
+            true,
+            explosive.DamagePerIntensity,
+            explosive.DamageMultiplier);
 
         if (explosive.DeleteAfterExplosion ?? delete)
             QueueDel(uid);
@@ -230,7 +237,9 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
         int maxTileBreak = int.MaxValue,
         bool canCreateVacuum = true,
         EntityUid? user = null,
-        bool addLog = true)
+        bool addLog = true,
+        DamageSpecifier? damageOverride = null,
+        float damageMultiplier = 1.0f)
     {
         var pos = Transform(uid);
 
@@ -238,7 +247,7 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
 
         var posFound = _transformSystem.TryGetMapOrGridCoordinates(uid, out var gridPos, pos);
 
-        QueueExplosion(mapPos, typeId, totalIntensity, slope, maxTileIntensity, uid, tileBreakScale, maxTileBreak, canCreateVacuum, addLog: false);
+        QueueExplosion(mapPos, typeId, totalIntensity, slope, maxTileIntensity, uid, tileBreakScale, maxTileBreak, canCreateVacuum, false, damageOverride, damageMultiplier);
 
         if (!addLog)
             return;
@@ -274,7 +283,9 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
         float tileBreakScale = 1f,
         int maxTileBreak = int.MaxValue,
         bool canCreateVacuum = true,
-        bool addLog = true)
+        bool addLog = true,
+        DamageSpecifier? damageOverride = null,
+        float damageMultiplier = 1.0f)
     {
         if (totalIntensity <= 0 || slope <= 0)
             return;
@@ -314,7 +325,9 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
             TileBreakScale = tileBreakScale,
             MaxTileBreak = maxTileBreak,
             CanCreateVacuum = canCreateVacuum,
-            Cause = cause
+            Cause = cause,
+            DamageOverride = damageOverride,
+            DamageMultiplier = damageMultiplier
         };
         _explosionQueue.Enqueue(boom);
         _queuedExplosions.Add(boom);
@@ -391,7 +404,9 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
             queued.Cause,
             _map,
             _damageableSystem,
-            _tileHistoryQuery);
+            _tileHistoryQuery,
+            queued.DamageOverride,
+            queued.DamageMultiplier);
     }
 
     private void CameraShake(float range, MapCoordinates epicenter, float totalIntensity)

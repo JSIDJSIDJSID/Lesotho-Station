@@ -86,13 +86,14 @@
   - type: MeleeWeapon
     autoAttack: true
     wideAnimationRotation: 45
+    heavyStaminaCost: 8
     range: 1.4
     attackRate: 1.5
     damage:
       types:
         Slash: 19
   - type: Reflect
-    reflectProb: .3
+    reflectProb: .6
     spread: 75
   - type: Item
     size: Normal

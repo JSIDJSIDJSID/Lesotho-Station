@@ -27,3 +27,33 @@
     whitelist:
       tags:
       - NukeOpsUplink
+
+- type: listing
+  id: UplinkSyndiHonorNuke
+  name: uplink-syndicate-weapon-honor-name
+  description: uplink-syndicate-weapon-honor-desc
+  productEntity: WeaponOverseerMace
+  cost:
+    Telecrystal: 165
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkSyndiKhopeshNuke
+  name: uplink-syndicate-weapon-khopesh-name
+  description: uplink-syndicate-weapon-khopesh-desc
+  productEntity: LesothoKhopesh
+  cost:
+    Telecrystal: 85
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink

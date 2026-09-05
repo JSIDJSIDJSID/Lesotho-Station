@@ -34,7 +34,7 @@
     attackRate: 10 # Trauma, was 4
     damage:
       types:
-        Slash: 1
+        Slash: 2 # Lesotho, was 1
         # Blunt: 2
         # Structural: 4
       woundSeverityMultipliers:
@@ -47,7 +47,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Slash: 1 # Trauma, was 4
+        Slash: 2 # Lesotho, was 1
         Structural: 10 # Trauma, was 4
   - type: Item
     size: Large

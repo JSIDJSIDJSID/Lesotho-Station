@@ -253,6 +253,12 @@ public sealed partial class HumanoidProfileEditor
             case Sex.Male:
                 Profile = Profile?.WithGender(Gender.Male);
                 break;
+            case Sex.Female:
+                Profile = Profile?.WithGender(Gender.Female);
+                break;
+            default:
+                Profile = Profile?.WithGender(Gender.Epicene);
+                break;
         }
 
         // this does the same as above but for voice

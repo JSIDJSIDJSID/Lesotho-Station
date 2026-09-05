@@ -8,7 +8,7 @@
   groupWhitelist: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/chest.rsi
-    state: chimeraf
+    state: chimeram
 
 - type: marking
   id: ChestChimeraMaleMoth
@@ -24,7 +24,7 @@
   groupWhitelist: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/chest.rsi
-    state: twistingleftf
+    state: twistingleftm
 
 - type: marking
   id: ChestTwistingLeftMaleMoth
@@ -40,7 +40,7 @@
   groupWhitelist: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/chest.rsi
-    state: twistingrightf
+    state: twistingrightm
 
 - type: marking
   id: ChestTwistingRightMaleMoth
